@@ -1,0 +1,6 @@
+dist/
+node_modules/
+.pnpm-store/
+__pycache__/
+.DS_Store
+*.pyc
