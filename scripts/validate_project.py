@@ -91,6 +91,19 @@ def main() -> None:
         if not (ROOT / relative_path).exists():
             warnings.append(f"missing optional workflow file: {relative_path}")
 
+    messages_path = ROOT / "data" / "messages.json"
+    if not messages_path.exists():
+        warnings.append("missing optional messages feed: data/messages.json")
+    else:
+        try:
+            messages = json.loads(messages_path.read_text(encoding="utf-8"))
+            if not isinstance(messages.get("items"), list):
+                warnings.append("data/messages.json has no items list")
+            if not isinstance(messages.get("sources"), list):
+                warnings.append("data/messages.json has no sources list")
+        except Exception as exc:
+            errors.append(f"unreadable messages feed data/messages.json: {exc}")
+
     result = {
         "ok": not errors,
         "deployment_allowed": not errors,

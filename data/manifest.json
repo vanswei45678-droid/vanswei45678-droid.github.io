@@ -185,6 +185,24 @@
         "updated_at"
       ],
       "status": "ok"
+    },
+    "market_messages.csv": {
+      "rows": 33348,
+      "columns": [
+        "published_at",
+        "category",
+        "title",
+        "summary",
+        "source",
+        "source_url",
+        "symbol",
+        "stock_name",
+        "importance",
+        "status",
+        "source_type",
+        "item_id"
+      ],
+      "status": "ok"
     }
   }
 }

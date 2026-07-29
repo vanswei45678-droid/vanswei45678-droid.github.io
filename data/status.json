@@ -399,6 +399,15 @@
       "cached_rows": 5288,
       "latest_date": "20260728",
       "source": "东方财富行情中心代码列表"
+    },
+    "messages": {
+      "status": "success",
+      "latest_date": "20260728",
+      "rows": 33348,
+      "cached_rows": 33348,
+      "covered_stocks": 5032,
+      "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
+      "error": null
     }
   },
   "updated_at": "2026-07-28T10:07:25+08:00",

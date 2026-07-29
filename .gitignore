@@ -1,6 +1,8 @@
-dist/
-node_modules/
-.pnpm-store/
-__pycache__/
 .DS_Store
-*.pyc
+__pycache__/
+.pytest_cache/
+.pnpm-store/
+node_modules/
+dist/
+*.zip
+*.tar.gz

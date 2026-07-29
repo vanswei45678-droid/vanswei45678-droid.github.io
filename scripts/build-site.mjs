@@ -1,21 +1,12 @@
-import { cp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { gzipSync } from "node:zlib";
+import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
 
-await rm("dist", { recursive: true, force: true });
-await mkdir("dist", { recursive: true });
-await mkdir("dist/client", { recursive: true });
-await mkdir("dist/server", { recursive: true });
-await mkdir("dist/.openai", { recursive: true });
-
-await cp("public", "dist/client", { recursive: true });
-await cp(".openai/hosting.json", "dist/.openai/hosting.json");
-
-const html = await readFile("public/index.html");
-const gzipBase64 = gzipSync(html, { level: 9 }).toString("base64");
-
-await writeFile(
-  "dist/server/index.js",
-  `const HTML_GZIP_BASE64 = ${JSON.stringify(gzipBase64)};
+const root = dirname(dirname(fileURLToPath(import.meta.url)));
+const html = readFileSync(join(root, "public", "index.html"));
+const compressed = gzipSync(html, { level: 9 }).toString("base64");
+const worker = `const HTML_GZIP_BASE64 = ${JSON.stringify(compressed)};
 
 function decodeBase64(value) {
   const binary = atob(value);
@@ -26,30 +17,28 @@ function decodeBase64(value) {
   return bytes;
 }
 
-const HTML_BYTES = decodeBase64(HTML_GZIP_BASE64);
-const HTML_HEADERS = {
-  "Content-Type": "text/html; charset=utf-8",
-  "Content-Encoding": "gzip",
-  "Cache-Control": "public, max-age=60",
-};
+const htmlGzip = decodeBase64(HTML_GZIP_BASE64);
 
 export default {
   async fetch(request) {
     const url = new URL(request.url);
-
-    if (url.pathname === "/health") {
-      return Response.json({ ok: true });
+    if (url.pathname !== "/" && url.pathname !== "/index.html") {
+      return Response.redirect(url.origin + "/", 302);
     }
-
-    if (url.pathname === "/" || url.pathname === "/index.html") {
-      return new Response(request.method === "HEAD" ? null : HTML_BYTES, {
-        headers: HTML_HEADERS,
-      });
-    }
-
-    return new Response("Not found", { status: 404 });
-  },
+    return new Response(htmlGzip, {
+      headers: {
+        "content-type": "text/html; charset=utf-8",
+        "content-encoding": "gzip",
+        "cache-control": "public, max-age=120",
+        "x-content-type-options": "nosniff"
+      }
+    });
+  }
 };
-`,
-  "utf8",
-);
+`;
+
+mkdirSync(join(root, "dist", "server"), { recursive: true });
+mkdirSync(join(root, "dist", ".openai"), { recursive: true });
+writeFileSync(join(root, "dist", "server", "index.js"), worker);
+writeFileSync(join(root, "dist", ".openai", "hosting.json"), readFileSync(join(root, ".openai", "hosting.json")));
+console.log(`Built Sites worker with ${html.length.toLocaleString()} bytes of HTML.`);
