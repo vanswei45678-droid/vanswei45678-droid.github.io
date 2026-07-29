@@ -916,6 +916,24 @@ def main() -> None:
     PUBLIC_DIR.mkdir(parents=True, exist_ok=True)
     (PUBLIC_DIR / "index.html").write_text(html, encoding="utf-8")
     (PUBLIC_DIR / ".nojekyll").write_text("", encoding="utf-8")
+    nested_public_dir = PUBLIC_DIR / "public"
+    nested_public_dir.mkdir(parents=True, exist_ok=True)
+    (nested_public_dir / "index.html").write_text(
+        """<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="0; url=../index.html">
+  <title>MacroScope Complete</title>
+</head>
+<body>
+  <p>正在打开 MacroScope 看板，若未自动跳转，<a href="../index.html">点这里进入</a>。</p>
+</body>
+</html>
+""",
+        encoding="utf-8",
+    )
     status = payload.get("status", {})
     datasets = status.get("datasets", {}) if isinstance(status, dict) else {}
     site_meta = {
