@@ -457,8 +457,9 @@ def update_selected(mode: str = "all") -> dict[str, Any]:
         if not cached.empty:
             available += 1
             info = status["datasets"].setdefault(dataset, {"status": "cached", "rows": 0})
+            latest_cached_date = _latest_value(cached, date_col)
             info["cached_rows"] = len(cached)
-            info.setdefault("latest_date", _latest_value(cached, date_col))
+            info["latest_date"] = latest_cached_date or info.get("latest_date")
             if info.get("status") == "failed":
                 info["serving_cached_data"] = True
 

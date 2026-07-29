@@ -110,7 +110,7 @@ def latest_market_cards(market: pd.DataFrame) -> list[dict[str, Any]]:
         current_year = str(last["trade_date"])[:4]
         year_group = group[group["trade_date"].astype(str).str.startswith(current_year)]
         ytd_base = float(year_group.iloc[0]["close"]) if not year_group.empty else np.nan
-        cutoff = pd.to_datetime(str(last["trade_date"]), format="%Y%m%d", errors="coerce") - pd.Timedelta(days=365)
+        cutoff = pd.to_datetime(str(last["trade_date"]), format="%Y%m%d", errors="coerce") - pd.DateOffset(days=365)
         dates = pd.to_datetime(group["trade_date"].astype(str), format="%Y%m%d", errors="coerce")
         year_ago_group = group[dates >= cutoff] if pd.notna(cutoff) else group
         one_year_base = float(year_ago_group.iloc[0]["close"]) if not year_ago_group.empty else np.nan
@@ -216,10 +216,11 @@ HTML = r'''<!doctype html>
 @media(max-width:1100px){.kpis{grid-template-columns:repeat(3,1fr)}.asset-grid{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}.valuation-grid{grid-template-columns:repeat(2,1fr)}.g2,.g3,.g4,.tracking-hero{grid-template-columns:1fr}.source-grid{grid-template-columns:1fr 1fr}.chart-grid{grid-template-columns:1fr}}
 @media(max-width:650px){.wrap{padding:12px}.hero{padding:22px 18px;border-radius:18px}.hero h1{font-size:23px}.kpis,.tracking-score{grid-template-columns:repeat(2,1fr)}.asset-grid,.valuation-grid,.source-grid{grid-template-columns:1fr}.asset-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.chart{height:330px}.market-single-chart{height:290px}}
 .message-item{cursor:pointer;transition:border-color .18s ease,box-shadow .18s ease,transform .18s ease}.message-item:hover{border-color:rgba(49,103,227,.48);box-shadow:0 10px 24px rgba(25,42,80,.08);transform:translateY(-1px)}
+.refresh-button{border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.14);color:#fff;border-radius:999px;padding:7px 12px;font-size:12px;font-weight:800;cursor:pointer}.refresh-button:hover{background:rgba(255,255,255,.22)}.refresh-button:disabled{opacity:.65;cursor:wait}.refresh-status{align-self:center;color:#cbd8ee;font-size:12px}.badge.warn{background:rgba(255,240,180,.16);border-color:rgba(255,240,180,.32);color:#fff2bd}.badge.good{background:rgba(202,255,226,.13);border-color:rgba(202,255,226,.28);color:#d9ffeb}
 </style>
 </head>
 <body><div class="wrap">
-<section class="hero"><h1>{{ title }}</h1><p>公开数据自动更新 · GitHub Pages公开访问 · 无需用户Token</p><div class="hero-meta"><span class="badge">版本 {{ version }}</span><span class="badge" id="statusBadge">状态读取中</span><span class="badge" id="updatedBadge">更新时间读取中</span><span class="badge">统一口径：红涨绿跌</span></div></section>
+<section class="hero"><h1>{{ title }}</h1><p>公开数据自动更新 · GitHub Pages公开访问 · 无需用户Token</p><div class="hero-meta"><span class="badge">版本 {{ version }}</span><span class="badge" id="statusBadge">状态读取中</span><span class="badge" id="updatedBadge">更新时间读取中</span><span class="badge" id="freshnessBadge">新鲜度读取中</span><span class="badge">统一口径：红涨绿跌</span><button class="refresh-button" id="refreshDataButton" type="button">检查最新数据</button><span class="refresh-status" id="refreshStatus"></span></div></section>
 <nav class="tabs">
 <button class="tab active" data-tab="overview">总览</button><button class="tab" data-tab="tracking">大盘跟踪</button><button class="tab" data-tab="macro">宏观与资金</button><button class="tab" data-tab="messages">讯息</button><button class="tab" data-tab="global">全球市场</button><button class="tab" data-tab="ashare">A股情绪与杠杆</button><button class="tab" data-tab="valuation">估值与偏离度</button><button class="tab" data-tab="fund">基金募集</button><button class="tab" data-tab="health">数据状态与口径</button>
 </nav>
@@ -397,7 +398,65 @@ function renderMarketChartGrid(containerId,cards,prefix,maxRows=520){
 }
 function assetCard(c){const color=cls(c.daily_pct);return `<div class="asset"><div class="asset-top"><div><div class="asset-name">${c.name}</div><div class="asset-symbol">${c.symbol} · ${cnDate(c.trade_date)}</div></div><b class="${color}">${signed(c.daily_pct)}</b></div><div class="asset-price ${color}">${fmt(c.close,2)} <small style="font-size:11px;color:#7d899f">${c.currency||''}</small></div><div class="asset-metrics"><div><span>当日</span><b class="${color}">${signed(c.daily_pct)}</b></div><div><span>年初至今</span><b class="${cls(c.ytd_pct)}">${signed(c.ytd_pct)}</b></div><div><span>近一年</span><b class="${cls(c.one_year_pct)}">${signed(c.one_year_pct)}</b></div></div></div>`}
 
-document.getElementById('statusBadge').textContent=`数据状态：${DATA.status.overall_status||'empty'}`;document.getElementById('updatedBadge').textContent=`更新：${DATA.status.updated_at?DATA.status.updated_at.replace('T',' '):'尚未更新'}`;
+function dateFromKey(value){
+  const s=String(value||'').replace(/\D/g,'');
+  if(s.length>=8)return new Date(Date.UTC(Number(s.slice(0,4)),Number(s.slice(4,6))-1,Number(s.slice(6,8))));
+  return null;
+}
+function freshnessSummary(){
+  const datasets=DATA.status.datasets||{};
+  const keys=['market','global_macro','liquidity','valuation','breadth','leverage','deviation','messages','market_tracking'];
+  const today=new Date();
+  const todayUtc=Date.UTC(today.getUTCFullYear(),today.getUTCMonth(),today.getUTCDate());
+  const ages=keys.map(key=>{
+    const d=dateFromKey(datasets[key]?.latest_date);
+    if(!d)return null;
+    return Math.max(0,Math.floor((todayUtc-d.getTime())/DAY_MS));
+  }).filter(x=>x!==null);
+  if(!ages.length)return {label:'等待数据',klass:'warn'};
+  const maxAge=Math.max(...ages);
+  if(maxAge<=1)return {label:'核心数据已刷新',klass:'good'};
+  if(maxAge<=3)return {label:`部分数据延迟${maxAge}天内`,klass:'warn'};
+  return {label:`有数据延迟${maxAge}天`,klass:'warn'};
+}
+function setRefreshStatus(text,autoClear=true){
+  const node=document.getElementById('refreshStatus');
+  if(!node)return;
+  node.textContent=text||'';
+  if(text&&autoClear)setTimeout(()=>{if(node.textContent===text)node.textContent=''},4200);
+}
+async function checkLatestData(){
+  const button=document.getElementById('refreshDataButton');
+  if(button)button.disabled=true;
+  setRefreshStatus('正在检查线上最新版本...',false);
+  try{
+    const metaUrl=new URL('site-meta.json',window.location.href);
+    metaUrl.searchParams.set('_',Date.now());
+    const response=await fetch(metaUrl.href,{cache:'no-store'});
+    if(!response.ok)throw new Error(`meta ${response.status}`);
+    const meta=await response.json();
+    if(meta.updated_at&&meta.updated_at!==DATA.status.updated_at){
+      setRefreshStatus('发现新版本，正在刷新...',false);
+      const nextUrl=new URL(window.location.href);
+      nextUrl.searchParams.set('v',Date.now());
+      window.location.href=nextUrl.href;
+      return;
+    }
+    setRefreshStatus('当前已是最新发布版本');
+  }catch(error){
+    setRefreshStatus('检查失败，正在刷新页面...',false);
+    setTimeout(()=>window.location.reload(),600);
+  }finally{
+    if(button)button.disabled=false;
+  }
+}
+document.getElementById('statusBadge').textContent=`数据状态：${DATA.status.overall_status||'empty'}`;
+document.getElementById('updatedBadge').textContent=`生成：${DATA.status.updated_at?DATA.status.updated_at.replace('T',' '):'尚未更新'}`;
+const fresh=freshnessSummary();
+const freshnessBadge=document.getElementById('freshnessBadge');
+freshnessBadge.textContent=fresh.label;
+freshnessBadge.classList.add(fresh.klass);
+document.getElementById('refreshDataButton').addEventListener('click',checkLatestData);
 
 function riskClass(level){
   const key=String(level||'');
@@ -857,6 +916,27 @@ def main() -> None:
     PUBLIC_DIR.mkdir(parents=True, exist_ok=True)
     (PUBLIC_DIR / "index.html").write_text(html, encoding="utf-8")
     (PUBLIC_DIR / ".nojekyll").write_text("", encoding="utf-8")
+    status = payload.get("status", {})
+    datasets = status.get("datasets", {}) if isinstance(status, dict) else {}
+    site_meta = {
+        "app_version": status.get("app_version"),
+        "updated_at": status.get("updated_at"),
+        "overall_status": status.get("overall_status"),
+        "last_update_mode": status.get("last_update_mode"),
+        "datasets": {
+            key: {
+                "status": value.get("status"),
+                "latest_date": value.get("latest_date"),
+                "cached_rows": value.get("cached_rows", value.get("total_cached_rows")),
+            }
+            for key, value in datasets.items()
+            if isinstance(value, dict)
+        },
+    }
+    (PUBLIC_DIR / "site-meta.json").write_text(
+        json.dumps(site_meta, ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8",
+    )
     print(f"Built {PUBLIC_DIR / 'index.html'} ({len(html):,} chars)")
 
 

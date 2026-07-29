@@ -21,6 +21,7 @@ on:
     - cron: "10 2 * * *"
     - cron: "40 8 * * 1-5"
     - cron: "40 10 * * *"
+    - cron: "10 11 * * 1-5"
 
 permissions:
   contents: write
@@ -78,6 +79,8 @@ jobs:
             MODE="close"
           elif [ "${{ github.event.schedule }}" = "40 10 * * *" ]; then
             MODE="evening"
+          elif [ "${{ github.event.schedule }}" = "10 11 * * 1-5" ]; then
+            MODE="all"
           else
             MODE="all"
           fi
