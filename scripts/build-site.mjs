@@ -1,44 +1,28 @@
-import { gzipSync } from "node:zlib";
-import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { copyFileSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const html = readFileSync(join(root, "public", "index.html"));
-const compressed = gzipSync(html, { level: 9 }).toString("base64");
-const worker = `const HTML_GZIP_BASE64 = ${JSON.stringify(compressed)};
 
-function decodeBase64(value) {
-  const binary = atob(value);
-  const bytes = new Uint8Array(binary.length);
-  for (let index = 0; index < binary.length; index += 1) {
-    bytes[index] = binary.charCodeAt(index);
-  }
-  return bytes;
-}
+rmSync(join(root, "dist"), { recursive: true, force: true });
+mkdirSync(join(root, "dist", "server"), { recursive: true });
+mkdirSync(join(root, "dist", "client"), { recursive: true });
+mkdirSync(join(root, "dist", ".openai"), { recursive: true });
+copyFileSync(join(root, "public", "index.html"), join(root, "dist", "client", "index.html"));
 
-const htmlGzip = decodeBase64(HTML_GZIP_BASE64);
-
-export default {
-  async fetch(request) {
+const worker = `export default {
+  async fetch(request, env) {
     const url = new URL(request.url);
     if (url.pathname !== "/" && url.pathname !== "/index.html") {
       return Response.redirect(url.origin + "/", 302);
     }
-    const htmlStream = new Response(htmlGzip).body.pipeThrough(new DecompressionStream("gzip"));
-    return new Response(htmlStream, {
-      headers: {
-        "content-type": "text/html; charset=utf-8",
-        "cache-control": "public, max-age=120",
-        "x-content-type-options": "nosniff"
-      }
-    });
+    const assetUrl = new URL("/index.html", request.url);
+    return env.ASSETS.fetch(new Request(assetUrl, request));
   }
 };
 `;
 
-mkdirSync(join(root, "dist", "server"), { recursive: true });
-mkdirSync(join(root, "dist", ".openai"), { recursive: true });
 writeFileSync(join(root, "dist", "server", "index.js"), worker);
 writeFileSync(join(root, "dist", ".openai", "hosting.json"), readFileSync(join(root, ".openai", "hosting.json")));
-console.log(`Built Sites worker with ${html.length.toLocaleString()} bytes of HTML.`);
+console.log(`Built Sites static asset with ${html.length.toLocaleString()} bytes of HTML.`);
