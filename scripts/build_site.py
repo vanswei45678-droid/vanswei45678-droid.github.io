@@ -246,6 +246,22 @@ HTML = r'''<!doctype html>
     <div class="card"><h3>风险领先预警模型</h3><div id="trackingRiskChart" class="chart"></div></div>
     <div class="card"><h3>模块依据</h3><div id="trackingModuleList" class="module-list"></div></div>
   </div>
+  <div class="grid g2" style="margin-top:16px">
+    <div class="card"><h3>大盘评分与仓位/集中度映射</h3><div id="trackingOpportunityRules" class="table-wrap"></div></div>
+    <div class="card"><h3>风险状态与仓位折扣</h3><div id="trackingRiskRules" class="table-wrap"></div></div>
+  </div>
+  <div class="card" style="margin-top:16px">
+    <h3>领先、同步、滞后风险信号</h3>
+    <div id="trackingSignalGroups" class="framework-grid"></div>
+  </div>
+  <div class="grid g2" style="margin-top:16px">
+    <div class="card"><h3>机会-风险状态矩阵</h3><div id="trackingStateMatrix" class="table-wrap"></div></div>
+    <div class="card"><h3>Choice日频模型后续字段</h3><div id="trackingChoiceModel" class="framework-grid"></div></div>
+  </div>
+  <div class="card" style="margin-top:16px">
+    <h3>七大模块子指标</h3>
+    <div id="trackingModuleBlueprint" class="framework-grid"></div>
+  </div>
   <div class="card" style="margin-top:16px">
     <h3>二级市场投研框架</h3>
     <div id="trackingFramework" class="framework-grid"></div>
@@ -388,8 +404,12 @@ function riskClass(level){
   if(key.includes('绿'))return 'risk-green';
   if(key.includes('黄'))return 'risk-yellow';
   if(key.includes('橙'))return 'risk-orange';
+  if(key.includes('深红'))return 'risk-red';
   if(key.includes('红'))return 'risk-red';
   return 'risk-yellow';
+}
+function simpleTable(headers,rows){
+  return `<table><thead><tr>${headers.map(x=>`<th>${esc(x)}</th>`).join('')}</tr></thead><tbody>${rows.map(row=>`<tr>${row.map(cell=>`<td>${cell}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
 }
 function renderTracking(){
   const payload=DATA.market_tracking||{};
@@ -403,12 +423,12 @@ function renderTracking(){
   document.getElementById('trackingScoreTiles').innerHTML=[
     `<div class="score-tile"><span>大盘评分</span><b>${fmt(summary.market_score,1)}</b><div class="asset-symbol">0-100，越高越适合承担风险</div></div>`,
     `<div class="score-tile"><span>风险预警</span><b>${fmt(summary.risk_score,1)}</b><div style="margin-top:8px"><span class="risk-pill ${riskClass(riskLevel)}">${esc(riskLevel)}</span></div></div>`,
-    `<div class="score-tile"><span>建议仓位</span><b>${fmt(summary.suggested_position_pct,1)}%</b><div class="asset-symbol">${esc(summary.market_phase||'等待更新')}</div></div>`,
-    `<div class="score-tile"><span>基础仓位</span><b>${fmt(summary.base_position_pct,1)}%</b><div class="asset-symbol">由大盘评分决定</div></div>`,
-    `<div class="score-tile"><span>风险折扣</span><b>${fmt(Number(summary.risk_discount||0)*100,0)}%</b><div class="asset-symbol">由预警颜色决定</div></div>`,
+    `<div class="score-tile"><span>风险折扣后仓位</span><b>${esc(summary.suggested_position_range||`${fmt(summary.suggested_position_pct,1)}%`)}</b><div class="asset-symbol">${esc(summary.market_phase||'等待更新')}</div></div>`,
+    `<div class="score-tile"><span>理论仓位</span><b>${esc(summary.base_position_range||`${fmt(summary.base_position_pct,1)}%`)}</b><div class="asset-symbol">由大盘机会评分决定</div></div>`,
+    `<div class="score-tile"><span>风险折扣</span><b>${esc(summary.risk_discount_range||`${fmt(Number(summary.risk_discount||0)*100,0)}%`)}</b><div class="asset-symbol">${esc(summary.risk_action||'由预警颜色决定')}</div></div>`,
     `<div class="score-tile"><span>风格判断</span><b style="font-size:20px">${esc(summary.style_signal||'等待更新')}</b><div class="asset-symbol">${esc(summary.style_reason||'')}</div></div>`
   ].join('');
-  document.getElementById('trackingPositionNote').innerHTML=`${esc(summary.formula||'实际仓位 = 大盘建议仓位 × 风险折扣')}。当前阶段：<b>${esc(summary.market_phase||'等待更新')}</b>；数据日期：${cnDate(tracking.trade_date)}。`;
+  document.getElementById('trackingPositionNote').innerHTML=`${esc(summary.formula||'实际仓位 = 大盘建议仓位 × 风险折扣')}。当前阶段：<b>${esc(summary.market_phase||'等待更新')}</b>；${esc(summary.concentration_note||'')} ${summary.liquidity_gate?`<br><b>${esc(summary.liquidity_gate)}</b>`:''} 数据日期：${cnDate(tracking.trade_date)}。`;
   document.getElementById('trackingProcess').innerHTML=(payload.process_steps||[]).map((step,index)=>`<span class="process-step">${index+1}. ${esc(step)}</span>`).join('');
   document.getElementById('trackingUpdateNote').innerHTML=`${esc(payload.method_note||'')}<br>更新时间：${esc(payload.updated_at||'等待更新')}；更新安排：${esc((payload.schedule||[]).join('、'))}。`;
   document.getElementById('trackingSignalTable').innerHTML=`<table><thead><tr><th>监测项</th><th>最新值</th></tr></thead><tbody>
@@ -428,12 +448,18 @@ function renderTracking(){
     ],layout({yaxis:{title:'分数 / %',gridcolor:C.grid,range:[0,100]},shapes:[{type:'line',x0:0,x1:1,xref:'paper',y0:55,y1:55,line:{color:C.muted,dash:'dot'}},{type:'line',x0:0,x1:1,xref:'paper',y0:75,y1:75,line:{color:C.up,dash:'dot'}}]}),CONFIG);
   }
   if(modules.length){
-    Plotly.newPlot('trackingModuleChart',[{x:modules.map(x=>x.name),y:modules.map(x=>x.score),type:'bar',marker:{color:modules.map(x=>Number(x.score)>=60?'rgba(49,103,227,.68)':Number(x.score)>=45?'rgba(201,138,24,.65)':'rgba(214,66,66,.62)')},text:modules.map(x=>`${fmt(x.score,1)} / 权重${x.weight}%`),textposition:'auto',name:'模块评分'}],layout({margin:{l:44,r:20,t:16,b:90},yaxis:{title:'分',gridcolor:C.grid,range:[0,100]},xaxis:{tickangle:-25}}),CONFIG);
+    Plotly.newPlot('trackingModuleChart',[{x:modules.map(x=>x.name),y:modules.map(x=>x.raw_score),type:'bar',marker:{color:modules.map(x=>Number(x.raw_score)>=3?'rgba(49,103,227,.68)':Number(x.raw_score)>=2?'rgba(201,138,24,.65)':'rgba(214,66,66,.62)')},text:modules.map(x=>`${fmt(x.raw_score,1)}/5 · 加权${fmt(x.weighted_score,1)}`),textposition:'auto',name:'原始评分'}],layout({margin:{l:44,r:20,t:16,b:90},yaxis:{title:'原始分 / 5',gridcolor:C.grid,range:[0,5]},xaxis:{tickangle:-25}}),CONFIG);
   }
   if(risks.length){
-    Plotly.newPlot('trackingRiskChart',[{x:risks.map(x=>x.name),y:risks.map(x=>x.risk),type:'bar',marker:{color:risks.map(x=>Number(x.risk)>=75?C.up:Number(x.risk)>=55?C.amber:'rgba(21,149,103,.62)')},text:risks.map(x=>`${fmt(x.risk,1)} / 权重${x.weight}%`),textposition:'auto',name:'风险分数'}],layout({margin:{l:44,r:20,t:16,b:90},yaxis:{title:'风险分',gridcolor:C.grid,range:[0,100]},xaxis:{tickangle:-25},shapes:[{type:'line',x0:-.5,x1:risks.length-.5,y0:55,y1:55,line:{color:C.amber,dash:'dot'}},{type:'line',x0:-.5,x1:risks.length-.5,y0:75,y1:75,line:{color:C.up,dash:'dot'}}]}),CONFIG);
+    Plotly.newPlot('trackingRiskChart',[{x:risks.map(x=>x.name),y:risks.map(x=>x.risk),type:'bar',marker:{color:risks.map(x=>Number(x.raw_risk)>=70?C.up:Number(x.raw_risk)>=50?C.amber:'rgba(21,149,103,.62)')},text:risks.map(x=>`${fmt(x.risk,1)} / 权重${x.weight}`),textposition:'auto',name:'风险贡献分'}],layout({margin:{l:44,r:20,t:16,b:90},yaxis:{title:'贡献分',gridcolor:C.grid,range:[0,22]},xaxis:{tickangle:-25}}),CONFIG);
   }
-  document.getElementById('trackingModuleList').innerHTML=modules.map(item=>`<div class="module-row"><div class="module-head"><span>${esc(item.name)} · 权重${item.weight}%</span><span>${fmt(item.score,1)} · ${esc(item.status||'')}</span></div><div class="module-basis">${(item.basis||[]).map(esc).join('<br>')}</div></div>`).join('');
+  document.getElementById('trackingModuleList').innerHTML=modules.map(item=>`<div class="module-row"><div class="module-head"><span>${esc(item.name)} · 权重${item.weight}</span><span>${fmt(item.raw_score,1)}/5 · 加权${fmt(item.weighted_score,1)} · ${esc(item.status||'')}</span></div><div class="module-basis">${(item.basis||[]).map(esc).join('<br>')}</div></div>`).join('');
+  document.getElementById('trackingOpportunityRules').innerHTML=simpleTable(['大盘评分','市场阶段','总仓位','单股上限','单行业上限','单主题上限'],(payload.opportunity_bands||[]).map(row=>[esc(row.range),esc(row.stage),esc(row.position),esc(row.single_stock),esc(row.industry),esc(row.theme)]));
+  document.getElementById('trackingRiskRules').innerHTML=simpleTable(['风险分','状态','动作','仓位折扣'],(payload.risk_bands||[]).map(row=>[esc(row.range),`<span class="risk-pill ${riskClass(row.status)}">${esc(row.status)}</span>`,esc(row.action),esc(row.discount)]));
+  document.getElementById('trackingSignalGroups').innerHTML=(payload.signal_groups||[]).map(group=>`<div class="framework-card"><b>${esc(group.name)}</b><p>${esc(group.action||'')}</p><ul>${(group.items||[]).map(item=>`<li>${esc(item)}</li>`).join('')}</ul></div>`).join('');
+  document.getElementById('trackingStateMatrix').innerHTML=simpleTable(['机会评分','风险分','含义','动作'],(payload.state_matrix||[]).map(row=>[esc(row.opportunity),esc(row.risk),esc(row.meaning),esc(row.action)]));
+  document.getElementById('trackingChoiceModel').innerHTML=(payload.choice_daily_model||[]).map(item=>`<div class="framework-card"><b>${esc(item.dataset)}</b><ul>${(item.fields||[]).map(field=>`<li>${esc(field)}</li>`).join('')}</ul></div>`).join('');
+  document.getElementById('trackingModuleBlueprint').innerHTML=(payload.module_blueprint||[]).map(item=>`<div class="framework-card"><b>${esc(item.name)} · 权重${esc(item.weight)}</b><ul>${(item.subitems||[]).map(field=>`<li>${esc(field)}</li>`).join('')}</ul></div>`).join('');
   document.getElementById('trackingFramework').innerHTML=(payload.framework_sections||[]).map(section=>`<div class="framework-card"><b>${esc(section.title)}</b><p>${esc(section.subtitle||'')}</p><ul>${(section.items||[]).map(item=>`<li>${esc(item)}</li>`).join('')}</ul></div>`).join('');
 }
 
