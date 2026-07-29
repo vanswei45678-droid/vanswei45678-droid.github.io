@@ -98,6 +98,10 @@ jobs:
         continue-on-error: true
         run: python scripts/update_ashare_daily.py --days 95
 
+      - name: Refresh market tracking model
+        continue-on-error: true
+        run: python scripts/update_market_tracking.py
+
       - name: Build static website
         run: python scripts/build_site.py
 

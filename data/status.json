@@ -408,9 +408,17 @@
       "covered_stocks": 5032,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
       "error": null
+    },
+    "market_tracking": {
+      "status": "success",
+      "latest_date": "20260728",
+      "rows": 64,
+      "cached_rows": 64,
+      "source": "由宏观、流动性、估值、A股情绪、两融、全球市场公开数据自动评分",
+      "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-07-28T10:07:25+08:00",
+  "updated_at": "2026-07-29T10:19:13+08:00",
   "overall_status": "success",
   "last_update_mode": "global"
 }

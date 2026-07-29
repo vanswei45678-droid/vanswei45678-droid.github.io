@@ -21,6 +21,7 @@ if [ ! -s data/macro.csv ] && [ ! -s data/market.csv ] && [ ! -s data/valuation.
   echo "公开源暂时不可用，生成明确标注的演示数据供界面检查。"
   python scripts/generate_demo_data.py
 fi
+python scripts/update_market_tracking.py || true
 python scripts/build_site.py
 
 (open http://localhost:8000 >/dev/null 2>&1 &) || true

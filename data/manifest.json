@@ -203,6 +203,20 @@
         "item_id"
       ],
       "status": "ok"
+    },
+    "market_tracking.csv": {
+      "rows": 64,
+      "columns": [
+        "trade_date",
+        "market_score",
+        "risk_score",
+        "suggested_position_pct",
+        "risk_level",
+        "market_phase",
+        "style_signal",
+        "source"
+      ],
+      "status": "ok"
     }
   }
 }

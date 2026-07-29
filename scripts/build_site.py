@@ -67,6 +67,35 @@ def read_market_messages() -> list[dict[str, Any]]:
     return records
 
 
+def read_market_tracking() -> dict[str, Any]:
+    path = DATA_DIR / "market_tracking.json"
+    fallback = {
+        "updated_at": None,
+        "timezone": "Asia/Shanghai",
+        "schedule": ["每日随公开数据刷新"],
+        "framework_source": "二级框架.rtf",
+        "framework_sections": [],
+        "process_steps": [],
+        "tracking": {
+            "trade_date": None,
+            "summary": {},
+            "modules": [],
+            "risk_modules": [],
+            "signals": {},
+        },
+        "method_note": "等待首次自动评分。",
+    }
+    if not path.exists():
+        return fallback
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        if not isinstance(payload, dict):
+            return fallback
+        return {**fallback, **payload}
+    except Exception:
+        return fallback
+
+
 def latest_market_cards(market: pd.DataFrame) -> list[dict[str, Any]]:
     cards: list[dict[str, Any]] = []
     if market.empty:
@@ -183,18 +212,45 @@ HTML = r'''<!doctype html>
 *{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#eef3fb 0,#f7f9fc 320px);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;color:var(--ink)}
 .wrap{max-width:1500px;margin:0 auto;padding:24px}.hero{background:radial-gradient(circle at 80% 0,#345ea8 0,transparent 30%),linear-gradient(135deg,#102243,#1c3b72 62%,#235b83);color:white;border-radius:24px;padding:28px 30px;box-shadow:var(--shadow);position:relative;overflow:hidden}.hero h1{margin:0;font-size:30px;letter-spacing:.5px}.hero p{margin:8px 0 0;color:#cbd8ee}.hero-meta{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.badge{padding:7px 11px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.09);border-radius:999px;font-size:12px;color:#e8eef9}
 .tabs{display:flex;gap:8px;overflow:auto;padding:18px 0 12px}.tab{border:0;background:#e8edf6;color:#55627a;padding:10px 15px;border-radius:11px;font-weight:700;cursor:pointer;white-space:nowrap}.tab.active{background:var(--navy);color:#fff}.panel{display:none}.panel.active{display:block}.grid{display:grid;gap:16px}.g2{grid-template-columns:repeat(2,minmax(0,1fr))}.g3{grid-template-columns:repeat(3,minmax(0,1fr))}.g4{grid-template-columns:repeat(4,minmax(0,1fr))}.kpis{grid-template-columns:repeat(6,minmax(0,1fr));margin-bottom:16px}.card{background:var(--panel);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);padding:17px;min-width:0}.card h3{margin:0 0 12px;font-size:16px}.card h3 small{font-weight:400;color:var(--muted);margin-left:6px}.chart{height:380px}.chart.tall{height:470px}.chart-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.market-chart-card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:14px;box-shadow:var(--shadow);min-width:0}.market-chart-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:4px}.market-chart-title{font-size:15px;font-weight:800}.market-chart-meta{font-size:11px;color:var(--muted);margin-top:3px}.market-chart-latest{text-align:right;font-size:13px;font-weight:800;white-space:nowrap}.market-single-chart{height:315px}.chart-placeholder{height:100%;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:12px;background:#f8faff;border-radius:10px;border:1px dashed var(--line);padding:18px;text-align:center}.kpi{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:15px;box-shadow:var(--shadow);min-height:112px}.kpi-label{font-size:12px;color:var(--muted);font-weight:700}.kpi-value{font-size:25px;font-weight:800;margin-top:8px;line-height:1}.kpi-note{font-size:11px;color:#8a94a8;margin-top:10px}.positive,.up{color:var(--up)!important}.negative,.down{color:var(--down)!important}.neutral{color:var(--muted)!important}.kpi-value,.asset-price,.asset-metrics b,.multiple{transition:color .25s ease}.asset-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;align-items:stretch}.asset{border:1px solid var(--line);border-radius:15px;padding:14px;background:linear-gradient(180deg,#fff,#fbfcff);min-width:0;overflow:hidden}.asset-top{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:start;gap:8px}.asset-top>div{min-width:0}.asset-top>b{font-size:13px;line-height:1.35;white-space:nowrap}.asset-name{font-weight:800;font-size:14px;line-height:1.35;word-break:keep-all;overflow-wrap:break-word}.asset-symbol{font-size:11px;color:var(--muted);margin-top:3px;line-height:1.35;overflow-wrap:anywhere}.asset-price{font-size:24px;font-weight:800;line-height:1.15;margin:12px 0;overflow-wrap:anywhere}.asset-metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(74px,1fr));gap:6px}.asset-metrics div{background:#f4f6fa;border-radius:9px;padding:7px;min-width:0}.asset-metrics span{display:block;font-size:10px;color:var(--muted);white-space:nowrap}.asset-metrics b{display:block;font-size:11px;line-height:1.25;white-space:nowrap}.hint{background:#f6f8fc;border:1px solid var(--line);border-radius:12px;padding:11px 13px;color:#66738a;font-size:12px;line-height:1.6;margin:12px 0}.valuation-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.valuation-card{border:1px solid var(--line);border-radius:14px;padding:13px;cursor:pointer}.valuation-card.selected{border-color:var(--blue);box-shadow:0 0 0 2px rgba(49,103,227,.10)}.multiple{font-size:25px;font-weight:800;margin:9px 0}.stat-row{display:grid;grid-template-columns:repeat(3,1fr);gap:5px}.stat{background:#f5f7fb;border-radius:7px;padding:6px;font-size:10px;color:var(--muted)}.stat b{display:block;color:var(--ink);font-size:11px;margin-top:2px}.bar{height:5px;background:#edf0f5;border-radius:5px;margin-top:10px;overflow:hidden}.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--down),var(--amber),var(--up))}.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:13px}table{width:100%;border-collapse:collapse;font-size:12px;min-width:760px}th{background:#f3f6fb;color:#59667d;text-align:left;padding:10px;position:sticky;top:0}td{border-top:1px solid var(--line);padding:9px 10px}tr:hover td{background:#fafcff}.source-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.source-card{border:1px solid var(--line);border-radius:14px;padding:13px;background:#fff}.source-status{font-weight:800}.source-status.success,.source-status.cached{color:var(--down)}.source-status.failed{color:var(--up)}.source-status.partial{color:var(--amber)}.message-toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:14px}.message-input{height:38px;border:1px solid var(--line);border-radius:10px;padding:0 11px;font:inherit;min-width:240px;background:#fff}.message-button{height:38px;border:0;border-radius:10px;background:var(--navy);color:#fff;font-weight:800;padding:0 13px;cursor:pointer}.message-button.secondary{background:#e9eef7;color:#4d5a72}.message-chipbar,.message-categorybar{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 12px}.message-chip,.message-category{border:1px solid var(--line);background:#f6f8fc;color:#56627a;border-radius:999px;padding:7px 10px;font-size:12px;font-weight:700}.message-chip button{border:0;background:transparent;color:#7a8598;margin-left:5px;cursor:pointer;font-weight:900}.message-category{cursor:pointer}.message-category.active{background:var(--navy);border-color:var(--navy);color:#fff}.message-list{display:grid;gap:10px}.message-item{border:1px solid var(--line);border-radius:14px;padding:13px;background:#fff;min-width:0}.message-item.watch-hit{border-color:rgba(49,103,227,.55);box-shadow:0 0 0 2px rgba(49,103,227,.08)}.message-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}.message-title{font-weight:850;line-height:1.45}.message-meta{color:var(--muted);font-size:11px;line-height:1.5;margin-top:4px}.message-summary{font-size:12px;line-height:1.65;margin-top:8px;color:#364157}.message-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px}.source-pill{display:inline-flex;align-items:center;gap:4px;border-radius:999px;padding:5px 8px;background:#f2f5fa;color:#5d687d;font-size:11px;text-decoration:none}.message-priority{font-size:11px;font-weight:800;border-radius:999px;padding:4px 8px;white-space:nowrap}.message-priority.high{background:#fff0f0;color:var(--up)}.message-priority.medium{background:#fff7e6;color:var(--amber)}.message-priority.normal{background:#eef8f4;color:var(--down)}.message-source-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}.message-source{border:1px solid var(--line);border-radius:12px;padding:11px;background:#fff}.message-source a{color:var(--blue);font-weight:800;text-decoration:none}.message-source div{font-size:11px;color:var(--muted);line-height:1.5;margin-top:5px}.message-check{display:flex;align-items:center;gap:7px;color:var(--muted);font-size:12px;font-weight:700}.empty{display:none;padding:28px;text-align:center;color:var(--muted)}.footer{padding:25px 0;color:var(--muted);font-size:11px;line-height:1.7}
-@media(max-width:1100px){.kpis{grid-template-columns:repeat(3,1fr)}.asset-grid{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}.valuation-grid{grid-template-columns:repeat(2,1fr)}.g2,.g3,.g4{grid-template-columns:1fr}.source-grid{grid-template-columns:1fr 1fr}.chart-grid{grid-template-columns:1fr}}
-@media(max-width:650px){.wrap{padding:12px}.hero{padding:22px 18px;border-radius:18px}.hero h1{font-size:23px}.kpis{grid-template-columns:repeat(2,1fr)}.asset-grid,.valuation-grid,.source-grid{grid-template-columns:1fr}.asset-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.chart{height:330px}.market-single-chart{height:290px}}
+.tracking-hero{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(280px,.85fr);gap:16px;margin-bottom:16px}.tracking-score{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.score-tile{border:1px solid var(--line);border-radius:14px;background:#f7f9fd;padding:12px;min-width:0}.score-tile span{display:block;color:var(--muted);font-size:11px;font-weight:800}.score-tile b{display:block;margin-top:8px;font-size:26px;line-height:1}.risk-pill{display:inline-flex;border-radius:999px;padding:6px 10px;font-size:12px;font-weight:900}.risk-green{background:#eaf8f1;color:var(--down)}.risk-yellow{background:#fff8df;color:#9f7112}.risk-orange{background:#fff0e6;color:#bc6816}.risk-red{background:#fff0f0;color:var(--up)}.module-list{display:grid;gap:9px}.module-row{border:1px solid var(--line);border-radius:12px;padding:10px;background:#fff}.module-head{display:flex;justify-content:space-between;gap:10px;font-size:12px;font-weight:900}.module-basis{margin-top:6px;color:var(--muted);font-size:11px;line-height:1.55}.framework-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}.framework-card{border:1px solid var(--line);border-radius:14px;padding:13px;background:#fff}.framework-card b{display:block;margin-bottom:6px}.framework-card p{margin:0 0 9px;color:#59667d;font-size:12px;line-height:1.55}.framework-card ul{margin:0;padding-left:18px;color:#364157;font-size:12px;line-height:1.75}.process-strip{display:flex;flex-wrap:wrap;gap:8px}.process-step{border:1px solid var(--line);background:#f6f8fc;border-radius:999px;padding:8px 11px;font-size:12px;font-weight:800;color:#55627a}
+@media(max-width:1100px){.kpis{grid-template-columns:repeat(3,1fr)}.asset-grid{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}.valuation-grid{grid-template-columns:repeat(2,1fr)}.g2,.g3,.g4,.tracking-hero{grid-template-columns:1fr}.source-grid{grid-template-columns:1fr 1fr}.chart-grid{grid-template-columns:1fr}}
+@media(max-width:650px){.wrap{padding:12px}.hero{padding:22px 18px;border-radius:18px}.hero h1{font-size:23px}.kpis,.tracking-score{grid-template-columns:repeat(2,1fr)}.asset-grid,.valuation-grid,.source-grid{grid-template-columns:1fr}.asset-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.chart{height:330px}.market-single-chart{height:290px}}
 .message-item{cursor:pointer;transition:border-color .18s ease,box-shadow .18s ease,transform .18s ease}.message-item:hover{border-color:rgba(49,103,227,.48);box-shadow:0 10px 24px rgba(25,42,80,.08);transform:translateY(-1px)}
 </style>
 </head>
 <body><div class="wrap">
 <section class="hero"><h1>{{ title }}</h1><p>公开数据自动更新 · GitHub Pages公开访问 · 无需用户Token</p><div class="hero-meta"><span class="badge">版本 {{ version }}</span><span class="badge" id="statusBadge">状态读取中</span><span class="badge" id="updatedBadge">更新时间读取中</span><span class="badge">统一口径：红涨绿跌</span></div></section>
 <nav class="tabs">
-<button class="tab active" data-tab="overview">总览</button><button class="tab" data-tab="macro">宏观与资金</button><button class="tab" data-tab="messages">讯息</button><button class="tab" data-tab="global">全球市场</button><button class="tab" data-tab="ashare">A股情绪与杠杆</button><button class="tab" data-tab="valuation">估值与偏离度</button><button class="tab" data-tab="fund">基金募集</button><button class="tab" data-tab="health">数据状态与口径</button>
+<button class="tab active" data-tab="overview">总览</button><button class="tab" data-tab="tracking">大盘跟踪</button><button class="tab" data-tab="macro">宏观与资金</button><button class="tab" data-tab="messages">讯息</button><button class="tab" data-tab="global">全球市场</button><button class="tab" data-tab="ashare">A股情绪与杠杆</button><button class="tab" data-tab="valuation">估值与偏离度</button><button class="tab" data-tab="fund">基金募集</button><button class="tab" data-tab="health">数据状态与口径</button>
 </nav>
 
 <section class="panel active" id="overview"><div class="grid kpis" id="overviewKpis"></div><div class="grid g2"><div class="card"><h3>主要指数最新实际点位</h3><div id="overviewMarketCards" class="asset-grid"></div></div><div class="card"><h3>A股市场温度</h3><div id="overviewBreadth" class="chart"></div></div></div></section>
+
+<section class="panel" id="tracking">
+  <div class="tracking-hero">
+    <div class="card">
+      <h3>大盘总控台 <small>大盘决定仓位，风控决定生存</small></h3>
+      <div id="trackingScoreTiles" class="tracking-score"></div>
+      <div id="trackingPositionNote" class="hint"></div>
+      <div id="trackingProcess" class="process-strip"></div>
+    </div>
+    <div class="card">
+      <h3>每日更新说明</h3>
+      <div id="trackingUpdateNote" class="hint"></div>
+      <div id="trackingSignalTable" class="table-wrap"></div>
+    </div>
+  </div>
+  <div class="grid g2">
+    <div class="card"><h3>大盘评分与风险预警历史</h3><div id="trackingHistoryChart" class="chart"></div></div>
+    <div class="card"><h3>七大模块评分</h3><div id="trackingModuleChart" class="chart"></div></div>
+    <div class="card"><h3>风险领先预警模型</h3><div id="trackingRiskChart" class="chart"></div></div>
+    <div class="card"><h3>模块依据</h3><div id="trackingModuleList" class="module-list"></div></div>
+  </div>
+  <div class="card" style="margin-top:16px">
+    <h3>二级市场投研框架</h3>
+    <div id="trackingFramework" class="framework-grid"></div>
+  </div>
+</section>
 
 <section class="panel" id="macro"><div class="grid kpis" id="macroKpis"></div><div class="grid g2"><div class="card"><h3>M1、M2与剪刀差</h3><div id="moneyChart" class="chart"></div></div><div class="card"><h3>银行间资金利率</h3><div id="liquidityKpis" class="grid g3" style="margin-bottom:12px"></div><div id="liquidityChart" class="chart"></div></div><div class="card"><h3>美元净流动性 <small>SOMA/总资产 − TGA − RRP，单位万亿美元</small></h3><div id="macroUsdLiquidityKpis" class="grid g2" style="margin-bottom:12px"></div><div id="macroUsdLiquidityChart" class="chart"></div></div><div class="card"><h3>社会融资规模</h3><div id="socialChart" class="chart"></div></div><div class="card"><h3>PMI与CPI</h3><div id="pmiChart" class="chart"></div></div></div></section>
 
@@ -230,7 +286,7 @@ HTML = r'''<!doctype html>
 <section class="panel" id="fund"><div class="grid g2"><div class="card"><h3>单只新成立基金募集规模 <small>估算口径</small></h3><div id="fundChart" class="chart"></div></div><div class="card"><h3>口径说明</h3><div class="hint">免费公开源可稳定取得“募集份额（亿份）”，但不存在统一、连续、免费的“单只基金每日净申购金额”字段。网站按常见初始面值1元/份，将募集份额近似展示为募集规模（亿元），并明确标注，不把它冒充存续期净申购额。</div><div id="fundKpis" class="grid g2"></div></div></div><div class="card" style="margin-top:16px"><h3>最新新成立基金</h3><div class="table-wrap"><table><thead><tr><th>成立日期</th><th>基金代码</th><th>基金名称</th><th>类型</th><th>基金公司</th><th>募集份额（亿份）</th><th>估算规模（亿元）</th></tr></thead><tbody id="fundTable"></tbody></table></div></div></section>
 
 <section class="panel" id="health"><div class="card"><h3>数据模块状态</h3><div id="sourceCards" class="source-grid"></div></div><div class="card" style="margin-top:16px"><h3>主要数据来源与口径</h3><div class="table-wrap"><table><thead><tr><th>模块</th><th>数据源</th><th>更新口径</th></tr></thead><tbody>
-<tr><td>M1/M2、社融、PMI、CPI</td><td>人民银行、国家统计局及公开适配器</td><td>月度，发布后更新</td></tr><tr><td>DR001/DR007</td><td>中国货币网</td><td>存款类机构质押式回购加权利率；不以FDR替代</td></tr><tr><td>隔夜Shibor</td><td>中国货币网 / AKShare</td><td>每个工作日官方发布</td></tr><tr><td>美债收益率</td><td>美联储H.15 / FRED</td><td>DGS2、DGS10，单位%</td></tr><tr><td>美元净流动性</td><td>FRED：WSHOSHO、WALCL、WDTGAL、RRPONTSYD</td><td>周度；SOMA或总资产减TGA和RRP，单位万亿美元</td></tr><tr><td>全球指数与股票</td><td>Yahoo Finance / yfinance</td><td>日线复权收盘；红涨绿跌</td></tr><tr><td>A股情绪、成交额、市值</td><td>东方财富公开行情 / AKShare</td><td>收盘后统计沪深A股</td></tr><tr><td>两融余额</td><td>上交所、深交所 / AKShare</td><td>沪深两市融资融券余额合计</td></tr><tr><td>讯息推送</td><td>交易所、巨潮资讯、公司官网、财经网站、公众号公开转载、研报入口</td><td>北京时间08:00和17:00刷新，输入自选代码后优先标记相关消息</td></tr><tr><td>基金募集</td><td>天天基金 / AKShare</td><td>募集份额（亿份），1元/份近似规模</td></tr></tbody></table></div></div></section>
+<tr><td>M1/M2、社融、PMI、CPI</td><td>人民银行、国家统计局及公开适配器</td><td>月度，发布后更新</td></tr><tr><td>DR001/DR007</td><td>中国货币网</td><td>存款类机构质押式回购加权利率；不以FDR替代</td></tr><tr><td>隔夜Shibor</td><td>中国货币网 / AKShare</td><td>每个工作日官方发布</td></tr><tr><td>美债收益率</td><td>美联储H.15 / FRED</td><td>DGS2、DGS10，单位%</td></tr><tr><td>美元净流动性</td><td>FRED：WSHOSHO、WALCL、WDTGAL、RRPONTSYD</td><td>周度；SOMA或总资产减TGA和RRP，单位万亿美元</td></tr><tr><td>全球指数与股票</td><td>Yahoo Finance / yfinance</td><td>日线复权收盘；红涨绿跌</td></tr><tr><td>大盘跟踪</td><td>宏观、资金、估值、A股情绪、两融、全球市场公开数据</td><td>每日随数据刷新自动重算大盘评分、风险预警和建议仓位</td></tr><tr><td>A股情绪、成交额、市值</td><td>东方财富公开行情 / AKShare</td><td>收盘后统计沪深A股</td></tr><tr><td>两融余额</td><td>上交所、深交所 / AKShare</td><td>沪深两市融资融券余额合计</td></tr><tr><td>讯息推送</td><td>交易所、巨潮资讯、公司官网、财经网站、公众号公开转载、研报入口</td><td>北京时间08:00和17:00刷新，输入自选代码后优先标记相关消息</td></tr><tr><td>基金募集</td><td>天天基金 / AKShare</td><td>募集份额（亿份），1元/份近似规模</td></tr></tbody></table></div></div></section>
 
 <div class="footer">{{ disclaimer }}<br>该网站只展示公开数据与计算结果。公开网页接口可能调整，系统会保留上一次成功缓存并在“数据状态”中披露失败。红色统一表示上涨/正收益，绿色统一表示下跌/负收益。</div>
 </div>
@@ -326,6 +382,60 @@ function renderMarketChartGrid(containerId,cards,prefix,maxRows=520){
 function assetCard(c){const color=cls(c.daily_pct);return `<div class="asset"><div class="asset-top"><div><div class="asset-name">${c.name}</div><div class="asset-symbol">${c.symbol} · ${cnDate(c.trade_date)}</div></div><b class="${color}">${signed(c.daily_pct)}</b></div><div class="asset-price ${color}">${fmt(c.close,2)} <small style="font-size:11px;color:#7d899f">${c.currency||''}</small></div><div class="asset-metrics"><div><span>当日</span><b class="${color}">${signed(c.daily_pct)}</b></div><div><span>年初至今</span><b class="${cls(c.ytd_pct)}">${signed(c.ytd_pct)}</b></div><div><span>近一年</span><b class="${cls(c.one_year_pct)}">${signed(c.one_year_pct)}</b></div></div></div>`}
 
 document.getElementById('statusBadge').textContent=`数据状态：${DATA.status.overall_status||'empty'}`;document.getElementById('updatedBadge').textContent=`更新：${DATA.status.updated_at?DATA.status.updated_at.replace('T',' '):'尚未更新'}`;
+
+function riskClass(level){
+  const key=String(level||'');
+  if(key.includes('绿'))return 'risk-green';
+  if(key.includes('黄'))return 'risk-yellow';
+  if(key.includes('橙'))return 'risk-orange';
+  if(key.includes('红'))return 'risk-red';
+  return 'risk-yellow';
+}
+function renderTracking(){
+  const payload=DATA.market_tracking||{};
+  const tracking=payload.tracking||{};
+  const summary=tracking.summary||{};
+  const modules=tracking.modules||[];
+  const risks=tracking.risk_modules||[];
+  const history=DATA.market_tracking_history||[];
+  const signals=tracking.signals||{};
+  const riskLevel=summary.risk_level||'等待更新';
+  document.getElementById('trackingScoreTiles').innerHTML=[
+    `<div class="score-tile"><span>大盘评分</span><b>${fmt(summary.market_score,1)}</b><div class="asset-symbol">0-100，越高越适合承担风险</div></div>`,
+    `<div class="score-tile"><span>风险预警</span><b>${fmt(summary.risk_score,1)}</b><div style="margin-top:8px"><span class="risk-pill ${riskClass(riskLevel)}">${esc(riskLevel)}</span></div></div>`,
+    `<div class="score-tile"><span>建议仓位</span><b>${fmt(summary.suggested_position_pct,1)}%</b><div class="asset-symbol">${esc(summary.market_phase||'等待更新')}</div></div>`,
+    `<div class="score-tile"><span>基础仓位</span><b>${fmt(summary.base_position_pct,1)}%</b><div class="asset-symbol">由大盘评分决定</div></div>`,
+    `<div class="score-tile"><span>风险折扣</span><b>${fmt(Number(summary.risk_discount||0)*100,0)}%</b><div class="asset-symbol">由预警颜色决定</div></div>`,
+    `<div class="score-tile"><span>风格判断</span><b style="font-size:20px">${esc(summary.style_signal||'等待更新')}</b><div class="asset-symbol">${esc(summary.style_reason||'')}</div></div>`
+  ].join('');
+  document.getElementById('trackingPositionNote').innerHTML=`${esc(summary.formula||'实际仓位 = 大盘建议仓位 × 风险折扣')}。当前阶段：<b>${esc(summary.market_phase||'等待更新')}</b>；数据日期：${cnDate(tracking.trade_date)}。`;
+  document.getElementById('trackingProcess').innerHTML=(payload.process_steps||[]).map((step,index)=>`<span class="process-step">${index+1}. ${esc(step)}</span>`).join('');
+  document.getElementById('trackingUpdateNote').innerHTML=`${esc(payload.method_note||'')}<br>更新时间：${esc(payload.updated_at||'等待更新')}；更新安排：${esc((payload.schedule||[]).join('、'))}。`;
+  document.getElementById('trackingSignalTable').innerHTML=`<table><thead><tr><th>监测项</th><th>最新值</th></tr></thead><tbody>
+    <tr><td>上涨家数占比</td><td>${fmt(signals.up_ratio_pct)}%</td></tr>
+    <tr><td>A股成交额</td><td>${fmt(signals.total_amount_trillion,3)} 万亿元</td></tr>
+    <tr><td>成交额/总市值</td><td>${fmt(signals.broad_turnover_pct,3)}%</td></tr>
+    <tr><td>交易拥挤度</td><td>${fmt(signals.crowding_pct)}%</td></tr>
+    <tr><td>两融余额/总市值</td><td>${fmt(signals.margin_to_market_cap_pct,3)}%</td></tr>
+    <tr><td>主要指数20日动量</td><td>${fmt(signals.index_momentum_20d_pct)}%</td></tr>
+    <tr><td>美国10年期国债</td><td>${fmt(signals.dgs10_pct,3)}%</td></tr>
+  </tbody></table>`;
+  if(history.length){
+    Plotly.newPlot('trackingHistoryChart',[
+      {x:history.map(x=>cnDate(x.trade_date)),y:history.map(x=>x.market_score),name:'大盘评分',mode:'lines',line:{color:C.blue,width:2.4}},
+      {x:history.map(x=>cnDate(x.trade_date)),y:history.map(x=>x.risk_score),name:'风险分数',mode:'lines',line:{color:C.up,width:2.1}},
+      {x:history.map(x=>cnDate(x.trade_date)),y:history.map(x=>x.suggested_position_pct),name:'建议仓位',mode:'lines',line:{color:C.amber,width:2,dash:'dot'}}
+    ],layout({yaxis:{title:'分数 / %',gridcolor:C.grid,range:[0,100]},shapes:[{type:'line',x0:0,x1:1,xref:'paper',y0:55,y1:55,line:{color:C.muted,dash:'dot'}},{type:'line',x0:0,x1:1,xref:'paper',y0:75,y1:75,line:{color:C.up,dash:'dot'}}]}),CONFIG);
+  }
+  if(modules.length){
+    Plotly.newPlot('trackingModuleChart',[{x:modules.map(x=>x.name),y:modules.map(x=>x.score),type:'bar',marker:{color:modules.map(x=>Number(x.score)>=60?'rgba(49,103,227,.68)':Number(x.score)>=45?'rgba(201,138,24,.65)':'rgba(214,66,66,.62)')},text:modules.map(x=>`${fmt(x.score,1)} / 权重${x.weight}%`),textposition:'auto',name:'模块评分'}],layout({margin:{l:44,r:20,t:16,b:90},yaxis:{title:'分',gridcolor:C.grid,range:[0,100]},xaxis:{tickangle:-25}}),CONFIG);
+  }
+  if(risks.length){
+    Plotly.newPlot('trackingRiskChart',[{x:risks.map(x=>x.name),y:risks.map(x=>x.risk),type:'bar',marker:{color:risks.map(x=>Number(x.risk)>=75?C.up:Number(x.risk)>=55?C.amber:'rgba(21,149,103,.62)')},text:risks.map(x=>`${fmt(x.risk,1)} / 权重${x.weight}%`),textposition:'auto',name:'风险分数'}],layout({margin:{l:44,r:20,t:16,b:90},yaxis:{title:'风险分',gridcolor:C.grid,range:[0,100]},xaxis:{tickangle:-25},shapes:[{type:'line',x0:-.5,x1:risks.length-.5,y0:55,y1:55,line:{color:C.amber,dash:'dot'}},{type:'line',x0:-.5,x1:risks.length-.5,y0:75,y1:75,line:{color:C.up,dash:'dot'}}]}),CONFIG);
+  }
+  document.getElementById('trackingModuleList').innerHTML=modules.map(item=>`<div class="module-row"><div class="module-head"><span>${esc(item.name)} · 权重${item.weight}%</span><span>${fmt(item.score,1)} · ${esc(item.status||'')}</span></div><div class="module-basis">${(item.basis||[]).map(esc).join('<br>')}</div></div>`).join('');
+  document.getElementById('trackingFramework').innerHTML=(payload.framework_sections||[]).map(section=>`<div class="framework-card"><b>${esc(section.title)}</b><p>${esc(section.subtitle||'')}</p><ul>${(section.items||[]).map(item=>`<li>${esc(item)}</li>`).join('')}</ul></div>`).join('');
+}
 
 function renderOverview(){const m=DATA.macro,b=DATA.breadth,c=DATA.crowding,l=DATA.liquidity,gm=DATA.global_macro,cards=DATA.market_cards;const gap=latestDelta(m,'m1_m2_gap_pp'),dr7=latestDelta(l,'dr007_pct'),crowd=latestDelta(c,'crowding_pct'),up=latest(b,'up_count'),turn=latestDelta(b,'broad_turnover_pct'),t10=latestDelta(gm.filter(x=>x.series==='DGS10'),'value_pct');document.getElementById('overviewKpis').innerHTML=[kpi('M1−M2剪刀差',fmt(gap.v),'个百分点',noteWithDelta(gap.row,'month',gap.delta),cls(gap.delta)),kpi('DR007',fmt(dr7.v),'%',noteWithDelta(dr7.row,'trade_date',dr7.delta),cls(dr7.delta)),kpi('A股交易拥挤度',fmt(crowd.v),'%',noteWithDelta(crowd.row,'trade_date',crowd.delta),cls(crowd.delta)),kpi('A股上涨家数',fmt(up.v,0),'只',cnDate(up.row.trade_date),'positive'),kpi('成交额/总市值',fmt(turn.v),'%',noteWithDelta(turn.row,'trade_date',turn.delta),cls(turn.delta)),kpi('美国10年期国债',fmt(t10.v),'%',noteWithDelta(t10.row,'trade_date',t10.delta),cls(t10.delta))].join('');const mainSymbols=['^IXIC','^GSPC','^DJI','DX-Y.NYB','000688.SH','931087.CSI'];const mainCards=mainSymbols.map(sym=>cards.find(c=>c.symbol===sym)).filter(Boolean);document.getElementById('overviewMarketCards').innerHTML=mainCards.map(assetCard).join('');if(b.length){const recent=b.slice(-80);Plotly.newPlot('overviewBreadth',[{x:recent.map(x=>cnDate(x.trade_date)),y:recent.map(x=>x.up_count),name:'上涨',type:'bar',...K_BAR,marker:{color:C.up}},{x:recent.map(x=>cnDate(x.trade_date)),y:recent.map(x=>-Number(x.down_count||0)),name:'下跌（负轴）',type:'bar',...K_BAR,marker:{color:C.down}}],kBarLayout({barmode:'relative',yaxis:{title:'家数',gridcolor:C.grid}}),CONFIG)}}
 
@@ -623,7 +733,7 @@ function renderMessages(){
   };
 }
 
-function renderHealth(){const ds=DATA.status.datasets||{};const labels={macro:'宏观数据',liquidity:'DR/Shibor',market:'全球行情',global_macro:'美债与美元流动性',valuation:'历史估值',sentiment:'A股情绪',crowding:'交易拥挤度',breadth:'涨跌家数',leverage:'两融杠杆',deviation:'指数偏离度',fund_subscription:'基金募集',messages:'讯息推送'};document.getElementById('sourceCards').innerHTML=Object.entries(labels).map(([key,label])=>{const d=ds[key]||{status:'empty'};return `<div class="source-card"><div class="source-status ${d.status}">${label} · ${d.status||'empty'}</div><div class="asset-symbol" style="margin-top:7px">最新日期：${cnDate(d.latest_date)}</div><div class="asset-symbol">本次写入：${d.rows??0} 行；缓存：${d.cached_rows??d.total_cached_rows??0} 行</div>${d.error?`<div class="hint">${String(d.error).slice(0,420)}</div>`:''}</div>`}).join('')}
+function renderHealth(){const ds=DATA.status.datasets||{};const labels={macro:'宏观数据',liquidity:'DR/Shibor',market:'全球行情',global_macro:'美债与美元流动性',market_tracking:'大盘跟踪模型',valuation:'历史估值',sentiment:'A股情绪',crowding:'交易拥挤度',breadth:'涨跌家数',leverage:'两融杠杆',deviation:'指数偏离度',fund_subscription:'基金募集',messages:'讯息推送'};document.getElementById('sourceCards').innerHTML=Object.entries(labels).map(([key,label])=>{const d=ds[key]||{status:'empty'};return `<div class="source-card"><div class="source-status ${d.status}">${label} · ${d.status||'empty'}</div><div class="asset-symbol" style="margin-top:7px">最新日期：${cnDate(d.latest_date)}</div><div class="asset-symbol">本次写入：${d.rows??0} 行；缓存：${d.cached_rows??d.total_cached_rows??0} 行</div>${d.error?`<div class="hint">${String(d.error).slice(0,420)}</div>`:''}</div>`}).join('')}
 
 function safeRender(name,fn){
   try{
@@ -636,6 +746,7 @@ function safeRender(name,fn){
 }
 const panelRenderers={
   overview:renderOverview,
+  tracking:renderTracking,
   macro:renderMacro,
   messages:renderMessages,
   global:renderGlobal,
@@ -678,6 +789,7 @@ def main() -> None:
         "global_macro": "global_macro.csv", "valuation": "valuation.csv",
         "crowding": "crowding.csv", "breadth": "breadth.csv", "leverage": "leverage.csv",
         "deviation": "deviation.csv", "fund": "fund_subscription.csv",
+        "market_tracking_history": "market_tracking.csv",
     }
     data = {key: read_csv_safe(DATA_DIR / filename) for key, filename in paths.items()}
     for key in ["market", "valuation", "crowding", "breadth", "leverage", "liquidity", "global_macro", "deviation"]:
@@ -686,6 +798,7 @@ def main() -> None:
             data[key] = data[key].sort_values(sort_cols) if sort_cols else data[key]
     messages = read_messages()
     messages["market_items"] = read_market_messages()
+    market_tracking = read_market_tracking()
     payload = {
         "status": read_status(),
         "macro": dataframe_to_records(data["macro"]),
@@ -693,6 +806,8 @@ def main() -> None:
         "market": grouped_tail_records(data["market"], "symbol", rows_per_group=520),
         "market_cards": latest_market_cards(data["market"]),
         "messages": messages,
+        "market_tracking": market_tracking,
+        "market_tracking_history": dataframe_to_records(data["market_tracking_history"], max_rows=300),
         "global_macro": grouped_tail_records(data["global_macro"], "series", rows_per_group=20000),
         "valuation": grouped_tail_records(data["valuation"], "index_code", rows_per_group=3500),
         "valuation_summary": valuation_summary(data["valuation"]),

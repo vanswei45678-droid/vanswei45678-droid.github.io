@@ -104,6 +104,19 @@ def main() -> None:
         except Exception as exc:
             errors.append(f"unreadable messages feed data/messages.json: {exc}")
 
+    tracking_path = ROOT / "data" / "market_tracking.json"
+    if not tracking_path.exists():
+        warnings.append("missing optional market tracking model: data/market_tracking.json")
+    else:
+        try:
+            tracking = json.loads(tracking_path.read_text(encoding="utf-8"))
+            if not isinstance(tracking.get("tracking"), dict):
+                warnings.append("data/market_tracking.json has no tracking object")
+            if not isinstance(tracking.get("framework_sections"), list):
+                warnings.append("data/market_tracking.json has no framework_sections list")
+        except Exception as exc:
+            errors.append(f"unreadable market tracking model data/market_tracking.json: {exc}")
+
     result = {
         "ok": not errors,
         "deployment_allowed": not errors,

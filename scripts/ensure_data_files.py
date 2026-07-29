@@ -25,6 +25,7 @@ SCHEMAS = {
     "fund_subscription.csv": ["founded_date","fund_code","fund_name","fund_type","fund_company","raised_shares_100m","estimated_raised_amount_100m","source","method_note"],
     "a_share_universe.csv": ["code","exchange","source","updated_at"],
     "market_messages.csv": ["published_at","category","title","summary","source","source_url","symbol","stock_name","importance","status","source_type","item_id"],
+    "market_tracking.csv": ["trade_date","market_score","risk_score","suggested_position_pct","risk_level","market_phase","style_signal","source"],
 }
 
 
