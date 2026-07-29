@@ -25,10 +25,10 @@ export default {
     if (url.pathname !== "/" && url.pathname !== "/index.html") {
       return Response.redirect(url.origin + "/", 302);
     }
-    return new Response(htmlGzip, {
+    const htmlStream = new Response(htmlGzip).body.pipeThrough(new DecompressionStream("gzip"));
+    return new Response(htmlStream, {
       headers: {
         "content-type": "text/html; charset=utf-8",
-        "content-encoding": "gzip",
         "cache-control": "public, max-age=120",
         "x-content-type-options": "nosniff"
       }
