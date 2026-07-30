@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-30 13:40:44+08:00",
+  "updated_at": "2026-07-30 19:12:03+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -107,6 +107,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-59723b78f84c4498",
+      "category": "重大新闻",
+      "title": "晚间公告｜7月30日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 1664 29分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103299227.html",
+      "published_at": "2026-07-30",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-ac8918ce29211eb6",
+      "category": "重大新闻",
+      "title": "龙虎榜丨机构今日买入这28股，卖出源杰科技20.83亿元 共70只个股出现了机构的身影。 1292 37分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103299215.html",
+      "published_at": "2026-07-30",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-391a23f9a1b1f52a",
+      "category": "重大新闻",
+      "title": "小幅加仓 486 57分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103299179.html",
+      "published_at": "2026-07-30",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-20299e1bde032705",
+      "category": "重大新闻",
+      "title": "中际旭创港股首日“破发”，主因发行价太贵？｜市场观察 海外科技巨头缩减资本开支。 1633 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103299076.html",
+      "published_at": "2026-07-30",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-5bfddefea8535b0f",
+      "category": "重大新闻",
+      "title": "美联储分歧加剧，金价4000美元关口拉锯 当美联储自己都不知道方向，黄金走向何方？ 2625 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103299062.html",
+      "published_at": "2026-07-30",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-d531a5ea52fed070",
       "category": "重大新闻",
@@ -966,13 +1036,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-07-30 13:40:44+08:00",
+  "last_checked_at": "2026-07-30 19:12:03+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 73445,
-    "covered_stocks": 5495,
-    "notice_rows": 34711,
-    "stock_news_rows": 38734,
+    "rows": 74031,
+    "covered_stocks": 5497,
+    "notice_rows": 34940,
+    "stock_news_rows": 39091,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
