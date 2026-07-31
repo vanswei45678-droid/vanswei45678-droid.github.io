@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-30 21:29:19+08:00",
+  "updated_at": "2026-07-31 08:03:11+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -107,6 +107,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-d79e41319ab4a893",
+      "category": "重大新闻",
+      "title": "财务造假、隐瞒股权代持，渔翁信息IPO欺诈发行被罚 撤回IPO申请两年多后，渔翁信息因欺诈发行被罚400万元。 7 4113 昨天 21:34",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103299499.html",
+      "published_at": "2026-07-31",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-83d1fe5896cf8fb7",
+      "category": "重大新闻",
+      "title": "公募量化上半年扩容，市场剧震拷问超额收益持续性 7月的大幅回撤甚至迅速侵蚀了部分产品前期积累的超额收益，导致上半年的收益“打水漂” 8 8887 昨天 19:4",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103299343.html",
+      "published_at": "2026-07-31",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-972a65cb170a2c84",
+      "category": "重大新闻",
+      "title": "从“黄金时代”到数十万账户归零，韩股“去杠杆”走到哪了 当AI信仰撞上杠杆悬崖，韩股的“血色七月”是一地杠杆碎片 7 14250 昨天 19:30",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103299320.html",
+      "published_at": "2026-07-31",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-59723b78f84c4498",
+      "category": "重大新闻",
+      "title": "晚间公告｜7月30日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 8 78234 昨天 18:40",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103299227.html",
+      "published_at": "2026-07-31",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-ac8918ce29211eb6",
+      "category": "重大新闻",
+      "title": "龙虎榜丨机构今日买入这28股，卖出源杰科技20.83亿元 共70只个股出现了机构的身影。 5 9910 昨天 18:32",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103299215.html",
+      "published_at": "2026-07-31",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-83d1fe5896cf8fb7",
       "category": "重大新闻",
@@ -1176,13 +1246,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-07-30 21:29:19+08:00",
+  "last_checked_at": "2026-07-31 08:03:11+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 74094,
-    "covered_stocks": 5499,
-    "notice_rows": 34992,
-    "stock_news_rows": 39102,
+    "rows": 71003,
+    "covered_stocks": 5478,
+    "notice_rows": 33411,
+    "stock_news_rows": 37592,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
