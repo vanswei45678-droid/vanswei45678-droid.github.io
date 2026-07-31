@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 169,
-      "started_at": "2026-07-31T20:31:20+08:00",
-      "finished_at": "2026-07-31T20:31:40+08:00",
+      "started_at": "2026-07-31T21:04:14+08:00",
+      "finished_at": "2026-07-31T21:04:30+08:00",
       "latest_date": "202607",
       "total_cached_rows": 169,
       "source_details": {
@@ -45,8 +45,8 @@
     "liquidity": {
       "status": "success",
       "rows": 4949,
-      "started_at": "2026-07-31T20:31:40+08:00",
-      "finished_at": "2026-07-31T20:31:58+08:00",
+      "started_at": "2026-07-31T21:04:30+08:00",
+      "finished_at": "2026-07-31T21:04:50+08:00",
       "latest_date": "20260731",
       "total_cached_rows": 4985,
       "source_details": {
@@ -67,8 +67,8 @@
     "market": {
       "status": "success",
       "rows": 32616,
-      "started_at": "2026-07-31T19:10:43+08:00",
-      "finished_at": "2026-07-31T19:10:53+08:00",
+      "started_at": "2026-07-31T21:04:50+08:00",
+      "finished_at": "2026-07-31T21:05:00+08:00",
       "latest_date": "20260731",
       "total_cached_rows": 32617,
       "symbols": {
@@ -178,8 +178,8 @@
     "global_macro": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-07-31T07:29:36+08:00",
-      "finished_at": "2026-07-31T07:41:09+08:00",
+      "started_at": "2026-07-31T21:05:00+08:00",
+      "finished_at": "2026-07-31T21:16:31+08:00",
       "latest_date": "20260729",
       "total_cached_rows": 29978,
       "source_details": {
@@ -220,8 +220,8 @@
     "valuation": {
       "status": "success",
       "rows": 23293,
-      "started_at": "2026-07-31T19:10:53+08:00",
-      "finished_at": "2026-07-31T19:11:25+08:00",
+      "started_at": "2026-07-31T21:16:31+08:00",
+      "finished_at": "2026-07-31T21:16:59+08:00",
       "latest_date": "20260731",
       "total_cached_rows": 23293,
       "indices": {
@@ -321,8 +321,8 @@
     "deviation": {
       "status": "success",
       "rows": 2080,
-      "started_at": "2026-07-31T19:13:02+08:00",
-      "finished_at": "2026-07-31T19:13:02+08:00",
+      "started_at": "2026-07-31T21:18:32+08:00",
+      "finished_at": "2026-07-31T21:18:32+08:00",
       "latest_date": "20260731",
       "total_cached_rows": 2080,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -363,8 +363,8 @@
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-07-31T20:31:58+08:00",
-      "finished_at": "2026-07-31T20:32:05+08:00",
+      "started_at": "2026-07-31T21:18:32+08:00",
+      "finished_at": "2026-07-31T21:18:39+08:00",
       "latest_date": "20260728",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
@@ -373,8 +373,8 @@
     "sentiment": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-07-31T19:11:25+08:00",
-      "finished_at": "2026-07-31T19:13:02+08:00",
+      "started_at": "2026-07-31T21:16:59+08:00",
+      "finished_at": "2026-07-31T21:18:32+08:00",
       "latest_date": "20260731",
       "crowding_cached_rows": 67,
       "breadth_cached_rows": 67,
@@ -382,7 +382,7 @@
         "status": "success",
         "rows": 1,
         "latest_date": "20260730",
-        "source": "深交所融资融券汇总 + 上海两融历史公开表"
+        "source": "上交所融资融券汇总 + 深交所融资融券汇总"
       },
       "source": "新浪沪深京A股实时行情 / AKShare",
       "snapshot_kind": "收盘后快照"
@@ -397,11 +397,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260731",
-      "rows": 72516,
-      "cached_rows": 72516,
-      "covered_stocks": 5486,
+      "rows": 71414,
+      "cached_rows": 71414,
+      "covered_stocks": 5479,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600991.SH: KeyError('code')；600799.SH: KeyError('code')；600849.SH: KeyError('code')"
+      "error": "600856.SH: KeyError('code')；600680.SH: KeyError('code')；600687.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-07-31T20:52:33+08:00",
+  "updated_at": "2026-07-31T21:41:58+08:00",
   "overall_status": "success",
-  "last_update_mode": "evening"
+  "last_update_mode": "all"
 }
