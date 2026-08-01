@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-01 10:51:49+08:00",
+  "updated_at": "2026-08-01 14:05:33+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -107,6 +107,20 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-ff7ad7de009f8d96",
+      "category": "重大新闻",
+      "title": "晓数点丨券商8月金股出炉，涉及医药、信息技术、消费等领域 药明康德最受青睐，共获得7家券商推荐。 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103301639.html",
+      "published_at": "2026-08-01",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-601487032eb41d5f",
       "category": "重大新闻",
@@ -1694,13 +1708,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-08-01 10:51:49+08:00",
+  "last_checked_at": "2026-08-01 14:05:33+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 64909,
-    "covered_stocks": 5460,
-    "notice_rows": 26924,
-    "stock_news_rows": 37985,
+    "rows": 63341,
+    "covered_stocks": 5435,
+    "notice_rows": 24783,
+    "stock_news_rows": 38558,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
