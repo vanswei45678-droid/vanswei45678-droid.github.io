@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-02 10:48:40+08:00",
+  "updated_at": "2026-08-02 14:02:46+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -108,6 +108,76 @@
   ],
   "items": [
     {
+      "id": "auto-yicai-178a5718d3848773",
+      "category": "重大新闻",
+      "title": "晓数点｜一图速览7月A股月报 爱丽家居九连板问鼎7月最牛股，长鑫科技市值登顶A股，主力青睐惠科股份>> 641 53分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103301892.html",
+      "published_at": "2026-08-02",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-78e98c4cbe3ec122",
+      "category": "重大新闻",
+      "title": "下周关注丨香港将推出5年期国债期货，这些投资机会最靠谱 香港将推出5年期国债期货；第27届电子封装技术国际会议将举行；下周42家公司限售股陆续解禁…… 2258",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103301842.html",
+      "published_at": "2026-08-02",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-ff7ad7de009f8d96",
+      "category": "重大新闻",
+      "title": "晓数点丨券商8月金股出炉，涉及医药、信息技术、消费等领域 药明康德最受青睐，共获得7家券商推荐。 6 30649 昨天 11:50",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103301639.html",
+      "published_at": "2026-08-02",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-601487032eb41d5f",
+      "category": "重大新闻",
+      "title": "A股7月收官，科技退潮消费逆势，资金避险还是风格切换？ 7月A股市场呈现极致分化格局，资金从拥挤的科技赛道向消费等低位板块进行阶段性再平衡，但市场风格切换仍需时",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103301418.html",
+      "published_at": "2026-08-02",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-190db0c0a2dbcd23",
+      "category": "重大新闻",
+      "title": "晚间公告｜7月31日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 6 51791 07-31 19:25",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103301136.html",
+      "published_at": "2026-08-02",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
       "id": "auto-yicai-78e98c4cbe3ec122",
       "category": "重大新闻",
       "title": "下周关注丨香港将推出5年期国债期货，这些投资机会最靠谱 香港将推出5年期国债期货；第27届电子封装技术国际会议将举行；下周42家公司限售股陆续解禁…… 1394",
@@ -128,20 +198,6 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103301639.html",
-      "published_at": "2026-08-02",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-601487032eb41d5f",
-      "category": "重大新闻",
-      "title": "A股7月收官，科技退潮消费逆势，资金避险还是风格切换？ 7月A股市场呈现极致分化格局，资金从拥挤的科技赛道向消费等低位板块进行阶段性再平衡，但市场风格切换仍需时",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103301418.html",
       "published_at": "2026-08-02",
       "symbols": [
         "A股"
@@ -1762,71 +1818,6 @@
       ],
       "importance": "medium",
       "status": "已入库"
-    },
-    {
-      "id": "20260726-ann-300750-ir",
-      "category": "公告",
-      "title": "宁德时代发布2026年7月24日投资者关系活动记录表",
-      "summary": "宁德时代投资者关系活动记录表披露，公司2026年上半年收入和归母净利润保持增长，并对动力电池、储能电池销量结构进行说明。适合放入自选后跟踪新能源与储能链条变化。",
-      "source": "新浪财经公司公告",
-      "source_url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12462960&stockid=300750",
-      "published_at": "2026-07-26",
-      "symbols": [
-        "300750.SZ",
-        "新能源",
-        "储能"
-      ],
-      "importance": "high",
-      "status": "已入库"
-    },
-    {
-      "id": "20260725-ann-300750-halfyear",
-      "category": "公告",
-      "title": "宁德时代披露2026年半年度报告",
-      "summary": "宁德时代2026年半年度报告已披露，后续可在讯息页继续追加利润率、现金流、海外业务、储能占比等关键字段，作为新能源核心持仓的定期跟踪材料。",
-      "source": "新浪财经公司公告",
-      "source_url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12462543&stockid=300750",
-      "published_at": "2026-07-25",
-      "symbols": [
-        "300750.SZ",
-        "新能源",
-        "储能"
-      ],
-      "importance": "high",
-      "status": "已入库"
-    },
-    {
-      "id": "20260718-ann-600519-price",
-      "category": "公告",
-      "title": "贵州茅台发布重大事项公告，调整部分飞天茅台价格",
-      "summary": "贵州茅台公告调整部分飞天53%vol 500ml产品在i茅台平台零售价和销售合同价。该事项会影响高端白酒价格体系、渠道预期和公司经营业绩判断。",
-      "source": "新浪财经公司公告",
-      "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?CompanyCode=10000351&gather=1&id=12453221",
-      "published_at": "2026-07-18",
-      "symbols": [
-        "600519.SH",
-        "白酒",
-        "消费"
-      ],
-      "importance": "high",
-      "status": "已入库"
-    },
-    {
-      "id": "20260706-report-galaxy-semi",
-      "category": "新研究报告或点评",
-      "title": "中国银河证券研究：半导体行业周点评",
-      "summary": "中国银河证券研究发布半导体行业周点评，跟踪模拟芯片、半导体设备、材料、数字芯片、制造、封测等子行业表现，并讨论算力芯片板块回调原因。",
-      "source": "新浪财经 / 中国银河证券研究",
-      "source_url": "https://finance.sina.com.cn/wm/2026-07-06/doc-inifwfpv8677269.shtml",
-      "published_at": "2026-07-06",
-      "symbols": [
-        "半导体",
-        "芯片设计",
-        "半导体设备",
-        "封测"
-      ],
-      "importance": "normal",
-      "status": "已入库"
     }
   ],
   "report_templates": [
@@ -1876,13 +1867,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-08-02 10:48:40+08:00",
+  "last_checked_at": "2026-08-02 14:02:46+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 61706,
-    "covered_stocks": 5421,
-    "notice_rows": 23707,
-    "stock_news_rows": 37999,
+    "rows": 53220,
+    "covered_stocks": 5315,
+    "notice_rows": 15226,
+    "stock_news_rows": 37994,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
