@@ -66,11 +66,11 @@
     },
     "market": {
       "status": "success",
-      "rows": 32627,
-      "started_at": "2026-08-02T07:15:56+08:00",
-      "finished_at": "2026-08-02T07:16:06+08:00",
-      "latest_date": "20260731",
-      "total_cached_rows": 32628,
+      "rows": 32628,
+      "started_at": "2026-08-03T07:16:21+08:00",
+      "finished_at": "2026-08-03T07:16:34+08:00",
+      "latest_date": "20260802",
+      "total_cached_rows": 32629,
       "symbols": {
         "000001.SH": {
           "status": "success",
@@ -119,7 +119,7 @@
         },
         "DX-Y.NYB": {
           "status": "success",
-          "rows": 1655,
+          "rows": 1656,
           "source": "Yahoo Finance / yfinance"
         },
         "AAPL": {
@@ -173,13 +173,13 @@
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 32628
+      "cached_rows": 32629
     },
     "global_macro": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-08-02T07:16:06+08:00",
-      "finished_at": "2026-08-02T07:27:38+08:00",
+      "started_at": "2026-08-03T07:16:34+08:00",
+      "finished_at": "2026-08-03T07:28:06+08:00",
       "latest_date": "20260730",
       "total_cached_rows": 29980,
       "source_details": {
@@ -321,8 +321,8 @@
     "deviation": {
       "status": "success",
       "rows": 2080,
-      "started_at": "2026-08-02T07:27:38+08:00",
-      "finished_at": "2026-08-02T07:27:39+08:00",
+      "started_at": "2026-08-03T07:28:06+08:00",
+      "finished_at": "2026-08-03T07:28:07+08:00",
       "latest_date": "20260731",
       "total_cached_rows": 2080,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -396,12 +396,12 @@
     },
     "messages": {
       "status": "partial",
-      "latest_date": "20260802",
-      "rows": 64570,
-      "cached_rows": 64570,
-      "covered_stocks": 5427,
+      "latest_date": "20260803",
+      "rows": 65605,
+      "cached_rows": 65605,
+      "covered_stocks": 5428,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600659.SH: KeyError('code')；600700.SH: KeyError('code')；600656.SH: KeyError('code')"
+      "error": "600978.SH: KeyError('code')；600898.SH: KeyError('code')；600896.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-08-02T20:09:28+08:00",
+  "updated_at": "2026-08-03T07:48:04+08:00",
   "overall_status": "success",
-  "last_update_mode": "evening"
+  "last_update_mode": "global"
 }
