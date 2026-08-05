@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 169,
-      "started_at": "2026-08-04T21:07:10+08:00",
-      "finished_at": "2026-08-04T21:07:33+08:00",
+      "started_at": "2026-08-05T13:24:52+08:00",
+      "finished_at": "2026-08-05T13:25:14+08:00",
       "latest_date": "202607",
       "total_cached_rows": 169,
       "source_details": {
@@ -44,25 +44,25 @@
     },
     "liquidity": {
       "status": "success",
-      "rows": 4951,
-      "started_at": "2026-08-04T21:07:33+08:00",
-      "finished_at": "2026-08-04T21:07:57+08:00",
-      "latest_date": "20260804",
-      "total_cached_rows": 4987,
+      "rows": 4952,
+      "started_at": "2026-08-05T13:25:14+08:00",
+      "finished_at": "2026-08-05T13:25:54+08:00",
+      "latest_date": "20260805",
+      "total_cached_rows": 4988,
       "source_details": {
         "shibor_on": {
           "status": "success",
-          "rows": 4951,
+          "rows": 4952,
           "source": "中国货币网 / AKShare"
         },
         "dr": {
           "status": "failed",
-          "error": "DataFetchError('中国货币网未解析到DR001/DR007；严格不以FDR替代。')",
+          "error": "DataFetchError(\"中国货币网未解析到DR001/DR007；严格不以FDR替代。https://www.chinamoney.com.cn/chinese/mkdatapm/?tab=2: HTTPError('403 Client Error: Forbidden for url: https://www.chinamoney.com.cn/chinese/mkdatapm/?tab=2') | https://www.chinamoney.com.cn/english/mdtqapprp/: HTTPError('403 Client Error: Forbidden for url: https://www.chinamoney.com.cn/english/mdtqapprp/') | https://www.chinamoney.com.cn/chinese/mkdatapm/: HTTPError('403 Client Error: Forbidden for url: https://www.chinamoney.com.cn/chinese/mkdatapm/')\")",
           "note": "严格不使用FDR替代DR"
         }
       },
       "note": "DR来自中国货币网，严格不以FDR替代。",
-      "cached_rows": 4987
+      "cached_rows": 4988
     },
     "market": {
       "status": "success",
@@ -397,11 +397,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260805",
-      "rows": 70104,
-      "cached_rows": 70104,
-      "covered_stocks": 5467,
+      "rows": 70153,
+      "cached_rows": 70153,
+      "covered_stocks": 5468,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600659.SH: KeyError('code')；600656.SH: KeyError('code')；fetch_catl_news: 403 Client Error: Forbidden for url: https://www.catl.com/news/"
+      "error": "600670.SH: KeyError('code')；600766.SH: KeyError('code')；fetch_catl_news: 403 Client Error: Forbidden for url: https://www.catl.com/news/"
     },
     "market_tracking": {
       "status": "success",
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-08-05T10:22:27+08:00",
+  "updated_at": "2026-08-05T13:47:11+08:00",
   "overall_status": "success",
-  "last_update_mode": "global"
+  "last_update_mode": "macro"
 }
