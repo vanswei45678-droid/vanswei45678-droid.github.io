@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05 20:50:51+08:00",
+  "updated_at": "2026-08-05 21:38:34+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "每日随公开数据刷新",
@@ -355,25 +355,25 @@
   "tracking": {
     "trade_date": "20260805",
     "summary": {
-      "market_score": 51.2,
-      "market_score_before_gate": 51.2,
-      "risk_score": 64.0,
+      "market_score": 49.7,
+      "market_score_before_gate": 49.7,
+      "risk_score": 64.5,
       "risk_level": "红色",
-      "market_phase": "震荡期 / 红色预警",
-      "base_position_pct": 50.0,
-      "base_position_range": "40%-60%",
+      "market_phase": "防御期 / 红色预警",
+      "base_position_pct": 30.0,
+      "base_position_range": "20%-40%",
       "risk_discount": 0.6,
       "risk_discount_range": "50%-70%",
-      "suggested_position_pct": 31.0,
-      "suggested_position_range": "20%-42%",
-      "single_stock_limit": "15%",
-      "industry_limit": "35%",
-      "theme_limit": "25%",
+      "suggested_position_pct": 19.0,
+      "suggested_position_range": "10%-28%",
+      "single_stock_limit": "10%",
+      "industry_limit": "25%",
+      "theme_limit": "15%",
       "risk_action": "系统性降仓",
       "liquidity_gate": "",
-      "concentration_note": "单股上限15%，单行业上限35%，单主题上限25%，以结构性机会为主。",
+      "concentration_note": "防御或风险期，单股上限10%，单行业上限25%，单主题上限15%。",
       "style_signal": "大盘价值占优",
-      "style_reason": "成长/科技20日动量均值 -14.30%；宽基20日动量均值 -2.19%；风格差 -12.11%",
+      "style_reason": "成长/科技20日动量均值 -12.96%；宽基20日动量均值 -2.19%；风格差 -10.77%",
       "formula": "实际仓位 = 大盘建议仓位 × 风险折扣"
     },
     "modules": [
@@ -459,15 +459,15 @@
       {
         "name": "估值水平",
         "weight": 15,
-        "score": 32.3,
-        "raw_score": 1.6,
-        "weighted_score": 4.8,
+        "score": 22.5,
+        "raw_score": 1.1,
+        "weighted_score": 3.3,
         "status": "偏弱",
         "basis": [
-          "指数PE历史分位均值 68%",
-          "上证综指 PE历史分位 70%",
-          "上证50 PE历史分位 59%",
-          "沪深300 PE历史分位 64%"
+          "指数PE历史分位均值 78%",
+          "上证综指 PE历史分位 71%",
+          "上证50 PE历史分位 78%",
+          "沪深300 PE历史分位 77%"
         ],
         "blueprint": [
           "宽基指数估值 30%",
@@ -504,9 +504,9 @@
         "weighted_score": 10.0,
         "status": "明显改善",
         "basis": [
-          "成长/科技20日动量均值 -14.30%",
+          "成长/科技20日动量均值 -12.96%",
           "宽基20日动量均值 -2.19%",
-          "风格差 -12.11%"
+          "风格差 -10.77%"
         ],
         "blueprint": [
           "大小盘风格 25%",
@@ -578,11 +578,11 @@
       {
         "name": "估值盈利背离",
         "weight": 10,
-        "risk": 6.7,
-        "raw_risk": 67.3,
-        "level": "偏高",
+        "risk": 7.2,
+        "raw_risk": 72.2,
+        "level": "高",
         "basis": [
-          "指数PE历史分位均值 68%",
+          "指数PE历史分位均值 78%",
           "盈利周期原始分 1.7/5"
         ]
       },
