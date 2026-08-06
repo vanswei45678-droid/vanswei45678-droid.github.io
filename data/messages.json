@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06 07:54:32+08:00",
+  "updated_at": "2026-08-06 10:29:12+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -108,12 +108,68 @@
   ],
   "items": [
     {
+      "id": "auto-yicai-7d8b14dd0e1f4e53",
+      "category": "重大新闻",
+      "title": "A股四大指数集体低开，贵金属板块大幅高开 盘面上，半导体、AI算力等板块指数跌幅居前。 1230 49分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103307305.html",
+      "published_at": "2026-08-06",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-914a18ef078fc163",
+      "category": "重大新闻",
+      "title": "盘前必读丨宇树科技IPO发行价今日确定；道指续创新高 机构认为，市场有望逐步重回年内高盈利主线，8月高盈利高估值风格有望占优。 32602 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103307129.html",
+      "published_at": "2026-08-06",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
       "id": "auto-yicai-7348150f2365cc65",
       "category": "重大新闻",
       "title": "独家｜上交所行动之后深交所也将切换交易线路，周边机房已“供应紧张” 从业内反馈来看，沪深交易所均在推动将交易行情接入方式变更为广域网线路，但实施节奏有所不同。 ",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103307024.html",
+      "published_at": "2026-08-06",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-ea1f3281b76dae05",
+      "category": "重大新闻",
+      "title": "北交所首单简易程序定增落地，还有多单小额快速融资推进中 就在上个月，再融资新规迎来重磅调整，小额快速融资的金额上限翻倍。 5 5260 昨天 20:38",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103306725.html",
+      "published_at": "2026-08-06",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-fcdba9cf01b50dcf",
+      "category": "重大新闻",
+      "title": "科技基金月跌三成 突现“回马枪”，深度调整是否画上句号 科技短暂“回血”难掩调整压力，机构研判或转入震荡磨底模式。 5 12142 昨天 20:34",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103306876.html",
       "published_at": "2026-08-06",
       "symbols": [
         "A股"
@@ -1730,62 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-190db0c0a2dbcd23",
-      "category": "重大新闻",
-      "title": "晚间公告｜7月31日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 10158 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103301136.html",
-      "published_at": "2026-07-31",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-048d44fe01bcc77a",
-      "category": "重大新闻",
-      "title": "龙虎榜丨机构今日买入这28股，卖出德明利4.3亿元 共42只个股出现了机构的身影。 5 3834 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103301070.html",
-      "published_at": "2026-07-31",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-f807607d57d5f6d4",
-      "category": "重大新闻",
-      "title": "仓位下降 1664 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103300983.html",
-      "published_at": "2026-07-31",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-0b63c7eac44cf38c",
-      "category": "重大新闻",
-      "title": "晓数点｜8月财经日历请查收！ 一图速览>> 1664 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103300893.html",
-      "published_at": "2026-07-31",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-08-06 07:54:32+08:00",
+  "last_checked_at": "2026-08-06 10:29:12+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 70241,
-    "covered_stocks": 5453,
-    "notice_rows": 32403,
-    "stock_news_rows": 37838,
+    "rows": 70576,
+    "covered_stocks": 5460,
+    "notice_rows": 32404,
+    "stock_news_rows": 38172,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
