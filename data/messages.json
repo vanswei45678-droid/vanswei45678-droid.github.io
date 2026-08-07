@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07 19:49:18+08:00",
+  "updated_at": "2026-08-07 20:30:38+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -107,6 +107,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-1e2634bddaec7b86",
+      "category": "重大新闻",
+      "title": "晚间公告｜8月7日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 16730 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103309974.html",
+      "published_at": "2026-08-07",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-88124828236689e2",
+      "category": "重大新闻",
+      "title": "看涨收涨 765 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103309873.html",
+      "published_at": "2026-08-07",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-6de299c518b7bf8c",
+      "category": "重大新闻",
+      "title": "连板股追踪丨A股今日共75只个股涨停 这只PCB概念股4连板 PCB概念股宝鼎科技4连板，创新药板块百花医药4连板。一图速览今日连板股>> 3090 5小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103309602.html",
+      "published_at": "2026-08-07",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-21cf14c12ce6f670",
+      "category": "重大新闻",
+      "title": "收盘｜沪指涨1.02% 医药医疗股大涨 全市场超2800只个股上涨。 17784 5小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103309582.html",
+      "published_at": "2026-08-07",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-d7d54d76d50ff2ca",
+      "category": "重大新闻",
+      "title": "A股四大股指开盘涨跌不一，能源金属板块活跃 盘面上，能源金属、民爆概念、油气板块开盘活跃。 7 4082 10小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103308897.html",
+      "published_at": "2026-08-07",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-1e2634bddaec7b86",
       "category": "重大新闻",
@@ -1716,76 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-046550024ba97499",
-      "category": "重大新闻",
-      "title": "香港交易所正式推出5年期人民币国债期货 满足境外投资者日益增长的利率风险管理及交易需求。 1695 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103302309.html",
-      "published_at": "2026-08-03",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-d9b8a1bdd8de0998",
-      "category": "重大新闻",
-      "title": "A股四大指数集体低开，存储器、PCB等概念股走弱 核聚变、人形机器人、AI应用、PEEK材料指数走强。 2501 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103302270.html",
-      "published_at": "2026-08-03",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-80d779fba9f51bfb",
-      "category": "重大新闻",
-      "title": "盘前必读丨日韩股市低开SK海力士跌超5%；一博科技净利润增超15倍 机构认为，海外AI板块出现止跌迹象，但完成真正筑底仍需要过程。 31393 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103302130.html",
-      "published_at": "2026-08-03",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-1faf443b61833b1d",
-      "category": "重大新闻",
-      "title": "从2只到246只再到2只：翻倍基“快闪”式繁荣幻灭 翻倍基\"团灭\"一个月，那些追高的人还好吗？ 14839 昨天 19:42",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103302017.html",
-      "published_at": "2026-08-03",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-0b81e498d30200ac",
-      "category": "重大新闻",
-      "title": "IPO周报：宇树科技将于8月5日询价，韬盛科技陷侵害技术秘密纠纷 宇树科技正式进入发行程序，将于8月10日进行网上网下申购。 IPO周报 6252 昨天 19:",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103302014.html",
-      "published_at": "2026-08-03",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-08-07 19:49:18+08:00",
+  "last_checked_at": "2026-08-07 20:30:38+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 71095,
+    "rows": 71132,
     "covered_stocks": 5458,
-    "notice_rows": 32699,
-    "stock_news_rows": 38396,
+    "notice_rows": 32715,
+    "stock_news_rows": 38417,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
