@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07 10:07:46+08:00",
+  "updated_at": "2026-08-07 10:47:32+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -110,6 +110,76 @@
     {
       "id": "auto-yicai-d7d54d76d50ff2ca",
       "category": "重大新闻",
+      "title": "A股四大股指开盘涨跌不一，能源金属板块活跃 盘面上，能源金属、民爆概念、油气板块开盘活跃。 1385 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103308897.html",
+      "published_at": "2026-08-07",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-edad57ca99973d25",
+      "category": "重大新闻",
+      "title": "盘前必读丨宇树科技今日网上路演；美国对多晶硅衍生品加征关税 机构认为，8月更倾向V型反攻，而非L型筑底。 5 28200 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103308745.html",
+      "published_at": "2026-08-07",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-43c821ff9aae37ec",
+      "category": "重大新闻",
+      "title": "宇树科技估值610亿，王兴兴身家超180亿，美团红杉腾讯阿里共同分羹 宇树科技发行价确定为150.80元/股，股东持股市值初现轮廓。 7 56627 昨天 23",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103308623.html",
+      "published_at": "2026-08-07",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-6bc51e8fcea4d519",
+      "category": "重大新闻",
+      "title": "150.8元/股！宇树科技引爆新一轮“打新热”，股民排队许愿求中签 宇树科技能不能复制甚至超越今年硬科技的首日盛况？ 11 46273 昨天 21:33",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103308404.html",
+      "published_at": "2026-08-07",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-d0178434c54fcc8e",
+      "category": "重大新闻",
+      "title": "调查期间“提前”预警退市风险，上海证监局之后辽宁局又出手 在调查期间即预警重大违法退市风险，在以前案件查办过程中并不多见。监管此举有何用意？ 业内人士对第一财经",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103308465.html",
+      "published_at": "2026-08-07",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-d7d54d76d50ff2ca",
+      "category": "重大新闻",
       "title": "A股四大股指开盘涨跌不一，能源金属板块活跃 盘面上，能源金属、民爆概念、油气板块开盘活跃。 548 26分钟前",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
@@ -156,20 +226,6 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103308404.html",
-      "published_at": "2026-08-07",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-d0178434c54fcc8e",
-      "category": "重大新闻",
-      "title": "调查期间“提前”预警退市风险，上海证监局之后辽宁局又出手 在调查期间即预警重大违法退市风险，在以前案件查办过程中并不多见。监管此举有何用意？ 业内人士对第一财经",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103308465.html",
       "published_at": "2026-08-07",
       "symbols": [
         "A股"
@@ -1730,62 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-190db0c0a2dbcd23",
-      "category": "重大新闻",
-      "title": "晚间公告｜7月31日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 6 51791 07-31 19:25",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103301136.html",
-      "published_at": "2026-08-02",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-78e98c4cbe3ec122",
-      "category": "重大新闻",
-      "title": "下周关注丨香港将推出5年期国债期货，这些投资机会最靠谱 香港将推出5年期国债期货；第27届电子封装技术国际会议将举行；下周42家公司限售股陆续解禁…… 1394",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103301842.html",
-      "published_at": "2026-08-02",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-ff7ad7de009f8d96",
-      "category": "重大新闻",
-      "title": "晓数点丨券商8月金股出炉，涉及医药、信息技术、消费等领域 药明康德最受青睐，共获得7家券商推荐。 6 28293 昨天 11:50",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103301639.html",
-      "published_at": "2026-08-02",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-190db0c0a2dbcd23",
-      "category": "重大新闻",
-      "title": "晚间公告｜7月31日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 6 50675 07-31 19:25",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103301136.html",
-      "published_at": "2026-08-02",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-08-07 10:07:46+08:00",
+  "last_checked_at": "2026-08-07 10:47:32+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 70157,
-    "covered_stocks": 5444,
+    "rows": 70391,
+    "covered_stocks": 5448,
     "notice_rows": 32366,
-    "stock_news_rows": 37791,
+    "stock_news_rows": 38025,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
