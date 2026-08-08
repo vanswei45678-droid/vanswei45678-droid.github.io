@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 169,
-      "started_at": "2026-08-08T11:42:54+08:00",
-      "finished_at": "2026-08-08T11:43:11+08:00",
+      "started_at": "2026-08-08T19:05:04+08:00",
+      "finished_at": "2026-08-08T19:05:24+08:00",
       "latest_date": "202607",
       "total_cached_rows": 169,
       "source_details": {
@@ -45,8 +45,8 @@
     "liquidity": {
       "status": "success",
       "rows": 4954,
-      "started_at": "2026-08-08T11:43:11+08:00",
-      "finished_at": "2026-08-08T11:43:27+08:00",
+      "started_at": "2026-08-08T19:05:24+08:00",
+      "finished_at": "2026-08-08T19:05:44+08:00",
       "latest_date": "20260807",
       "total_cached_rows": 4990,
       "source_details": {
@@ -363,8 +363,8 @@
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-08-07T20:07:57+08:00",
-      "finished_at": "2026-08-07T20:08:37+08:00",
+      "started_at": "2026-08-08T19:05:44+08:00",
+      "finished_at": "2026-08-08T19:05:50+08:00",
       "latest_date": "20260804",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
@@ -397,11 +397,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260808",
-      "rows": 70429,
-      "cached_rows": 70429,
-      "covered_stocks": 5444,
+      "rows": 70557,
+      "cached_rows": 70557,
+      "covered_stocks": 5446,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600811.SH: KeyError('code')；600842.SH: KeyError('code')；600804.SH: KeyError('code')"
+      "error": "600695.SH: KeyError('code')；600723.SH: KeyError('code')；600672.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-08-08T12:01:11+08:00",
+  "updated_at": "2026-08-08T19:26:37+08:00",
   "overall_status": "success",
-  "last_update_mode": "macro"
+  "last_update_mode": "evening"
 }
