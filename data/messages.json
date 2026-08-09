@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09 12:11:38+08:00",
+  "updated_at": "2026-08-09 19:26:48+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -107,6 +107,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-4638e9dddda42700",
+      "category": "重大新闻",
+      "title": "IPO周报：4只新股下周扎堆打新，发行价之间最高相差17倍 下周一，3只新股集中网上申购。 IPO周报 796 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103310954.html",
+      "published_at": "2026-08-09",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-01c2e993fbff24d2",
+      "category": "重大新闻",
+      "title": "机构论后市丨市场超跌反弹进入攻坚期，科技与出口双轮驱动反弹 A股后市怎么走？看看机构怎么说。 796 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103310955.html",
+      "published_at": "2026-08-09",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-8ff1a1076664941e",
+      "category": "重大新闻",
+      "title": "国际金价单周暴涨7%，重返4400美元后结构性博弈加剧 受美国非农就业数据意外爆冷及中东局势缓和预期上升双重因素推动，国际金价单周暴涨逾7%，COMEX黄金期货",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103310935.html",
+      "published_at": "2026-08-09",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-32dbca52da596a3f",
+      "category": "重大新闻",
+      "title": "盛美上海中报透视：股票浮盈撑起近半净利，二季度股价涨超200% 扣非净利润下滑15%，但二季度环比改善明显 1385 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103310889.html",
+      "published_at": "2026-08-09",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-f36f6e6147afa45e",
+      "category": "重大新闻",
+      "title": "晓数点丨明日打新！全方位图解宇树科技IPO 人形机器人第一股来了！ 2687 4小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103310862.html",
+      "published_at": "2026-08-09",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-77bb12908c3cd823",
       "category": "重大新闻",
@@ -1716,76 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-c2bf5d7c49872c68",
-      "category": "重大新闻",
-      "title": "晚间公告｜8月4日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 6655 50分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103304940.html",
-      "published_at": "2026-08-04",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-74943917b42e1906",
-      "category": "重大新闻",
-      "title": "龙虎榜丨机构今日买入这35股，卖出光智科技1.37亿元 共53只个股出现了机构的身影。 1788 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103304916.html",
-      "published_at": "2026-08-04",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-553ce156dbc4ec6f",
-      "category": "重大新闻",
-      "title": "止盈？ 548 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103304866.html",
-      "published_at": "2026-08-04",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-f57ae38ed820d636",
-      "category": "重大新闻",
-      "title": "A股四大指数集体高开，算力硬件产业链反弹，医药股爆发 盘面上，算力硬件产业链反弹，OCS、CPO、光通信方向涨幅居前，医药股爆发。 6 3214 4小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103303937.html",
-      "published_at": "2026-08-04",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-8cc714256f51a590",
-      "category": "重大新闻",
-      "title": "盘前必读丨新型电力系统建设规划出炉；中微公司上半年预增超280% 机构认为，短期关注高低切机会，医药、消费电子吸引机构调研。 33749 5小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103303818.html",
-      "published_at": "2026-08-04",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-08-09 12:11:38+08:00",
+  "last_checked_at": "2026-08-09 19:26:48+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 68520,
+    "rows": 68627,
     "covered_stocks": 5434,
-    "notice_rows": 31514,
-    "stock_news_rows": 37006,
+    "notice_rows": 31517,
+    "stock_news_rows": 37110,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
