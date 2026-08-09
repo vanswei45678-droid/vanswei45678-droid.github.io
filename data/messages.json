@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09 09:42:03+08:00",
+  "updated_at": "2026-08-09 12:11:38+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -110,7 +110,7 @@
     {
       "id": "auto-yicai-77bb12908c3cd823",
       "category": "重大新闻",
-      "title": "下周关注丨宇树科技将打新，这些投资机会最靠谱 7月M2、社融数据将公布；成品油迎来调价窗口；长鑫科技将被纳入重要指数；宇树科技发行在即...... 10分钟前",
+      "title": "下周关注丨宇树科技将打新，这些投资机会最靠谱 7月M2、社融数据将公布；成品油迎来调价窗口；长鑫科技将被纳入重要指数；宇树科技发行在即...... 22558 ",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103310810.html",
@@ -124,7 +124,7 @@
     {
       "id": "auto-yicai-b10b8ccda2d961e8",
       "category": "重大新闻",
-      "title": "沪深交易所完善LOF退出机制：坚持投资者为本 沪深交易所近日起草并公开征求意见，以完善上市开放式基金相关制度并保护投资者权益。 8794 08-07 23:02",
+      "title": "沪深交易所完善LOF退出机制：坚持投资者为本 沪深交易所近日起草并公开征求意见，以完善上市开放式基金相关制度并保护投资者权益。 9569 08-07 23:02",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103310362.html",
@@ -156,6 +156,48 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103310234.html",
+      "published_at": "2026-08-09",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-1e2634bddaec7b86",
+      "category": "重大新闻",
+      "title": "晚间公告｜8月7日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 71073 08-07 18:49",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103309974.html",
+      "published_at": "2026-08-09",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-77bb12908c3cd823",
+      "category": "重大新闻",
+      "title": "下周关注丨宇树科技将打新，这些投资机会最靠谱 7月M2、社融数据将公布；成品油迎来调价窗口；长鑫科技将被纳入重要指数；宇树科技发行在即...... 10分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103310810.html",
+      "published_at": "2026-08-09",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-b10b8ccda2d961e8",
+      "category": "重大新闻",
+      "title": "沪深交易所完善LOF退出机制：坚持投资者为本 沪深交易所近日起草并公开征求意见，以完善上市开放式基金相关制度并保护投资者权益。 8794 08-07 23:02",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103310362.html",
       "published_at": "2026-08-09",
       "symbols": [
         "A股"
@@ -1744,48 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-6f1b71fdeea9b718",
-      "category": "重大新闻",
-      "title": "四川一男子2年前用AI编造“小作文”被追查 尽管违法行为发生在2023年底，但被发现是在两年内。 8 11088 昨天 22:27",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103303682.html",
-      "published_at": "2026-08-04",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-296d23fd233271c5",
-      "category": "重大新闻",
-      "title": "首只离岸国债期货落地香港，资本市场双向开放再升级 第一财经了解到，部分外资机构已为产品上线做好前期准备。 26123 昨天 21:26",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103303590.html",
-      "published_at": "2026-08-04",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-0943eb62402eac48",
-      "category": "重大新闻",
-      "title": "7月沪市回购增持迎高峰期，实施速度加快 呈现出“家次多、买入快”的特点。 11863 昨天 19:43",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103303423.html",
-      "published_at": "2026-08-04",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-08-09 09:42:03+08:00",
+  "last_checked_at": "2026-08-09 12:11:38+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 68532,
-    "covered_stocks": 5432,
+    "rows": 68520,
+    "covered_stocks": 5434,
     "notice_rows": 31514,
-    "stock_news_rows": 37018,
+    "stock_news_rows": 37006,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
