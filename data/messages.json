@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-10 18:36:07+08:00",
+  "updated_at": "2026-08-10 19:55:42+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -107,6 +107,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-7e8572917a27b47b",
+      "category": "重大新闻",
+      "title": "持续看涨 579 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103312174.html",
+      "published_at": "2026-08-10",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-3fcee6d3a7e00ad1",
+      "category": "重大新闻",
+      "title": "晚间公告｜8月10日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 9445 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103312287.html",
+      "published_at": "2026-08-10",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-db4270a8e1cd075e",
+      "category": "重大新闻",
+      "title": "北交所首批中报业绩亮眼，四成公司净利增幅超100% 高景气赛道企业中报业绩亮眼。 5601 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103312232.html",
+      "published_at": "2026-08-10",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-faab7d3b99fe8e55",
+      "category": "重大新闻",
+      "title": "摩尔线程中报增收减亏，A股上市8个月后启动赴港上市 半年度营收翻倍，利润减亏。 7461 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103312017.html",
+      "published_at": "2026-08-10",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-c061aaca8b44b3b9",
+      "category": "重大新闻",
+      "title": "主题基金“风格漂移”，无证“大V”带货！又有公募基金领“双罚” 从D到C，又见“双罚单”！公募流量游戏面临终局 10902 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103312008.html",
+      "published_at": "2026-08-10",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-faab7d3b99fe8e55",
       "category": "重大新闻",
@@ -1716,76 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-80c1183c4a41236a",
-      "category": "重大新闻",
-      "title": "连板股追踪丨A股今日共105只个股涨停 这只教育股8连板 氢能板块德龙汇能收获4连板。一图速览今日连板股>> 3431 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103306493.html",
-      "published_at": "2026-08-05",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-6d11bef25781d661",
-      "category": "重大新闻",
-      "title": "独家｜一柜难求！局域网交易线路关闭，“近交易所”机房租金暴涨 “我们认为这一轮调整不宜简单解读为‘限制量化’，而是监管部门和交易所近年来程序化交易监管持续深化的",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103306107.html",
-      "published_at": "2026-08-05",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-3813f98dbedc42a3",
-      "category": "重大新闻",
-      "title": "美国拟禁止进口中国光模块？业内：难以脱钩，影响可控 “美国严格禁止进口中国光模块的可能性较小。” 9 25689 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103305723.html",
-      "published_at": "2026-08-05",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-03d8a6c8a088cf85",
-      "category": "重大新闻",
-      "title": "A股四大指数集体低开，CPO概念股大幅回调 稀土永磁、智能驾驶、黄金逆势走强。市场逾2400股下跌。 9 3865 4小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103305607.html",
-      "published_at": "2026-08-05",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-53d5bbb0957d90a4",
-      "category": "重大新闻",
-      "title": "盘前必读丨日韩股市高开SK海力士涨超6%；联创光电及实控人被证监会立案 机构认为，市场震荡为主，趋势行情还需确认。 5 35175 5小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103305479.html",
-      "published_at": "2026-08-05",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-08-10 18:36:07+08:00",
+  "last_checked_at": "2026-08-10 19:55:42+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 66094,
-    "covered_stocks": 5412,
-    "notice_rows": 29196,
-    "stock_news_rows": 36898,
+    "rows": 67600,
+    "covered_stocks": 5423,
+    "notice_rows": 30658,
+    "stock_news_rows": 36942,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
