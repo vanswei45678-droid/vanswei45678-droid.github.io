@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13 09:56:59+08:00",
+  "updated_at": "2026-08-13 12:43:17+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -110,6 +110,76 @@
     {
       "id": "auto-yicai-428a31afb776c5bb",
       "category": "重大新闻",
+      "title": "A股四大指数集体高开，算力硬件产业链走强 盘面上，算力硬件产业链走强，PCB、存储器、CPO方向领涨。 7 3462 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103316247.html",
+      "published_at": "2026-08-13",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-4f82d25b16183185",
+      "category": "重大新闻",
+      "title": "盘前必读丨央行报告释放多重信号；中鼎股份澄清市场传闻 机构认为，上证指数遇年线面临调整压力，关注创新药及券商。 6 32664 4小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103316086.html",
+      "published_at": "2026-08-13",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-2ca84b71eeda034c",
+      "category": "重大新闻",
+      "title": "半年报净利增速超营收，AI 代工龙头工业富联如何支撑万亿估值 工业富联表示 \"公司已在Vera Rubin平台实现前瞻卡位” 8546 昨天 20:29",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103315531.html",
+      "published_at": "2026-08-13",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-a9a77b3fe1900088",
+      "category": "重大新闻",
+      "title": "被罚当日宣布免费内容将停更，财经大V齐俊杰及旗下百亿私募同领监管罚单 耐人寻味的是，就在罚单披露当日，齐俊杰发文称9月以后所有观点均只向知识星球的付费用户提供；",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103315544.html",
+      "published_at": "2026-08-13",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-d6745d1234ae6165",
+      "category": "重大新闻",
+      "title": "恒生科技指数启动扩容，资金或将被动减持互联网巨头？｜市场观察 预计纳入更多人工智能硬件公司。 7 15056 昨天 18:55",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103315509.html",
+      "published_at": "2026-08-13",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-428a31afb776c5bb",
+      "category": "重大新闻",
       "title": "A股四大指数集体高开，算力硬件产业链走强 盘面上，算力硬件产业链走强，PCB、存储器、CPO方向领涨。 22分钟前",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
@@ -142,20 +212,6 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103315531.html",
-      "published_at": "2026-08-13",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-a9a77b3fe1900088",
-      "category": "重大新闻",
-      "title": "被罚当日宣布免费内容将停更，财经大V齐俊杰及旗下百亿私募同领监管罚单 耐人寻味的是，就在罚单披露当日，齐俊杰发文称9月以后所有观点均只向知识星球的付费用户提供；",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103315544.html",
       "published_at": "2026-08-13",
       "symbols": [
         "A股"
@@ -1730,62 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-21cf14c12ce6f670",
-      "category": "重大新闻",
-      "title": "收盘｜沪指涨1.02% 医药医疗股大涨 全市场超2800只个股上涨。 17784 5小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103309582.html",
-      "published_at": "2026-08-07",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-d7d54d76d50ff2ca",
-      "category": "重大新闻",
-      "title": "A股四大股指开盘涨跌不一，能源金属板块活跃 盘面上，能源金属、民爆概念、油气板块开盘活跃。 7 4082 10小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103308897.html",
-      "published_at": "2026-08-07",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-1e2634bddaec7b86",
-      "category": "重大新闻",
-      "title": "晚间公告｜8月7日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 5756 59分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103309974.html",
-      "published_at": "2026-08-07",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-88124828236689e2",
-      "category": "重大新闻",
-      "title": "看涨收涨 424 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103309873.html",
-      "published_at": "2026-08-07",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-08-13 09:56:59+08:00",
+  "last_checked_at": "2026-08-13 12:43:17+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 69570,
-    "covered_stocks": 5439,
-    "notice_rows": 32499,
-    "stock_news_rows": 37071,
+    "rows": 69805,
+    "covered_stocks": 5442,
+    "notice_rows": 32501,
+    "stock_news_rows": 37304,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
