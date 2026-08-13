@@ -66,15 +66,15 @@
     },
     "market": {
       "status": "success",
-      "rows": 32787,
-      "started_at": "2026-08-13T07:06:47+08:00",
-      "finished_at": "2026-08-13T07:06:57+08:00",
-      "latest_date": "20260812",
-      "total_cached_rows": 32790,
+      "rows": 32793,
+      "started_at": "2026-08-13T17:45:53+08:00",
+      "finished_at": "2026-08-13T17:46:01+08:00",
+      "latest_date": "20260813",
+      "total_cached_rows": 32796,
       "symbols": {
         "000001.SH": {
           "status": "success",
-          "rows": 1602,
+          "rows": 1603,
           "source": "新浪财经 / AKShare"
         },
         "399001.SZ": {
@@ -89,12 +89,12 @@
         },
         "000300.SH": {
           "status": "success",
-          "rows": 1602,
+          "rows": 1603,
           "source": "新浪财经 / AKShare"
         },
         "000688.SH": {
           "status": "success",
-          "rows": 1602,
+          "rows": 1603,
           "source": "新浪财经 / AKShare"
         },
         "931087.CSI": {
@@ -119,7 +119,7 @@
         },
         "DX-Y.NYB": {
           "status": "success",
-          "rows": 1663,
+          "rows": 1664,
           "source": "Yahoo Finance / yfinance"
         },
         "AAPL": {
@@ -164,16 +164,16 @@
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1620,
+          "rows": 1621,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
           "status": "success",
-          "rows": 1620,
+          "rows": 1621,
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 32790
+      "cached_rows": 32796
     },
     "global_macro": {
       "status": "success",
@@ -220,8 +220,8 @@
     "valuation": {
       "status": "success",
       "rows": 23333,
-      "started_at": "2026-08-12T20:08:45+08:00",
-      "finished_at": "2026-08-12T20:09:29+08:00",
+      "started_at": "2026-08-13T17:46:01+08:00",
+      "finished_at": "2026-08-13T17:46:25+08:00",
       "latest_date": "20260812",
       "total_cached_rows": 23333,
       "indices": {
@@ -264,9 +264,9 @@
     "crowding": {
       "status": "success",
       "rows": 64,
-      "cached_rows": 75,
+      "cached_rows": 76,
       "total_cached_rows": 64,
-      "latest_date": "20260812",
+      "latest_date": "20260813",
       "source_details": {
         "crowding_history": {
           "status": "success",
@@ -282,9 +282,9 @@
     "breadth": {
       "status": "success",
       "rows": 64,
-      "cached_rows": 75,
+      "cached_rows": 76,
       "total_cached_rows": 64,
-      "latest_date": "20260812",
+      "latest_date": "20260813",
       "source_details": {
         "breadth_counts": {
           "status": "success",
@@ -304,9 +304,9 @@
     "leverage": {
       "status": "success",
       "rows": 63,
-      "cached_rows": 74,
+      "cached_rows": 75,
       "total_cached_rows": 63,
-      "latest_date": "20260811",
+      "latest_date": "20260812",
       "source_details": {
         "margin_balance": {
           "status": "success",
@@ -321,17 +321,17 @@
     "deviation": {
       "status": "success",
       "rows": 2095,
-      "started_at": "2026-08-13T07:18:29+08:00",
-      "finished_at": "2026-08-13T07:18:29+08:00",
-      "latest_date": "20260812",
+      "started_at": "2026-08-13T17:47:49+08:00",
+      "finished_at": "2026-08-13T17:47:49+08:00",
+      "latest_date": "20260813",
       "total_cached_rows": 2095,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
       "indices": {
         "000001.SH": {
           "status": "success",
           "rows": 419,
-          "latest_week_date": "20260812",
-          "latest_month_date": "20260812"
+          "latest_week_date": "20260813",
+          "latest_month_date": "20260813"
         },
         "399001.SZ": {
           "status": "success",
@@ -348,14 +348,14 @@
         "000688.SH": {
           "status": "success",
           "rows": 419,
-          "latest_week_date": "20260812",
-          "latest_month_date": "20260812"
+          "latest_week_date": "20260813",
+          "latest_month_date": "20260813"
         },
         "000300.SH": {
           "status": "success",
           "rows": 419,
-          "latest_week_date": "20260812",
-          "latest_month_date": "20260812"
+          "latest_week_date": "20260813",
+          "latest_month_date": "20260813"
         }
       },
       "cached_rows": 2095
@@ -373,15 +373,15 @@
     "sentiment": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-08-12T20:09:29+08:00",
-      "finished_at": "2026-08-12T20:11:01+08:00",
-      "latest_date": "20260812",
-      "crowding_cached_rows": 75,
-      "breadth_cached_rows": 75,
+      "started_at": "2026-08-13T17:46:25+08:00",
+      "finished_at": "2026-08-13T17:47:49+08:00",
+      "latest_date": "20260813",
+      "crowding_cached_rows": 76,
+      "breadth_cached_rows": 76,
       "leverage": {
         "status": "success",
         "rows": 1,
-        "latest_date": "20260811",
+        "latest_date": "20260812",
         "source": "上交所融资融券汇总 + 深交所融资融券汇总"
       },
       "source": "新浪沪深京A股实时行情 / AKShare",
@@ -397,22 +397,22 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260813",
-      "rows": 69805,
-      "cached_rows": 69805,
-      "covered_stocks": 5442,
+      "rows": 67171,
+      "cached_rows": 67171,
+      "covered_stocks": 5431,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600652.SH: KeyError('code')；600701.SH: KeyError('code')；600656.SH: KeyError('code')"
+      "error": "600723.SH: KeyError('code')；600687.SH: KeyError('code')；600695.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
-      "latest_date": "20260812",
-      "rows": 75,
-      "cached_rows": 75,
+      "latest_date": "20260813",
+      "rows": 76,
+      "cached_rows": 76,
       "source": "由宏观、流动性、估值、A股情绪、两融、全球市场公开数据自动评分",
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-08-13T12:43:31+08:00",
+  "updated_at": "2026-08-13T18:29:19+08:00",
   "overall_status": "success",
-  "last_update_mode": "macro"
+  "last_update_mode": "close"
 }
