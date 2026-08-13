@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13 18:28:15+08:00",
+  "updated_at": "2026-08-13 19:59:39+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -107,6 +107,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-e341b9864a5826fc",
+      "category": "重大新闻",
+      "title": "晚间公告｜8月13日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 10871 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103317224.html",
+      "published_at": "2026-08-13",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-06495d928689fcff",
+      "category": "重大新闻",
+      "title": "龙虎榜丨机构今日抛售这24股，买入麦迪科技2.95亿元 共40只个股出现了机构的身影。 2687 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103317177.html",
+      "published_at": "2026-08-13",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-b8a38fc2a6ebabc4",
+      "category": "重大新闻",
+      "title": "超节点规模化部署，这些A股算力产业环节有望受益 两大消息催化国产算力情绪 5973 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103317141.html",
+      "published_at": "2026-08-13",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-5e33a6b0c36141c3",
+      "category": "重大新闻",
+      "title": "缩量反弹 765 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103317175.html",
+      "published_at": "2026-08-13",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-33e114ce5e2e18a1",
+      "category": "重大新闻",
+      "title": "积极加仓 1013 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103317171.html",
+      "published_at": "2026-08-13",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-06495d928689fcff",
       "category": "重大新闻",
@@ -1716,76 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-88124828236689e2",
-      "category": "重大新闻",
-      "title": "看涨收涨 3059 昨天 18:22",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103309873.html",
-      "published_at": "2026-08-08",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-b10b8ccda2d961e8",
-      "category": "重大新闻",
-      "title": "沪深交易所完善LOF退出机制：坚持投资者为本 沪深交易所近日起草并公开征求意见，以完善上市开放式基金相关制度并保护投资者权益。 2873 昨天 23:02",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103310362.html",
-      "published_at": "2026-08-08",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-1e2634bddaec7b86",
-      "category": "重大新闻",
-      "title": "晚间公告｜8月7日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 57092 昨天 18:49",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103309974.html",
-      "published_at": "2026-08-08",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-88124828236689e2",
-      "category": "重大新闻",
-      "title": "看涨收涨 2842 昨天 18:22",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103309873.html",
-      "published_at": "2026-08-08",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-b10b8ccda2d961e8",
-      "category": "重大新闻",
-      "title": "沪深交易所完善LOF退出机制：坚持投资者为本 沪深交易所近日起草并公开征求意见，以完善上市开放式基金相关制度并保护投资者权益。 2067 昨天 23:02",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103310362.html",
-      "published_at": "2026-08-08",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-08-13 18:28:15+08:00",
+  "last_checked_at": "2026-08-13 19:59:39+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 67171,
-    "covered_stocks": 5431,
-    "notice_rows": 29649,
-    "stock_news_rows": 37526,
+    "rows": 69109,
+    "covered_stocks": 5438,
+    "notice_rows": 31444,
+    "stock_news_rows": 37665,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
