@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 169,
-      "started_at": "2026-08-15T11:05:09+08:00",
-      "finished_at": "2026-08-15T11:05:26+08:00",
+      "started_at": "2026-08-15T18:56:26+08:00",
+      "finished_at": "2026-08-15T18:56:45+08:00",
       "latest_date": "202607",
       "total_cached_rows": 169,
       "source_details": {
@@ -45,8 +45,8 @@
     "liquidity": {
       "status": "success",
       "rows": 4959,
-      "started_at": "2026-08-15T11:05:26+08:00",
-      "finished_at": "2026-08-15T11:05:43+08:00",
+      "started_at": "2026-08-15T18:56:45+08:00",
+      "finished_at": "2026-08-15T18:57:01+08:00",
       "latest_date": "20260814",
       "total_cached_rows": 4995,
       "source_details": {
@@ -363,8 +363,8 @@
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-08-14T20:08:24+08:00",
-      "finished_at": "2026-08-14T20:08:37+08:00",
+      "started_at": "2026-08-15T18:57:01+08:00",
+      "finished_at": "2026-08-15T18:57:12+08:00",
       "latest_date": "20260806",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
@@ -397,11 +397,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260815",
-      "rows": 67822,
-      "cached_rows": 67822,
-      "covered_stocks": 5393,
+      "rows": 68241,
+      "cached_rows": 68241,
+      "covered_stocks": 5395,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "603897.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；603963.SH: KeyError('code')；603603.SH: KeyError('code')"
+      "error": "600836.SH: KeyError('code')；600806.SH: KeyError('code')；600870.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-08-15T11:25:25+08:00",
+  "updated_at": "2026-08-15T19:15:49+08:00",
   "overall_status": "success",
-  "last_update_mode": "macro"
+  "last_update_mode": "evening"
 }
