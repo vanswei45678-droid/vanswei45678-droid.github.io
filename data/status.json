@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 169,
-      "started_at": "2026-08-14T19:54:21+08:00",
-      "finished_at": "2026-08-14T19:54:35+08:00",
+      "started_at": "2026-08-15T11:05:09+08:00",
+      "finished_at": "2026-08-15T11:05:26+08:00",
       "latest_date": "202607",
       "total_cached_rows": 169,
       "source_details": {
@@ -45,8 +45,8 @@
     "liquidity": {
       "status": "success",
       "rows": 4959,
-      "started_at": "2026-08-14T19:54:35+08:00",
-      "finished_at": "2026-08-14T19:54:55+08:00",
+      "started_at": "2026-08-15T11:05:26+08:00",
+      "finished_at": "2026-08-15T11:05:43+08:00",
       "latest_date": "20260814",
       "total_cached_rows": 4995,
       "source_details": {
@@ -397,11 +397,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260815",
-      "rows": 67967,
-      "cached_rows": 67967,
-      "covered_stocks": 5387,
+      "rows": 67822,
+      "cached_rows": 67822,
+      "covered_stocks": 5393,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600890.SH: KeyError('code')；600878.SH: KeyError('code')；600891.SH: KeyError('code')"
+      "error": "603897.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；603963.SH: KeyError('code')；603603.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-08-15T09:17:38+08:00",
+  "updated_at": "2026-08-15T11:25:25+08:00",
   "overall_status": "success",
-  "last_update_mode": "global"
+  "last_update_mode": "macro"
 }
