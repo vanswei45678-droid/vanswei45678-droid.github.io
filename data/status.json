@@ -66,11 +66,11 @@
     },
     "market": {
       "status": "success",
-      "rows": 31222,
-      "started_at": "2026-08-16T06:43:41+08:00",
-      "finished_at": "2026-08-16T06:44:19+08:00",
-      "latest_date": "20260814",
-      "total_cached_rows": 32830,
+      "rows": 32828,
+      "started_at": "2026-08-17T06:43:03+08:00",
+      "finished_at": "2026-08-17T06:43:15+08:00",
+      "latest_date": "20260816",
+      "total_cached_rows": 32831,
       "symbols": {
         "000001.SH": {
           "status": "success",
@@ -98,8 +98,9 @@
           "source": "新浪财经 / AKShare"
         },
         "931087.CSI": {
-          "status": "failed",
-          "error": "DataFetchError(\"指数行情失败: 中证指数官网 / AKShare: ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))) | 东方财富指数日线 / AKShare: ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))) | 东方财富指数历史 / AKShare: ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))\")"
+          "status": "success",
+          "rows": 1605,
+          "source": "中证指数官网 / AKShare"
         },
         "^IXIC": {
           "status": "success",
@@ -118,7 +119,7 @@
         },
         "DX-Y.NYB": {
           "status": "success",
-          "rows": 1665,
+          "rows": 1666,
           "source": "Yahoo Finance / yfinance"
         },
         "AAPL": {
@@ -172,13 +173,13 @@
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 32830
+      "cached_rows": 32831
     },
     "global_macro": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-08-16T06:44:19+08:00",
-      "finished_at": "2026-08-16T06:55:51+08:00",
+      "started_at": "2026-08-17T06:43:15+08:00",
+      "finished_at": "2026-08-17T06:54:48+08:00",
       "latest_date": "20260813",
       "total_cached_rows": 30000,
       "source_details": {
@@ -320,8 +321,8 @@
     "deviation": {
       "status": "success",
       "rows": 2095,
-      "started_at": "2026-08-16T06:55:51+08:00",
-      "finished_at": "2026-08-16T06:55:51+08:00",
+      "started_at": "2026-08-17T06:54:48+08:00",
+      "finished_at": "2026-08-17T06:54:48+08:00",
       "latest_date": "20260814",
       "total_cached_rows": 2095,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -395,12 +396,12 @@
     },
     "messages": {
       "status": "partial",
-      "latest_date": "20260816",
-      "rows": 66653,
-      "cached_rows": 66653,
-      "covered_stocks": 5384,
+      "latest_date": "20260817",
+      "rows": 64586,
+      "cached_rows": 64586,
+      "covered_stocks": 5359,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600669.SH: KeyError('code')；600659.SH: KeyError('code')；600677.SH: KeyError('code')"
+      "error": "603603.SH: KeyError('code')；603157.SH: KeyError('code')；603133.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -411,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-08-16T19:14:34+08:00",
+  "updated_at": "2026-08-17T07:09:52+08:00",
   "overall_status": "success",
-  "last_update_mode": "evening"
+  "last_update_mode": "global"
 }
