@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20 07:15:58+08:00",
+  "updated_at": "2026-08-20 09:16:02+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -108,9 +108,23 @@
   ],
   "items": [
     {
+      "id": "auto-yicai-65d90f4f8a225408",
+      "category": "重大新闻",
+      "title": "盘前必读丨美财政部宣布扩大长债回购规模；中微公司上半年净利增长三倍 机构认为，修复前期高点尚需时日，短期科技与红利之间或呈现拉锯格局。 20543 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103325591.html",
+      "published_at": "2026-08-20",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
       "id": "auto-yicai-0cae19c752e75cc7",
       "category": "重大新闻",
-      "title": "沪市主板公司护盘“踊跃” 今晚首次回购、增持计划“接力” 主板公司的回购增持主动性日益凸显。 4082 昨天 21:30",
+      "title": "沪市主板公司护盘“踊跃” 今晚首次回购、增持计划“接力” 主板公司的回购增持主动性日益凸显。 5446 昨天 21:30",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103325323.html",
@@ -124,7 +138,7 @@
     {
       "id": "auto-yicai-3700750721054d36",
       "category": "重大新闻",
-      "title": "宇树科技暴涨超4倍，王兴兴身家超千亿，美团、红杉持股市值超200亿 美团系、红杉中国持股市值超200亿元。 12390 昨天 20:42",
+      "title": "宇树科技暴涨超4倍，王兴兴身家超千亿，美团、红杉持股市值超200亿 美团系、红杉中国持股市值超200亿元。 17908 昨天 20:42",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103325248.html",
@@ -156,6 +170,34 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103325030.html",
+      "published_at": "2026-08-20",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-0cae19c752e75cc7",
+      "category": "重大新闻",
+      "title": "沪市主板公司护盘“踊跃” 今晚首次回购、增持计划“接力” 主板公司的回购增持主动性日益凸显。 4082 昨天 21:30",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103325323.html",
+      "published_at": "2026-08-20",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-3700750721054d36",
+      "category": "重大新闻",
+      "title": "宇树科技暴涨超4倍，王兴兴身家超千亿，美团、红杉持股市值超200亿 美团系、红杉中国持股市值超200亿元。 12390 昨天 20:42",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103325248.html",
       "published_at": "2026-08-20",
       "symbols": [
         "A股"
@@ -1744,48 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-2f0c955e964e0cf8",
-      "category": "重大新闻",
-      "title": "中际旭创拟入股中石科技，吴氏家族一把套现逾17亿 受消息刺激，8月14日中石科技股价20%涨停。 热点追踪 13723 昨天 17:04",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103318802.html",
-      "published_at": "2026-08-15",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-290f91f57d92cbe9",
-      "category": "重大新闻",
-      "title": "看涨率冲高 703 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103319069.html",
-      "published_at": "2026-08-14",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-5a46524150f6bc95",
-      "category": "重大新闻",
-      "title": "晚间公告｜8月14日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 16699 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103319058.html",
-      "published_at": "2026-08-14",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-08-20 07:15:58+08:00",
+  "last_checked_at": "2026-08-20 09:16:02+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 70088,
-    "covered_stocks": 5387,
-    "notice_rows": 33715,
-    "stock_news_rows": 36373,
+    "rows": 70257,
+    "covered_stocks": 5390,
+    "notice_rows": 33728,
+    "stock_news_rows": 36529,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
