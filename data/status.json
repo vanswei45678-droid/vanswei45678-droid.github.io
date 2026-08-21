@@ -66,11 +66,11 @@
     },
     "market": {
       "status": "success",
-      "rows": 32905,
-      "started_at": "2026-08-21T06:49:32+08:00",
-      "finished_at": "2026-08-21T06:49:46+08:00",
-      "latest_date": "20260820",
-      "total_cached_rows": 32909,
+      "rows": 32908,
+      "started_at": "2026-08-21T17:18:51+08:00",
+      "finished_at": "2026-08-21T17:19:02+08:00",
+      "latest_date": "20260821",
+      "total_cached_rows": 32912,
       "symbols": {
         "000001.SH": {
           "status": "success",
@@ -119,7 +119,7 @@
         },
         "DX-Y.NYB": {
           "status": "success",
-          "rows": 1669,
+          "rows": 1670,
           "source": "Yahoo Finance / yfinance"
         },
         "AAPL": {
@@ -164,16 +164,16 @@
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1625,
+          "rows": 1626,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
           "status": "success",
-          "rows": 1625,
+          "rows": 1626,
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 32909
+      "cached_rows": 32912
     },
     "global_macro": {
       "status": "success",
@@ -220,8 +220,8 @@
     "valuation": {
       "status": "success",
       "rows": 23363,
-      "started_at": "2026-08-20T19:49:40+08:00",
-      "finished_at": "2026-08-20T19:50:03+08:00",
+      "started_at": "2026-08-21T17:19:02+08:00",
+      "finished_at": "2026-08-21T17:19:40+08:00",
       "latest_date": "20260820",
       "total_cached_rows": 23363,
       "indices": {
@@ -264,9 +264,9 @@
     "crowding": {
       "status": "success",
       "rows": 64,
-      "cached_rows": 81,
+      "cached_rows": 82,
       "total_cached_rows": 64,
-      "latest_date": "20260820",
+      "latest_date": "20260821",
       "source_details": {
         "crowding_history": {
           "status": "success",
@@ -282,9 +282,9 @@
     "breadth": {
       "status": "success",
       "rows": 64,
-      "cached_rows": 81,
+      "cached_rows": 82,
       "total_cached_rows": 64,
-      "latest_date": "20260820",
+      "latest_date": "20260821",
       "source_details": {
         "breadth_counts": {
           "status": "success",
@@ -304,9 +304,9 @@
     "leverage": {
       "status": "success",
       "rows": 63,
-      "cached_rows": 80,
+      "cached_rows": 81,
       "total_cached_rows": 63,
-      "latest_date": "20260819",
+      "latest_date": "20260820",
       "source_details": {
         "margin_balance": {
           "status": "success",
@@ -321,8 +321,8 @@
     "deviation": {
       "status": "success",
       "rows": 2100,
-      "started_at": "2026-08-21T07:01:20+08:00",
-      "finished_at": "2026-08-21T07:01:20+08:00",
+      "started_at": "2026-08-21T17:21:32+08:00",
+      "finished_at": "2026-08-21T17:21:32+08:00",
       "latest_date": "20260820",
       "total_cached_rows": 2100,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -373,15 +373,15 @@
     "sentiment": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-08-20T19:50:03+08:00",
-      "finished_at": "2026-08-20T19:53:19+08:00",
-      "latest_date": "20260820",
-      "crowding_cached_rows": 81,
-      "breadth_cached_rows": 81,
+      "started_at": "2026-08-21T17:19:40+08:00",
+      "finished_at": "2026-08-21T17:21:32+08:00",
+      "latest_date": "20260821",
+      "crowding_cached_rows": 82,
+      "breadth_cached_rows": 82,
       "leverage": {
         "status": "success",
         "rows": 1,
-        "latest_date": "20260819",
+        "latest_date": "20260820",
         "source": "深交所融资融券汇总 + 上海两融历史公开表"
       },
       "source": "新浪沪深京A股实时行情 / AKShare",
@@ -397,22 +397,22 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260821",
-      "rows": 72612,
-      "cached_rows": 72612,
-      "covered_stocks": 5392,
+      "rows": 44824,
+      "cached_rows": 44824,
+      "covered_stocks": 5288,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600781.SH: KeyError('code')；600836.SH: KeyError('code')；600767.SH: KeyError('code')"
+      "error": "600767.SH: KeyError('code')；600762.SH: KeyError('code')；600752.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
-      "latest_date": "20260820",
-      "rows": 81,
-      "cached_rows": 81,
+      "latest_date": "20260821",
+      "rows": 82,
+      "cached_rows": 82,
       "source": "由宏观、流动性、估值、A股情绪、两融、全球市场公开数据自动评分",
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-08-21T11:33:57+08:00",
+  "updated_at": "2026-08-21T17:51:40+08:00",
   "overall_status": "success",
-  "last_update_mode": "macro"
+  "last_update_mode": "close"
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21 11:33:42+08:00",
+  "updated_at": "2026-08-21 17:50:18+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -107,6 +107,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-f64697e19f675e99",
+      "category": "重大新闻",
+      "title": "收盘｜沪指涨0.04% 贵金属板块涨幅居前 全市场超2800只个股下跌。 1974 58分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103328406.html",
+      "published_at": "2026-08-21",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-3513c2e4b6fbe679",
+      "category": "重大新闻",
+      "title": "连板股追踪丨A股今日共58只个股涨停 这只创新药概念股3连板 机器人板块宇环数控2连板。一图速览今日连板股>> 3276 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103328421.html",
+      "published_at": "2026-08-21",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-3c526fd25f880961",
+      "category": "重大新闻",
+      "title": "三重隐秘关联遭问询，优邦科技IPO背后有何利益安排？ 富士康与优邦科技之间，\"客户+股东+关键人脉\"三重关系交织，成为监管审核问询反复追问的焦点：订单增长与刘扬",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103328078.html",
+      "published_at": "2026-08-21",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-e84f9d24d6f33225",
+      "category": "重大新闻",
+      "title": "A股四大指数集体低开，创新药概念大面积下挫 黄金、数字货币题材走强。市场近4000股下跌。 6 9104 8小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103327663.html",
+      "published_at": "2026-08-21",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-28cb383b10605fa7",
+      "category": "重大新闻",
+      "title": "盘前必读丨日韩股市集体低开超1%；拓荆科技上半年净利暴涨13倍 机构认为，前期过于拥挤赛道集中度释放还需要时间。 10 34028 9小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103327543.html",
+      "published_at": "2026-08-21",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-e84f9d24d6f33225",
       "category": "重大新闻",
@@ -1716,76 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-c9a286a2eadc5fdf",
-      "category": "重大新闻",
-      "title": "晚间公告｜8月16日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 44816 昨天 19:10",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103320008.html",
-      "published_at": "2026-08-17",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-2d224081bebe4e2c",
-      "category": "重大新闻",
-      "title": "IPO周报：加特兰申报前20余家机构突击入股，每股价格超过176元 8月10日～16日当周，沪深北交易所新增受理1单IPO申请，同时排队审核企业中2家过会、2家",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103320003.html",
-      "published_at": "2026-08-17",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-7e60cfc00df3da56",
-      "category": "重大新闻",
-      "title": "25年来最贵美债横空出世，黄金后劲不足了？ 美债收益率刷新纪录导致黄金价格在短暂冲高后回落，但央行购金等托底力量使其仍具备配置价值。 16079 昨天 20:1",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103320021.html",
-      "published_at": "2026-08-17",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-af63596141d5228e",
-      "category": "重大新闻",
-      "title": "两融余额重获连增、半月增超730亿，市场回暖信号渐强？ 近半个月，31个申万所属一级行业中，九成行业获融资资金净买入。 12855 昨天 19:30",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103320007.html",
-      "published_at": "2026-08-17",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-c9a286a2eadc5fdf",
-      "category": "重大新闻",
-      "title": "晚间公告｜8月16日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 38120 昨天 19:10",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103320008.html",
-      "published_at": "2026-08-17",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-08-21 11:33:42+08:00",
+  "last_checked_at": "2026-08-21 17:50:18+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 72612,
-    "covered_stocks": 5392,
-    "notice_rows": 35607,
-    "stock_news_rows": 37005,
+    "rows": 44824,
+    "covered_stocks": 5288,
+    "notice_rows": 7530,
+    "stock_news_rows": 37294,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
