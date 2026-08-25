@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 169,
-      "started_at": "2026-08-25T11:13:08+08:00",
-      "finished_at": "2026-08-25T11:13:24+08:00",
+      "started_at": "2026-08-25T19:04:04+08:00",
+      "finished_at": "2026-08-25T19:04:26+08:00",
       "latest_date": "202607",
       "total_cached_rows": 169,
       "source_details": {
@@ -44,15 +44,15 @@
     },
     "liquidity": {
       "status": "success",
-      "rows": 4965,
-      "started_at": "2026-08-25T11:13:24+08:00",
-      "finished_at": "2026-08-25T11:13:44+08:00",
-      "latest_date": "20260824",
-      "total_cached_rows": 5001,
+      "rows": 4966,
+      "started_at": "2026-08-25T19:04:26+08:00",
+      "finished_at": "2026-08-25T19:04:41+08:00",
+      "latest_date": "20260825",
+      "total_cached_rows": 5002,
       "source_details": {
         "shibor_on": {
           "status": "success",
-          "rows": 4965,
+          "rows": 4966,
           "source": "中国货币网 / AKShare"
         },
         "dr": {
@@ -62,7 +62,7 @@
         }
       },
       "note": "DR来自中国货币网，严格不以FDR替代。",
-      "cached_rows": 5001
+      "cached_rows": 5002
     },
     "market": {
       "status": "success",
@@ -363,8 +363,8 @@
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-08-24T20:08:51+08:00",
-      "finished_at": "2026-08-24T20:08:56+08:00",
+      "started_at": "2026-08-25T19:04:41+08:00",
+      "finished_at": "2026-08-25T19:04:47+08:00",
       "latest_date": "20260818",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
@@ -397,11 +397,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260825",
-      "rows": 39959,
-      "cached_rows": 39959,
+      "rows": 43454,
+      "cached_rows": 43454,
       "covered_stocks": 5288,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600701.SH: KeyError('code')；600700.SH: KeyError('code')；600687.SH: KeyError('code')"
+      "error": "600762.SH: KeyError('code')；600669.SH: KeyError('code')；600670.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-08-25T17:48:47+08:00",
+  "updated_at": "2026-08-25T19:37:41+08:00",
   "overall_status": "success",
-  "last_update_mode": "close"
+  "last_update_mode": "evening"
 }
