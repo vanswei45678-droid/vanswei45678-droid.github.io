@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30 09:09:08+08:00",
+  "updated_at": "2026-08-30 12:00:20+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -108,6 +108,20 @@
   ],
   "items": [
     {
+      "id": "auto-yicai-18db70cab4f12414",
+      "category": "重大新闻",
+      "title": "下周关注丨智谱等33只中国股票正式纳入MSCI指数，这些投资机会最靠谱 二十国集团（G20）财长与央行行长会议8月31日至9月1日举行；智谱等33只中国股票正式",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103339843.html",
+      "published_at": "2026-08-30",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
       "id": "auto-yicai-e92cb98d1c59c60f",
       "category": "重大新闻",
       "title": "“6+2+2”不能归还就退市！监管发函倒逼追讨占款，留给ST海王的时间不多了 深圳证监局对ST海王、海王集团采取责令改正的监管措施，由此，留给ST海王的时间最多",
@@ -128,6 +142,34 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103339460.html",
+      "published_at": "2026-08-30",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-88083ca4c9e2db9c",
+      "category": "重大新闻",
+      "title": "证监会发布12条意见，明确支持房企合理融资、加大债券融资支持力度 “一视同仁满足不同所有制房地产开发企业合理融资需求。” 22744 08-28 20:07",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103339211.html",
+      "published_at": "2026-08-30",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-b4372583b68616a0",
+      "category": "重大新闻",
+      "title": "晚间公告｜8月28日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 56689 08-28 18:46",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103339007.html",
       "published_at": "2026-08-30",
       "symbols": [
         "A股"
@@ -1744,48 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-f6d0da25dbbfafbd",
-      "category": "重大新闻",
-      "title": "券商系公募再迎人事调整，基金业“换帅潮”因何而起 在费率改革的深化期、在退休高峰的叠加期、在战略转型的关键期，高管“流水席”还将继续。 6分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103331337.html",
-      "published_at": "2026-08-24",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-5ca07a75abeff6f8",
-      "category": "重大新闻",
-      "title": "锦龙股份拟“清仓”东莞证券，智算转型沉寂近两年仍无进展 据最新披露的2026年中报，锦龙股份资产负债率已升至80.85%。 3772 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103331204.html",
-      "published_at": "2026-08-24",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-f4f58efdcffbefa6",
-      "category": "重大新闻",
-      "title": "晚间公告｜8月24日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 7461 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103331219.html",
-      "published_at": "2026-08-24",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-08-30 09:09:08+08:00",
+  "last_checked_at": "2026-08-30 12:00:20+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 106271,
-    "covered_stocks": 5583,
-    "notice_rows": 65044,
-    "stock_news_rows": 41227,
+    "rows": 62550,
+    "covered_stocks": 5444,
+    "notice_rows": 21013,
+    "stock_news_rows": 41537,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
