@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31 11:44:03+08:00",
+  "updated_at": "2026-08-31 17:23:05+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -107,6 +107,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-42eb418176ca8e85",
+      "category": "重大新闻",
+      "title": "澜起科技扣非后净利润增速21%，如何撑起80倍市盈率？｜公司观察 第二季度毛利率环比跌近8个百分点。 2分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103341073.html",
+      "published_at": "2026-08-31",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-4edd20a040b48f24",
+      "category": "重大新闻",
+      "title": "积极看涨 5分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103341142.html",
+      "published_at": "2026-08-31",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-c8ce1826cf9a377e",
+      "category": "重大新闻",
+      "title": "晓数点｜8月十大牛熊股出炉 一图速览>> 672 34分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103341054.html",
+      "published_at": "2026-08-31",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-cfd439b701b18aa1",
+      "category": "重大新闻",
+      "title": "连板股追踪丨A股今日共89只个股涨停 这只消费电子股5连板 消费电子板块捷荣技术5连板。一图速览今日连板股>> 703 51分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103341031.html",
+      "published_at": "2026-08-31",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-7cde3d5ef3fed5d4",
+      "category": "重大新闻",
+      "title": "收盘｜沪指涨0.86% AI应用端午后持续上涨 全市场超3100股上涨。 10220 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103340889.html",
+      "published_at": "2026-08-31",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-ee705665103cb55b",
       "category": "重大新闻",
@@ -1716,76 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-0947490c02a09e17",
-      "category": "重大新闻",
-      "title": "拆解鱼跃医疗中报业绩：数智赋能下，多个增长新引擎已崭露头角 8236 6小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103332368.html",
-      "published_at": "2026-08-25",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-b8e795241bb0333a",
-      "category": "重大新闻",
-      "title": "A股四大指数集体低开，市场逾3900股下跌 盘面上，工业金属、工业气体、存储器、半导体材料、PCB等概念股跌幅居前。 9 7740 8小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103331999.html",
-      "published_at": "2026-08-25",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-0947490c02a09e17",
-      "category": "重大新闻",
-      "title": "拆解鱼跃医疗中报业绩：数智赋能下，多个增长新引擎已崭露头角 12分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103332368.html",
-      "published_at": "2026-08-25",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-b8e795241bb0333a",
-      "category": "重大新闻",
-      "title": "A股四大指数集体低开，市场逾3900股下跌 盘面上，工业金属、工业气体、存储器、半导体材料、PCB等概念股跌幅居前。 5 5074 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103331999.html",
-      "published_at": "2026-08-25",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-795cf1e8e7c96110",
-      "category": "重大新闻",
-      "title": "盘前必读丨美股存储、光通信板块重挫；燧原科技9月2日申购 机构认为，风格再平衡背景下关注量能变化。 7 33191 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103331859.html",
-      "published_at": "2026-08-25",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-08-31 11:44:03+08:00",
+  "last_checked_at": "2026-08-31 17:23:05+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 105706,
-    "covered_stocks": 5585,
-    "notice_rows": 64734,
-    "stock_news_rows": 40972,
+    "rows": 99334,
+    "covered_stocks": 5569,
+    "notice_rows": 57954,
+    "stock_news_rows": 41381,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
