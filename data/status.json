@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 170,
-      "started_at": "2026-08-31T16:38:11+08:00",
-      "finished_at": "2026-08-31T16:38:33+08:00",
+      "started_at": "2026-09-01T01:46:59+08:00",
+      "finished_at": "2026-09-01T01:47:14+08:00",
       "latest_date": "202608",
       "total_cached_rows": 170,
       "source_details": {
@@ -45,8 +45,8 @@
     "liquidity": {
       "status": "success",
       "rows": 4970,
-      "started_at": "2026-08-31T16:38:33+08:00",
-      "finished_at": "2026-08-31T16:38:48+08:00",
+      "started_at": "2026-09-01T01:47:14+08:00",
+      "finished_at": "2026-09-01T01:47:32+08:00",
       "latest_date": "20260831",
       "total_cached_rows": 5006,
       "source_details": {
@@ -363,9 +363,9 @@
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-08-30T22:59:28+08:00",
-      "finished_at": "2026-08-30T22:59:36+08:00",
-      "latest_date": "20260821",
+      "started_at": "2026-09-01T01:47:32+08:00",
+      "finished_at": "2026-09-01T01:47:39+08:00",
+      "latest_date": "20260828",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
       "cached_rows": 300
@@ -390,11 +390,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260901",
-      "rows": 106051,
-      "cached_rows": 106051,
+      "rows": 106065,
+      "cached_rows": 106065,
       "covered_stocks": 5588,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600978.SH: KeyError('code')；600898.SH: KeyError('code')；600891.SH: KeyError('code')"
+      "error": "603996.SH: KeyError('code')；603963.SH: KeyError('code')；603603.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -405,7 +405,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-01T01:08:13+08:00",
+  "updated_at": "2026-09-01T02:21:02+08:00",
   "overall_status": "success",
-  "last_update_mode": "close"
+  "last_update_mode": "evening"
 }
