@@ -66,11 +66,11 @@
     },
     "market": {
       "status": "success",
-      "rows": 33090,
-      "started_at": "2026-09-03T20:59:56+08:00",
-      "finished_at": "2026-09-03T21:00:06+08:00",
+      "rows": 33097,
+      "started_at": "2026-09-04T08:10:53+08:00",
+      "finished_at": "2026-09-04T08:11:03+08:00",
       "latest_date": "20260903",
-      "total_cached_rows": 33100,
+      "total_cached_rows": 33103,
       "symbols": {
         "000001.SH": {
           "status": "success",
@@ -104,22 +104,22 @@
         },
         "^IXIC": {
           "status": "success",
-          "rows": 1675,
+          "rows": 1677,
           "source": "Yahoo Finance / yfinance"
         },
         "^GSPC": {
           "status": "success",
-          "rows": 1675,
+          "rows": 1677,
           "source": "Yahoo Finance / yfinance"
         },
         "^DJI": {
           "status": "success",
-          "rows": 1675,
+          "rows": 1677,
           "source": "Yahoo Finance / yfinance"
         },
         "DX-Y.NYB": {
           "status": "success",
-          "rows": 1678,
+          "rows": 1679,
           "source": "Yahoo Finance / yfinance"
         },
         "AAPL": {
@@ -173,20 +173,20 @@
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 33100
+      "cached_rows": 33103
     },
     "global_macro": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-09-03T08:22:30+08:00",
-      "finished_at": "2026-09-03T08:34:04+08:00",
-      "latest_date": "20260901",
-      "total_cached_rows": 30026,
+      "started_at": "2026-09-04T08:11:03+08:00",
+      "finished_at": "2026-09-04T08:22:35+08:00",
+      "latest_date": "20260902",
+      "total_cached_rows": 30028,
       "source_details": {
         "DGS2": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260901",
+          "latest_date": "20260902",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
@@ -196,7 +196,7 @@
         "DGS10": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260901",
+          "latest_date": "20260902",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
@@ -209,13 +209,13 @@
         }
       },
       "latest_by_series": {
-        "DGS2": "20260901",
-        "DGS10": "20260901",
+        "DGS2": "20260902",
+        "DGS10": "20260902",
         "NET_USD_LIQUIDITY_SOMA": "20260722",
         "NET_USD_LIQUIDITY_TOTAL_ASSETS": "20260722"
       },
       "note": "DGS10独立抓取；美元净流动性使用FRED的SOMA/总资产、TGA、RRP公开序列计算。",
-      "cached_rows": 30026
+      "cached_rows": 30028
     },
     "valuation": {
       "status": "success",
@@ -321,8 +321,8 @@
     "deviation": {
       "status": "success",
       "rows": 2115,
-      "started_at": "2026-09-03T21:12:46+08:00",
-      "finished_at": "2026-09-03T21:12:46+08:00",
+      "started_at": "2026-09-04T08:22:35+08:00",
+      "finished_at": "2026-09-04T08:22:35+08:00",
       "latest_date": "20260903",
       "total_cached_rows": 2115,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -396,12 +396,12 @@
     },
     "messages": {
       "status": "partial",
-      "latest_date": "20260903",
-      "rows": 109868,
-      "cached_rows": 109868,
-      "covered_stocks": 5588,
+      "latest_date": "20260904",
+      "rows": 108345,
+      "cached_rows": 108345,
+      "covered_stocks": 5586,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600656.SH: KeyError('code')；600669.SH: KeyError('code')；600659.SH: KeyError('code')"
+      "error": "688272.SH: Timeout('Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；603996.SH: KeyError('code')；603603.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-03T23:16:06+08:00",
+  "updated_at": "2026-09-04T08:48:08+08:00",
   "overall_status": "success",
-  "last_update_mode": "evening"
+  "last_update_mode": "global"
 }
