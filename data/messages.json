@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05 11:10:35+08:00",
+  "updated_at": "2026-09-05 15:27:06+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -107,6 +107,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-c7e0ea17eaf87bd8",
+      "category": "重大新闻",
+      "title": "晚间公告｜9月4日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 9 33191 昨天 18:38",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103349619.html",
+      "published_at": "2026-09-05",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-b524eccf69fa3e21",
+      "category": "重大新闻",
+      "title": "私募募集新规征求意见：强化“卖者尽责”，完善合格投资者门槛 根据中基协披露，截至今年7月末，我国存续私募基金管理规模达到25.73万亿元。 7 9910 昨天 ",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103349569.html",
+      "published_at": "2026-09-05",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-4b971ca1b67329ae",
+      "category": "重大新闻",
+      "title": "逆势加仓 3307 昨天 17:57",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103349504.html",
+      "published_at": "2026-09-05",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-67dbbe256f4bd453",
+      "category": "重大新闻",
+      "title": "龙虎榜丨机构今日买入这11股，抛售浪潮信息7.74亿元 共25只个股出现了机构的身影。 6 13723 昨天 17:49",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103349483.html",
+      "published_at": "2026-09-05",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-80ec6dc2e2656b50",
+      "category": "重大新闻",
+      "title": "中科创星米磊：硬科技不是短期的投资风口，资本要真正沉下心来 “让资本真正沉下心来，扎根科创实体经济，实实在在赋能技术研发和成果转化。” 5 5725 昨天 17",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103349326.html",
+      "published_at": "2026-09-05",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-c7e0ea17eaf87bd8",
       "category": "重大新闻",
@@ -1716,76 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-9b60754259637349",
-      "category": "重大新闻",
-      "title": "透视上市券商中报：10家龙头贡献近七成营收，有中小券商业绩逆势下滑 “券商行业上半年业绩高增，主要来自于财富管理、投行业务及科创投资。” 3121 昨天 20:",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103341276.html",
-      "published_at": "2026-09-01",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-42eb418176ca8e85",
-      "category": "重大新闻",
-      "title": "澜起科技扣非后净利润增速21%，如何撑起80倍市盈率？｜公司观察 第二季度毛利率环比跌近8个百分点。 2分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103341073.html",
-      "published_at": "2026-08-31",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-4edd20a040b48f24",
-      "category": "重大新闻",
-      "title": "积极看涨 5分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103341142.html",
-      "published_at": "2026-08-31",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-c8ce1826cf9a377e",
-      "category": "重大新闻",
-      "title": "晓数点｜8月十大牛熊股出炉 一图速览>> 672 34分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103341054.html",
-      "published_at": "2026-08-31",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-cfd439b701b18aa1",
-      "category": "重大新闻",
-      "title": "连板股追踪丨A股今日共89只个股涨停 这只消费电子股5连板 消费电子板块捷荣技术5连板。一图速览今日连板股>> 703 51分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103341031.html",
-      "published_at": "2026-08-31",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-05 11:10:35+08:00",
+  "last_checked_at": "2026-09-05 15:27:06+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 108579,
+    "rows": 109145,
     "covered_stocks": 5586,
-    "notice_rows": 67071,
-    "stock_news_rows": 41508,
+    "notice_rows": 67073,
+    "stock_news_rows": 42072,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
