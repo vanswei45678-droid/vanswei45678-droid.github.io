@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06 11:03:54+08:00",
+  "updated_at": "2026-09-06 15:35:20+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -107,6 +107,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-a8d9a5c8febb6fec",
+      "category": "重大新闻",
+      "title": "宁德时代套现5亿之后，湖南裕能赴港上市｜IPO观察 产品继续涨价，股东却轮番减持。 IPO观察 393 32分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103352893.html",
+      "published_at": "2026-09-06",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-0ec437467210cc1e",
+      "category": "重大新闻",
+      "title": "一桩新三板企业信披疑案，牵扯两家拟IPO企业 中远华丰消失的“东圣二期”，或令两个IPO项目蒙尘。 调查 7988 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103352774.html",
+      "published_at": "2026-09-06",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-d4a0413cab9a9771",
+      "category": "重大新闻",
+      "title": "下周关注丨8月CPI数据即将公布，这些投资机会最靠谱 8月CPI数据即将公布、苹果即将举行秋季新品发布会、成品油迎来调价窗口…… 5880 6小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103352510.html",
+      "published_at": "2026-09-06",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-47fb22b7b4244b95",
+      "category": "重大新闻",
+      "title": "兴业科技涉嫌信披违规被立案，此前跨界“追光”10天市值翻倍 跨界追光，散户接盘 5 13785 昨天 19:35",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103351687.html",
+      "published_at": "2026-09-06",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-c7e0ea17eaf87bd8",
+      "category": "重大新闻",
+      "title": "晚间公告｜9月4日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 9 43359 09-04 18:38",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103349619.html",
+      "published_at": "2026-09-06",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-d4a0413cab9a9771",
       "category": "重大新闻",
@@ -1716,76 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-a4d0c0e324955d6c",
-      "category": "重大新闻",
-      "title": "晓数点｜一图速览8月A股月报 四大指数8月均累计上涨，蓝盾光电问鼎8月最牛股，主力青睐天孚通信，抛售中际旭创>> 2191 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103342251.html",
-      "published_at": "2026-09-01",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-61ca210fb0b21fa1",
-      "category": "重大新闻",
-      "title": "A股中报风云丨2026年上半年谁“发红包”最壕？ 一图速览>> 17分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103342167.html",
-      "published_at": "2026-09-01",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-c1a6a34885e66ce5",
-      "category": "重大新闻",
-      "title": "A股四大指数多数低开，玻纤、传媒等板块表现活跃 盘面上，地产、农业、煤炭、石化板块调整。 6 2036 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103341902.html",
-      "published_at": "2026-09-01",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-da90cd48740cf45d",
-      "category": "重大新闻",
-      "title": "盘前必读丨AI应用利好来了；中际旭创大手笔回购 机构认为，结构性修复轮动行情有望持续，组合投资是王道。 37903 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103341800.html",
-      "published_at": "2026-09-01",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-1f19d8ba06c899e4",
-      "category": "重大新闻",
-      "title": "A股中报风云丨2026年上半年谁最吸金？ 一图速览>> 8236 昨天 23:47",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103341664.html",
-      "published_at": "2026-09-01",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-06 11:03:54+08:00",
+  "last_checked_at": "2026-09-06 15:35:20+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 107709,
+    "rows": 107712,
     "covered_stocks": 5587,
     "notice_rows": 65842,
-    "stock_news_rows": 41867,
+    "stock_news_rows": 41870,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
