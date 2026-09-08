@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08 11:16:28+08:00",
+  "updated_at": "2026-09-08 15:43:40+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -107,6 +107,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-a317be3fffa90f1b",
+      "category": "重大新闻",
+      "title": "收盘｜沪指涨0.2% 航天军工板块活跃 全市场超3400只个股上涨。 15分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103356073.html",
+      "published_at": "2026-09-08",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-5f1fdc1cf44821ae",
+      "category": "重大新闻",
+      "title": "A股四大指数开盘走势分化，工业气体、工业金属概念表现活跃 盘面上，工业气体、工业金属概念活跃。 7 2873 6小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103355462.html",
+      "published_at": "2026-09-08",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-2e999591067cd810",
+      "category": "重大新闻",
+      "title": "盘前必读丨中金公司“三合一”重组获批；“高中签率”新股今日申购 机构认为，市场存量博弈特征突出，短期结构强于指数。 37004 7小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103355313.html",
+      "published_at": "2026-09-08",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-c744d784fd47535b",
+      "category": "重大新闻",
+      "title": "全球黄金“回家”：美元信任裂痕加速扩大 储备资产大迁徙，各国央行不仅在“搬家”，更在“加仓”。 5 36477 昨天 21:19",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103355067.html",
+      "published_at": "2026-09-08",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-21dbb03f7cd8e201",
+      "category": "重大新闻",
+      "title": "监管给“页面跳转”立新规，多家基金公司启动内部排查 “点一下”时代结束，“谁负责”时代开始，金融流量生意戴上了紧箍咒 15025 昨天 20:06",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103354958.html",
+      "published_at": "2026-09-08",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-5f1fdc1cf44821ae",
       "category": "重大新闻",
@@ -1716,76 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-cd037fe7ca6bd69c",
-      "category": "重大新闻",
-      "title": "A股四大指数集体高开，黄金、半导体等板块走强 盘面上，黄金、半导体、服务器、光通信板块走强。 2346 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103345093.html",
-      "published_at": "2026-09-03",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-df8fbf66020d7ff5",
-      "category": "重大新闻",
-      "title": "盘前必读丨潘功胜最新发声；富时A50指数将迎来重大调整 机构认为，市场短期震荡蓄势，关注增量政策催化和外部环境企稳。 5 29440 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103344986.html",
-      "published_at": "2026-09-03",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-ce5ba489f8edf754",
-      "category": "重大新闻",
-      "title": "超六成百亿基金未达盈利中线，顶流的“基民体验”差距有多大？ 从“基金赚没赚”到“基民赚没赚”，基民终于有了一本“明白账”！ 6748 昨天 20:48",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103344719.html",
-      "published_at": "2026-09-03",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-75eb6515188ff67d",
-      "category": "重大新闻",
-      "title": "上半年靠自营赚了1600多亿！“牛市旗手”最新持仓曝光 随着中报收官，券商最新的自营盘持仓同步出炉。 10809 昨天 20:30",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103344701.html",
-      "published_at": "2026-09-03",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-df8fbf66020d7ff5",
-      "category": "重大新闻",
-      "title": "盘前必读丨潘功胜最新发声；富时A50指数将迎来重大调整 机构认为，市场短期震荡蓄势，关注增量政策催化和外部环境企稳。 17381 58分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103344986.html",
-      "published_at": "2026-09-03",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-08 11:16:28+08:00",
+  "last_checked_at": "2026-09-08 15:43:40+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 105924,
+    "rows": 107272,
     "covered_stocks": 5598,
-    "notice_rows": 64180,
-    "stock_news_rows": 41744,
+    "notice_rows": 65284,
+    "stock_news_rows": 41988,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
