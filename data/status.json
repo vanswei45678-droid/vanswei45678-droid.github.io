@@ -66,11 +66,11 @@
     },
     "market": {
       "status": "success",
-      "rows": 33142,
-      "started_at": "2026-09-08T21:03:31+08:00",
-      "finished_at": "2026-09-08T21:03:42+08:00",
-      "latest_date": "20260908",
-      "total_cached_rows": 33150,
+      "rows": 33147,
+      "started_at": "2026-09-09T08:22:07+08:00",
+      "finished_at": "2026-09-09T08:22:17+08:00",
+      "latest_date": "20260909",
+      "total_cached_rows": 33155,
       "symbols": {
         "000001.SH": {
           "status": "success",
@@ -104,17 +104,17 @@
         },
         "^IXIC": {
           "status": "success",
-          "rows": 1678,
+          "rows": 1679,
           "source": "Yahoo Finance / yfinance"
         },
         "^GSPC": {
           "status": "success",
-          "rows": 1678,
+          "rows": 1679,
           "source": "Yahoo Finance / yfinance"
         },
         "^DJI": {
           "status": "success",
-          "rows": 1678,
+          "rows": 1679,
           "source": "Yahoo Finance / yfinance"
         },
         "DX-Y.NYB": {
@@ -164,29 +164,29 @@
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1638,
+          "rows": 1639,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
           "status": "success",
-          "rows": 1638,
+          "rows": 1639,
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 33150
+      "cached_rows": 33155
     },
     "global_macro": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-09-08T08:31:24+08:00",
-      "finished_at": "2026-09-08T08:42:56+08:00",
-      "latest_date": "20260903",
-      "total_cached_rows": 30030,
+      "started_at": "2026-09-09T08:22:17+08:00",
+      "finished_at": "2026-09-09T08:33:49+08:00",
+      "latest_date": "20260904",
+      "total_cached_rows": 30032,
       "source_details": {
         "DGS2": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260903",
+          "latest_date": "20260904",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
@@ -196,7 +196,7 @@
         "DGS10": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20260903",
+          "latest_date": "20260904",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
@@ -209,13 +209,13 @@
         }
       },
       "latest_by_series": {
-        "DGS2": "20260903",
-        "DGS10": "20260903",
+        "DGS2": "20260904",
+        "DGS10": "20260904",
         "NET_USD_LIQUIDITY_SOMA": "20260722",
         "NET_USD_LIQUIDITY_TOTAL_ASSETS": "20260722"
       },
       "note": "DGS10独立抓取；美元净流动性使用FRED的SOMA/总资产、TGA、RRP公开序列计算。",
-      "cached_rows": 30030
+      "cached_rows": 30032
     },
     "valuation": {
       "status": "success",
@@ -321,8 +321,8 @@
     "deviation": {
       "status": "success",
       "rows": 2120,
-      "started_at": "2026-09-08T21:14:32+08:00",
-      "finished_at": "2026-09-08T21:14:32+08:00",
+      "started_at": "2026-09-09T08:33:49+08:00",
+      "finished_at": "2026-09-09T08:33:49+08:00",
       "latest_date": "20260908",
       "total_cached_rows": 2120,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -396,12 +396,12 @@
     },
     "messages": {
       "status": "partial",
-      "latest_date": "20260908",
-      "rows": 107979,
-      "cached_rows": 107979,
+      "latest_date": "20260909",
+      "rows": 108440,
+      "cached_rows": 108440,
       "covered_stocks": 5599,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600652.SH: KeyError('code')；600647.SH: KeyError('code')；600646.SH: KeyError('code')"
+      "error": "600896.SH: KeyError('code')；600891.SH: KeyError('code')；600890.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-08T23:21:37+08:00",
+  "updated_at": "2026-09-09T08:58:42+08:00",
   "overall_status": "success",
-  "last_update_mode": "evening"
+  "last_update_mode": "global"
 }
