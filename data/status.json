@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 170,
-      "started_at": "2026-09-09T15:22:31+08:00",
-      "finished_at": "2026-09-09T15:22:47+08:00",
+      "started_at": "2026-09-09T22:48:18+08:00",
+      "finished_at": "2026-09-09T22:48:38+08:00",
       "latest_date": "202608",
       "total_cached_rows": 170,
       "source_details": {
@@ -45,8 +45,8 @@
     "liquidity": {
       "status": "success",
       "rows": 4977,
-      "started_at": "2026-09-09T15:22:47+08:00",
-      "finished_at": "2026-09-09T15:23:02+08:00",
+      "started_at": "2026-09-09T22:48:38+08:00",
+      "finished_at": "2026-09-09T22:49:02+08:00",
       "latest_date": "20260909",
       "total_cached_rows": 5013,
       "source_details": {
@@ -363,8 +363,8 @@
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-09-08T22:47:02+08:00",
-      "finished_at": "2026-09-08T22:47:18+08:00",
+      "started_at": "2026-09-09T22:49:02+08:00",
+      "finished_at": "2026-09-09T22:49:09+08:00",
       "latest_date": "20260903",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
@@ -397,11 +397,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260909",
-      "rows": 109705,
-      "cached_rows": 109705,
-      "covered_stocks": 5599,
+      "rows": 109711,
+      "cached_rows": 109711,
+      "covered_stocks": 5600,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600669.SH: KeyError('code')；600700.SH: KeyError('code')；600677.SH: KeyError('code')"
+      "error": "600781.SH: KeyError('code')；600786.SH: KeyError('code')；600656.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-09T21:47:13+08:00",
+  "updated_at": "2026-09-09T23:29:02+08:00",
   "overall_status": "success",
-  "last_update_mode": "close"
+  "last_update_mode": "evening"
 }
