@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11 08:52:02+08:00",
+  "updated_at": "2026-09-11 11:09:54+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -107,6 +107,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-907e2381b98a3332",
+      "category": "重大新闻",
+      "title": "中一签赚13万！燧原科技上市首日高开超188% 燧原科技高开超188%，总市值1764亿元。 3276 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103360385.html",
+      "published_at": "2026-09-11",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-7fd50737d44a5077",
+      "category": "重大新闻",
+      "title": "A股四大指数集体低开，市场逾4600股下跌 盘面上，有色金属、农业、半导体板块调整。 3121 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103360424.html",
+      "published_at": "2026-09-11",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-cab63d97b964536f",
+      "category": "重大新闻",
+      "title": "盘前必读丨《金融强国建设“十五五”规划》出台；日韩股市大幅低开 机构认为，存量博弈下，市场仍偏谨慎。 26309 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103360267.html",
+      "published_at": "2026-09-11",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-9c3dc33caa0c4f34",
+      "category": "重大新闻",
+      "title": "券商中期业绩会密集召开，明星IPO项目、并购计划等引关注 券商参与投资的明星IPO项目亦备受关注。 7 6252 昨天 20:41",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103359964.html",
+      "published_at": "2026-09-11",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-fd8dcd6243617f6c",
+      "category": "重大新闻",
+      "title": "存储涨价潮下收入仅增1.83%，深科技为何砸18.5亿扩产封测？ 扩产项目12年回收期、两年后投产 7 9321 昨天 20:41",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103359787.html",
+      "published_at": "2026-09-11",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-cab63d97b964536f",
       "category": "重大新闻",
@@ -1716,76 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-4b971ca1b67329ae",
-      "category": "重大新闻",
-      "title": "逆势加仓 5074 09-04 17:57",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103349504.html",
-      "published_at": "2026-09-06",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-47fb22b7b4244b95",
-      "category": "重大新闻",
-      "title": "兴业科技涉嫌信披违规被立案，此前跨界“追光”10天市值翻倍 跨界追光，散户接盘 5 9321 昨天 19:35",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103351687.html",
-      "published_at": "2026-09-06",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-c7e0ea17eaf87bd8",
-      "category": "重大新闻",
-      "title": "晚间公告｜9月4日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 9 40972 09-04 18:38",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103349619.html",
-      "published_at": "2026-09-06",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-b524eccf69fa3e21",
-      "category": "重大新闻",
-      "title": "私募募集新规征求意见：强化“卖者尽责”，完善合格投资者门槛 根据中基协披露，截至今年7月末，我国存续私募基金管理规模达到25.73万亿元。 7 11646 09",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103349569.html",
-      "published_at": "2026-09-06",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-4b971ca1b67329ae",
-      "category": "重大新闻",
-      "title": "逆势加仓 4888 09-04 17:57",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103349504.html",
-      "published_at": "2026-09-06",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-11 08:52:02+08:00",
+  "last_checked_at": "2026-09-11 11:09:54+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 109146,
+    "rows": 109615,
     "covered_stocks": 5607,
-    "notice_rows": 67767,
-    "stock_news_rows": 41379,
+    "notice_rows": 67772,
+    "stock_news_rows": 41843,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
