@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13 11:18:36+08:00",
+  "updated_at": "2026-09-13 15:55:16+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -108,12 +108,68 @@
   ],
   "items": [
     {
+      "id": "auto-yicai-d7611667f7dcadcf",
+      "category": "重大新闻",
+      "title": "沐曦股份下周解禁68亿，机构大幅浮盈，会否重演摩尔线程解禁日表现？ 截至9月11日收盘，沐曦股份报489元，较其104.66元的发行价仍有约3.67倍浮盈，机构",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103362321.html",
+      "published_at": "2026-09-13",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-89265e7e8ca3a346",
+      "category": "重大新闻",
+      "title": "下周关注丨8月经济数据将公布，这些投资机会最靠谱 8月经济数据将公布、富时中国A50指数将迎来调整、两公司解禁市值超130亿元…… 3617 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103362291.html",
+      "published_at": "2026-09-13",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
       "id": "auto-yicai-a37ae26d5fe8e9ac",
       "category": "重大新闻",
       "title": "连续四年财务造假、一日收两份“预罚单”，*ST卓然或遭强制退市 经查，2021年～2024年期间，*ST卓然累计虚增利润总额约2.87亿元，2023年～2024",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103361879.html",
+      "published_at": "2026-09-13",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-afeab87f07eec74b",
+      "category": "重大新闻",
+      "title": "晓数点｜一图速览本周十大牛熊股 本周涨幅最大的是百迈科，累计上涨54.39%；跌幅方面，*ST清越跌幅达34.83%居首。 7 7120 昨天 08:56",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103361873.html",
+      "published_at": "2026-09-13",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-21881c7bdd0a1707",
+      "category": "重大新闻",
+      "title": "晚间公告｜9月11日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 9 52969 09-11 18:39",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103361445.html",
       "published_at": "2026-09-13",
       "symbols": [
         "A股"
@@ -1730,62 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-21dbb03f7cd8e201",
-      "category": "重大新闻",
-      "title": "监管给“页面跳转”立新规，多家基金公司启动内部排查 “点一下”时代结束，“谁负责”时代开始，金融流量生意戴上了紧箍咒 13971 昨天 20:06",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103354958.html",
-      "published_at": "2026-09-08",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-1d2fafbe4a3950c5",
-      "category": "重大新闻",
-      "title": "半年规模增长近百亿，个人养老金基金将迎“固收+”入池 个人养老基金“新菜”即将上桌，首批执行“一司一只”择优申报，“固收+”能否接住养老钱？ 11243 昨天 ",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103354850.html",
-      "published_at": "2026-09-08",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-2e999591067cd810",
-      "category": "重大新闻",
-      "title": "盘前必读丨中金公司“三合一”重组获批；“高中签率”新股今日申购 机构认为，市场存量博弈特征突出，短期结构强于指数。 20078 58分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103355313.html",
-      "published_at": "2026-09-08",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-c744d784fd47535b",
-      "category": "重大新闻",
-      "title": "全球黄金“回家”：美元信任裂痕加速扩大 储备资产大迁徙，各国央行不仅在“搬家”，更在“加仓”。 22186 昨天 21:19",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103355067.html",
-      "published_at": "2026-09-08",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-13 11:18:36+08:00",
+  "last_checked_at": "2026-09-13 15:55:16+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 108971,
+    "rows": 109322,
     "covered_stocks": 5606,
-    "notice_rows": 67794,
-    "stock_news_rows": 41177,
+    "notice_rows": 67795,
+    "stock_news_rows": 41527,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
