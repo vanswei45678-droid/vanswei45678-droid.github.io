@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15 23:52:17+08:00",
+  "updated_at": "2026-09-16 09:04:45+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -108,13 +108,27 @@
   ],
   "items": [
     {
+      "id": "auto-yicai-2ce6b47bc8d3a5df",
+      "category": "重大新闻",
+      "title": "盘前必读丨10年期美债收益率升破5%；风华高科回应高端MLCC贴牌传闻 机构认为，外盘波动将加大A股科技品种的分化。 20295 56分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103365762.html",
+      "published_at": "2026-09-16",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
       "id": "auto-yicai-2eec47faee669995",
       "category": "重大新闻",
-      "title": "全球AI资产受挫，A股国产链缘何逆市翻红 A股科技的业绩真空期博弈 4516 3小时前",
+      "title": "全球AI资产受挫，A股国产链缘何逆市翻红 A股科技的业绩真空期博弈 8484 昨天 19:58",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103365423.html",
-      "published_at": "2026-09-15",
+      "published_at": "2026-09-16",
       "symbols": [
         "A股"
       ],
@@ -128,6 +142,48 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103365426.html",
+      "published_at": "2026-09-16",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-6716704dd464850e",
+      "category": "重大新闻",
+      "title": "晚间公告｜9月15日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 50892 昨天 19:06",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103365317.html",
+      "published_at": "2026-09-16",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-e9f1fc98b72aa7b1",
+      "category": "重大新闻",
+      "title": "4天14只“加时”募集，新基金为何卖不动了？ 权益基金赚钱效应不足，投资者观望情绪浓厚 3865 昨天 19:03",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103365319.html",
+      "published_at": "2026-09-16",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-2eec47faee669995",
+      "category": "重大新闻",
+      "title": "全球AI资产受挫，A股国产链缘何逆市翻红 A股科技的业绩真空期博弈 4516 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103365423.html",
       "published_at": "2026-09-15",
       "symbols": [
         "A股"
@@ -1730,62 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-12533c24f37841e8",
-      "category": "重大新闻",
-      "title": "8月平均收益超10%！百亿量化私募快速“回血” 市场已逐渐由上半年的单一板块行情扩散到多板块行情以及板块间的轮动行情，环境对量化选股策略更加友好。 7 2594",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103359791.html",
-      "published_at": "2026-09-10",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-d78d08c7d1272b12",
-      "category": "重大新闻",
-      "title": "晚间公告｜9月10日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 7 31517 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103359728.html",
-      "published_at": "2026-09-10",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-44387ce7aa20f9cf",
-      "category": "重大新闻",
-      "title": "收盘｜沪指跌0.43% 银行股逆势走强 全市场近4500只个股下跌。 2129 40分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103359362.html",
-      "published_at": "2026-09-10",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-95d9cde6c1540918",
-      "category": "重大新闻",
-      "title": "A股四大指数集体低开，市场逾3900股下跌 盘面上，油气、海运、保险股活跃。 5 5105 6小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103358706.html",
-      "published_at": "2026-09-10",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-15 23:52:17+08:00",
+  "last_checked_at": "2026-09-16 09:04:45+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 109187,
+    "rows": 109864,
     "covered_stocks": 5605,
-    "notice_rows": 67591,
-    "stock_news_rows": 41596,
+    "notice_rows": 68781,
+    "stock_news_rows": 41083,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
