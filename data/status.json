@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 170,
-      "started_at": "2026-09-16T15:41:26+08:00",
-      "finished_at": "2026-09-16T15:41:48+08:00",
+      "started_at": "2026-09-16T23:10:19+08:00",
+      "finished_at": "2026-09-16T23:10:41+08:00",
       "latest_date": "202608",
       "total_cached_rows": 170,
       "source_details": {
@@ -45,8 +45,8 @@
     "liquidity": {
       "status": "success",
       "rows": 4982,
-      "started_at": "2026-09-16T15:41:48+08:00",
-      "finished_at": "2026-09-16T15:42:01+08:00",
+      "started_at": "2026-09-16T23:10:41+08:00",
+      "finished_at": "2026-09-16T23:11:07+08:00",
       "latest_date": "20260916",
       "total_cached_rows": 5018,
       "source_details": {
@@ -363,8 +363,8 @@
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-09-15T23:17:06+08:00",
-      "finished_at": "2026-09-15T23:17:13+08:00",
+      "started_at": "2026-09-16T23:11:07+08:00",
+      "finished_at": "2026-09-16T23:11:16+08:00",
       "latest_date": "20260909",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
@@ -397,11 +397,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260916",
-      "rows": 111325,
-      "cached_rows": 111325,
+      "rows": 111334,
+      "cached_rows": 111334,
       "covered_stocks": 5605,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600670.SH: KeyError('code')；600669.SH: KeyError('code')；600659.SH: KeyError('code')"
+      "error": "600687.SH: KeyError('code')；600701.SH: KeyError('code')；600659.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-16T22:18:02+08:00",
+  "updated_at": "2026-09-16T23:42:04+08:00",
   "overall_status": "success",
-  "last_update_mode": "close"
+  "last_update_mode": "evening"
 }
