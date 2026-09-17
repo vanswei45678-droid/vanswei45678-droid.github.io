@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 170,
-      "started_at": "2026-09-16T23:10:19+08:00",
-      "finished_at": "2026-09-16T23:10:41+08:00",
+      "started_at": "2026-09-17T15:37:46+08:00",
+      "finished_at": "2026-09-17T15:38:10+08:00",
       "latest_date": "202608",
       "total_cached_rows": 170,
       "source_details": {
@@ -44,15 +44,15 @@
     },
     "liquidity": {
       "status": "success",
-      "rows": 4982,
-      "started_at": "2026-09-16T23:10:41+08:00",
-      "finished_at": "2026-09-16T23:11:07+08:00",
-      "latest_date": "20260916",
-      "total_cached_rows": 5018,
+      "rows": 4983,
+      "started_at": "2026-09-17T15:38:10+08:00",
+      "finished_at": "2026-09-17T15:38:28+08:00",
+      "latest_date": "20260917",
+      "total_cached_rows": 5019,
       "source_details": {
         "shibor_on": {
           "status": "success",
-          "rows": 4982,
+          "rows": 4983,
           "source": "中国货币网 / AKShare"
         },
         "dr": {
@@ -62,7 +62,7 @@
         }
       },
       "note": "DR来自中国货币网，严格不以FDR替代。",
-      "cached_rows": 5018
+      "cached_rows": 5019
     },
     "market": {
       "status": "success",
@@ -397,11 +397,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260917",
-      "rows": 111283,
-      "cached_rows": 111283,
+      "rows": 111340,
+      "cached_rows": 111340,
       "covered_stocks": 5604,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600670.SH: KeyError('code')；600672.SH: KeyError('code')；600659.SH: KeyError('code')"
+      "error": "600709.SH: KeyError('code')；600752.SH: KeyError('code')；600656.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-17T11:31:50+08:00",
+  "updated_at": "2026-09-17T16:03:53+08:00",
   "overall_status": "success",
-  "last_update_mode": "global"
+  "last_update_mode": "macro"
 }
