@@ -397,11 +397,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260917",
-      "rows": 110728,
-      "cached_rows": 110728,
-      "covered_stocks": 5603,
+      "rows": 111283,
+      "cached_rows": 111283,
+      "covered_stocks": 5604,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "688098.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30003 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；002287.SZ: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；002372.SZ: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')"
+      "error": "600670.SH: KeyError('code')；600672.SH: KeyError('code')；600659.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-17T09:15:06+08:00",
+  "updated_at": "2026-09-17T11:31:50+08:00",
   "overall_status": "success",
   "last_update_mode": "global"
 }
