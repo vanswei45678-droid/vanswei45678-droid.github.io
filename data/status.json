@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 170,
-      "started_at": "2026-09-17T15:37:46+08:00",
-      "finished_at": "2026-09-17T15:38:10+08:00",
+      "started_at": "2026-09-17T23:18:37+08:00",
+      "finished_at": "2026-09-17T23:19:00+08:00",
       "latest_date": "202608",
       "total_cached_rows": 170,
       "source_details": {
@@ -45,8 +45,8 @@
     "liquidity": {
       "status": "success",
       "rows": 4983,
-      "started_at": "2026-09-17T15:38:10+08:00",
-      "finished_at": "2026-09-17T15:38:28+08:00",
+      "started_at": "2026-09-17T23:19:00+08:00",
+      "finished_at": "2026-09-17T23:19:28+08:00",
       "latest_date": "20260917",
       "total_cached_rows": 5019,
       "source_details": {
@@ -363,9 +363,9 @@
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-09-16T23:11:07+08:00",
-      "finished_at": "2026-09-16T23:11:16+08:00",
-      "latest_date": "20260909",
+      "started_at": "2026-09-17T23:19:28+08:00",
+      "finished_at": "2026-09-17T23:20:02+08:00",
+      "latest_date": "20260915",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
       "cached_rows": 300
@@ -397,11 +397,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260917",
-      "rows": 111452,
-      "cached_rows": 111452,
+      "rows": 112022,
+      "cached_rows": 112022,
       "covered_stocks": 5606,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "300705.SZ: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；600725.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')；603125.SH: Timeout('Failed to perform, curl: (28) Connection timed out after 30002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')"
+      "error": "600659.SH: KeyError('code')；600656.SH: KeyError('code')；600695.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-17T22:30:09+08:00",
+  "updated_at": "2026-09-17T23:52:58+08:00",
   "overall_status": "success",
-  "last_update_mode": "close"
+  "last_update_mode": "evening"
 }
