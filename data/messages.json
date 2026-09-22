@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22 09:26:47+08:00",
+  "updated_at": "2026-09-22 11:25:30+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -108,9 +108,23 @@
   ],
   "items": [
     {
+      "id": "auto-yicai-27177ef8d17dad55",
+      "category": "重大新闻",
+      "title": "A股四大指数集体高开，市场逾3100股上涨 盘面上，存储、GPU、HBM板块领涨。 2563 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103373263.html",
+      "published_at": "2026-09-22",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
       "id": "auto-yicai-7537a3a5b35d65f9",
       "category": "重大新闻",
-      "title": "盘前必读丨纳指涨超2%创收盘新高；星帅尔跨界收购PCB刀具设备企业 机构认为，市场积极因子增强，国庆节前大盘或延续反弹走势。 22155 1小时前",
+      "title": "盘前必读丨纳指涨超2%创收盘新高；星帅尔跨界收购PCB刀具设备企业 机构认为，市场积极因子增强，国庆节前大盘或延续反弹走势。 5 26681 3小时前",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103373154.html",
@@ -138,7 +152,7 @@
     {
       "id": "auto-yicai-5e5d060d78bc0c90",
       "category": "重大新闻",
-      "title": "创新药ETF再“包场”涨幅榜，是高低切换还是拐点已至？ 创新药ETF霸榜的一天：这次是真涨还是又一次昙花一现？ 6004 昨天 20:55",
+      "title": "创新药ETF再“包场”涨幅榜，是高低切换还是拐点已至？ 创新药ETF霸榜的一天：这次是真涨还是又一次昙花一现？ 6748 昨天 20:55",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103372706.html",
@@ -156,6 +170,34 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103372791.html",
+      "published_at": "2026-09-22",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-7537a3a5b35d65f9",
+      "category": "重大新闻",
+      "title": "盘前必读丨纳指涨超2%创收盘新高；星帅尔跨界收购PCB刀具设备企业 机构认为，市场积极因子增强，国庆节前大盘或延续反弹走势。 22155 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103373154.html",
+      "published_at": "2026-09-22",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-5e5d060d78bc0c90",
+      "category": "重大新闻",
+      "title": "创新药ETF再“包场”涨幅榜，是高低切换还是拐点已至？ 创新药ETF霸榜的一天：这次是真涨还是又一次昙花一现？ 6004 昨天 20:55",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103372706.html",
       "published_at": "2026-09-22",
       "symbols": [
         "A股"
@@ -1744,48 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-cd8e39ab02d7f42d",
-      "category": "重大新闻",
-      "title": "A股四大指数开盘跌多涨少，海运、油气板块表现强势 盘面上，网络安全、农业、餐饮旅游、传媒板块调整。 2718 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103365886.html",
-      "published_at": "2026-09-16",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-2ce6b47bc8d3a5df",
-      "category": "重大新闻",
-      "title": "盘前必读丨10年期美债收益率升破5%；风华高科回应高端MLCC贴牌传闻 机构认为，外盘波动将加大A股科技品种的分化。 33749 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103365762.html",
-      "published_at": "2026-09-16",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-2eec47faee669995",
-      "category": "重大新闻",
-      "title": "全球AI资产受挫，A股国产链缘何逆市翻红 A股科技的业绩真空期博弈 9383 昨天 19:58",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103365423.html",
-      "published_at": "2026-09-16",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-22 09:26:47+08:00",
+  "last_checked_at": "2026-09-22 11:25:30+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 100882,
+    "rows": 101118,
     "covered_stocks": 5584,
-    "notice_rows": 62005,
-    "stock_news_rows": 38877,
+    "notice_rows": 62006,
+    "stock_news_rows": 39112,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
