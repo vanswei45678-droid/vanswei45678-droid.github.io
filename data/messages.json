@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28 17:01:24+08:00",
+  "updated_at": "2026-09-29 01:17:57+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -107,6 +107,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-deb6efb2f92d3b36",
+      "category": "重大新闻",
+      "title": "多因素共振下A股调整，机构称节后修复反弹可期 多位券商分析师认为，节后市场大概率走出修复反弹行情。 5167 昨天 20:48",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103380273.html",
+      "published_at": "2026-09-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-9ad012f711d54e57",
+      "category": "重大新闻",
+      "title": "26只“固收+”解锁Y份额，养老基金货架新增“中间档” 谁领走首批入场券？个人养老金货架新增“中间档” 1912 昨天 20:38",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103380261.html",
+      "published_at": "2026-09-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-58fec9ac8db1389b",
+      "category": "重大新闻",
+      "title": "邹迎光出任中信证券董事长，张佑君到龄退休 张佑君于1992年加入中信集团，参与了中信证券的筹备设立，并于1995年中信证券成立时加入，先后担任襄理、副总经理、总",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103380090.html",
+      "published_at": "2026-09-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-e76785b11b936ae5",
+      "category": "重大新闻",
+      "title": "产业链公司加速扩产，光通信“量增价跌”博弈加剧 这批项目的建设周期普遍在一到三年，投产时间与下一代产品的放量窗口能否重合，决定了它们最终是护城河，还是折旧压力。",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103380061.html",
+      "published_at": "2026-09-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-c18d7f561fc04d26",
+      "category": "重大新闻",
+      "title": "晚间公告｜9月28日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 5 36787 昨天 18:53",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103380078.html",
+      "published_at": "2026-09-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-96ee9bbea25d8280",
       "category": "重大新闻",
@@ -1716,76 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-60306627bf4897dd",
-      "category": "重大新闻",
-      "title": "收盘｜创业板指跌0.6% PCB板块逆市走强 全市场超3500只个股下跌。 1943 50分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103375715.html",
-      "published_at": "2026-09-23",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-72102303920bf785",
-      "category": "重大新闻",
-      "title": "山东国资入主将满两年，德邦证券官宣“换帅” 据德邦证券官网，目前公司董事会共有8名人员，其中董事长为尹涛。 5 3958 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103375464.html",
-      "published_at": "2026-09-23",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-d3cb3fbe567e0f85",
-      "category": "重大新闻",
-      "title": "A股四大指数开盘多数上涨，存储、有色金属板块表现活跃 盘面上，海运、电力、油气、CRO板块调整。 7 5384 6小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103375016.html",
-      "published_at": "2026-09-23",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-af5b7b980ca68771",
-      "category": "重大新闻",
-      "title": "盘前必读丨美股存储芯片股集体上涨；中金公司今日复牌 机构认为，AI应用接力硬件，行情尚待业绩兑现。 10 36353 8小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103374900.html",
-      "published_at": "2026-09-23",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-caac4e54493fb407",
-      "category": "重大新闻",
-      "title": "四家机构网下打新违规被警示，定价决策不审慎成“通病” 年内登陆A股的118只新股首日无一破发，上市首日平均涨幅高达267.86% 8 12855 昨天 20:4",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103374586.html",
-      "published_at": "2026-09-23",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-28 17:01:24+08:00",
+  "last_checked_at": "2026-09-29 01:17:57+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 63004,
-    "covered_stocks": 5507,
-    "notice_rows": 30814,
-    "stock_news_rows": 32190,
+    "rows": 66191,
+    "covered_stocks": 5513,
+    "notice_rows": 34793,
+    "stock_news_rows": 31398,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
