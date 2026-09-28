@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29 02:31:50+08:00",
+  "updated_at": "2026-09-29 03:08:40+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -110,7 +110,7 @@
     {
       "id": "auto-yicai-deb6efb2f92d3b36",
       "category": "重大新闻",
-      "title": "多因素共振下A股调整，机构称节后修复反弹可期 多位券商分析师认为，节后市场大概率走出修复反弹行情。 5663 昨天 20:48",
+      "title": "多因素共振下A股调整，机构称节后修复反弹可期 多位券商分析师认为，节后市场大概率走出修复反弹行情。 5725 昨天 20:48",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103380273.html",
@@ -156,6 +156,34 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103380061.html",
+      "published_at": "2026-09-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-c18d7f561fc04d26",
+      "category": "重大新闻",
+      "title": "晚间公告｜9月28日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 5 37469 昨天 18:53",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103380078.html",
+      "published_at": "2026-09-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-deb6efb2f92d3b36",
+      "category": "重大新闻",
+      "title": "多因素共振下A股调整，机构称节后修复反弹可期 多位券商分析师认为，节后市场大概率走出修复反弹行情。 5663 昨天 20:48",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103380273.html",
       "published_at": "2026-09-29",
       "symbols": [
         "A股"
@@ -1758,34 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-ddba070d0450c79e",
-      "category": "重大新闻",
-      "title": "会稽山单月股价翻倍，今年双节市场为何爱上“喝黄酒” 会稽山盘中创历史新高后回落，黄酒三强8月以来全线跑赢白酒龙头。 3276 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103376217.html",
-      "published_at": "2026-09-23",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-908e789728d799d6",
-      "category": "重大新闻",
-      "title": "中金公司复牌首日收涨2.67%，“三合一”重组再迎新进展 在中金近期举办的中期业绩会上，重组进展成为投资者重要关切。 5198 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103376216.html",
-      "published_at": "2026-09-23",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-29 02:31:50+08:00",
+  "last_checked_at": "2026-09-29 03:08:40+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 66355,
-    "covered_stocks": 5515,
+    "rows": 66097,
+    "covered_stocks": 5514,
     "notice_rows": 34793,
-    "stock_news_rows": 31562,
+    "stock_news_rows": 31304,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
