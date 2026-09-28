@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28 09:22:33+08:00",
+  "updated_at": "2026-09-28 11:38:45+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -107,6 +107,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-523743f3df2aff8b",
+      "category": "重大新闻",
+      "title": "A股四大指数集体低开，贵金属、通信设备等板块走低 市场逾2400股下跌。 7 10127 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103379061.html",
+      "published_at": "2026-09-28",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-6c5415e4736b462c",
+      "category": "重大新闻",
+      "title": "盘前必读丨央行三季度例会释放新信号；特朗普称预计本周继续与伊朗谈判 机构认为，A股有望呈现修复行情，但行情重心或仍在于结构性、轮动式修复。 5 30866 3小",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103378916.html",
+      "published_at": "2026-09-28",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-7e4ed2d6e0ed3d12",
+      "category": "重大新闻",
+      "title": "“超级数据周”长假来袭，全球大类资产等待重估 美国8月核心PCE与9月非农就业数据，将直接影响市场对美联储加息的预期，成为全球大类资产定价的核心变量。 1719",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103378837.html",
+      "published_at": "2026-09-28",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-2fed385843bf78ec",
+      "category": "重大新闻",
+      "title": "IPO周报：“高中签率”新股下周一申购 下周一，将有2只新股可申购 IPO周报 6965 昨天 20:02",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103378796.html",
+      "published_at": "2026-09-28",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-2efd5fd97966338c",
+      "category": "重大新闻",
+      "title": "ST公司密集受罚：*ST利达涉逾17亿违规占资，*ST岭南濒临“面值退” 罚单落地，造假手法同步曝光，有ST公司通过“藏利润”造假。 6 5322 昨天 19:",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103378795.html",
+      "published_at": "2026-09-28",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-6c5415e4736b462c",
       "category": "重大新闻",
@@ -1716,76 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-af5b7b980ca68771",
-      "category": "重大新闻",
-      "title": "盘前必读丨美股存储芯片股集体上涨；中金公司今日复牌 机构认为，AI应用接力硬件，行情尚待业绩兑现。 21442 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103374900.html",
-      "published_at": "2026-09-23",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-caac4e54493fb407",
-      "category": "重大新闻",
-      "title": "四家机构网下打新违规被警示，定价决策不审慎成“通病” 年内登陆A股的118只新股首日无一破发，上市首日平均涨幅高达267.86% 8 8174 昨天 20:40",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103374586.html",
-      "published_at": "2026-09-23",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-c5d6ed3cd6ee4cbb",
-      "category": "重大新闻",
-      "title": "中一签赚超18万！创业板、北交所新股同步大涨，炒新行情再起？ 创业板、北交所新股同步大涨。 11 22899 昨天 20:40",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103374582.html",
-      "published_at": "2026-09-23",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-a1ab4628b0e3b584",
-      "category": "重大新闻",
-      "title": "晚间公告｜9月22日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 7 54333 昨天 18:55",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103374393.html",
-      "published_at": "2026-09-23",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-caac4e54493fb407",
-      "category": "重大新闻",
-      "title": "四家机构网下打新违规被警示，定价决策不审慎成“通病” 年内登陆A股的118只新股首日无一破发，上市首日平均涨幅高达267.86% 3152 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103374586.html",
-      "published_at": "2026-09-22",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-28 09:22:33+08:00",
+  "last_checked_at": "2026-09-28 11:38:45+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 71772,
-    "covered_stocks": 5515,
+    "rows": 71702,
+    "covered_stocks": 5511,
     "notice_rows": 39750,
-    "stock_news_rows": 32022,
+    "stock_news_rows": 31952,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
