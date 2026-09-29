@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29 16:46:06+08:00",
+  "updated_at": "2026-09-29 23:28:50+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -107,6 +107,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-1d4aac2de41e3b06",
+      "category": "重大新闻",
+      "title": "想让闲钱“上班”过假期？上百只基金节前限流 长假未到先“上锁”，上百只基金提前限单。 2532 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103381837.html",
+      "published_at": "2026-09-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-2e8e8ea04f13297a",
+      "category": "重大新闻",
+      "title": "前三季度123只新股登场：10股单签浮盈超10万元，“大肉签”扎堆科创板 122只新股首日无一破发，平均涨幅约274%，其中19股在“首秀”之日收涨超500%。",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103381834.html",
+      "published_at": "2026-09-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-4b77536419397274",
+      "category": "重大新闻",
+      "title": "港股打新退潮：折价30%发行仍破发，新股供给量大幅攀升 从 \"稀缺溢价\" 到 \"审美疲劳\"，港股今年的新股上市数量创8年新高。 3927 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103381611.html",
+      "published_at": "2026-09-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-7cac89eaa896c075",
+      "category": "重大新闻",
+      "title": "三季度A股剧震与再平衡：AI“拉锯”持续，机构聚焦盈利验证 “未来市场大概率呈现震荡上行、结构为主的格局，而非单边快速拉升。” 5 8298 4小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103381535.html",
+      "published_at": "2026-09-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-d7021b1cfb494fcd",
+      "category": "重大新闻",
+      "title": "晚间公告｜9月29日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 8 31424 4小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103381585.html",
+      "published_at": "2026-09-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-06213bd2c2797431",
       "category": "重大新闻",
@@ -1716,76 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-15198416f69581b6",
-      "category": "重大新闻",
-      "title": "盘前必读丨央行将开展8000亿元MLF操作；中际旭创回购近8亿 机构认为，沪指整数关口存在压力，需要反复消化。 8 32912 7小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103376505.html",
-      "published_at": "2026-09-24",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-a9f78ed3afb95db3",
-      "category": "重大新闻",
-      "title": "“摘帽”不足百日又犯“五宗罪”，川大智胜再被立案 川大智胜2026年上半年营业收入6553.12万元，同比增长20.21%；归母净利润亏损2951.92万元，仍",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103376136.html",
-      "published_at": "2026-09-24",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-4828137ff0a762a2",
-      "category": "重大新闻",
-      "title": "A股退市新变化：面值退市骤减，财务与重大违法出清成主力 “退市逻辑的切换，本质是从‘价’的淘汰转向‘质’的淘汰。” 7 13878 昨天 21:10",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103376268.html",
-      "published_at": "2026-09-24",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-4a24d5b14a2fb9a9",
-      "category": "重大新闻",
-      "title": "A股四大指数集体低开，黄金、房地产等板块跌幅居前 市场逾3400股下跌。 2377 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103376635.html",
-      "published_at": "2026-09-24",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-15198416f69581b6",
-      "category": "重大新闻",
-      "title": "盘前必读丨央行将开展8000亿元MLF操作；中际旭创回购近8亿 机构认为，沪指整数关口存在压力，需要反复消化。 29626 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103376505.html",
-      "published_at": "2026-09-24",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-09-29 16:46:06+08:00",
+  "last_checked_at": "2026-09-29 23:28:50+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 66582,
-    "covered_stocks": 5516,
-    "notice_rows": 34779,
-    "stock_news_rows": 31803,
+    "rows": 67633,
+    "covered_stocks": 5521,
+    "notice_rows": 35206,
+    "stock_news_rows": 32427,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
