@@ -42,7 +42,7 @@
       "status": "ok"
     },
     "market.csv": {
-      "rows": 33455,
+      "rows": 33473,
       "columns": [
         "trade_date",
         "symbol",
@@ -71,7 +71,7 @@
       "status": "ok"
     },
     "valuation.csv": {
-      "rows": 23498,
+      "rows": 23503,
       "columns": [
         "trade_date",
         "index_code",
@@ -83,7 +83,7 @@
       "status": "ok"
     },
     "crowding.csv": {
-      "rows": 103,
+      "rows": 104,
       "columns": [
         "trade_date",
         "top_fraction",
@@ -98,7 +98,7 @@
       "status": "ok"
     },
     "breadth.csv": {
-      "rows": 103,
+      "rows": 104,
       "columns": [
         "trade_date",
         "up_count",
@@ -115,7 +115,7 @@
       "status": "ok"
     },
     "leverage.csv": {
-      "rows": 102,
+      "rows": 103,
       "columns": [
         "trade_date",
         "margin_balance_trillion",
@@ -187,7 +187,7 @@
       "status": "ok"
     },
     "market_messages.csv": {
-      "rows": 69538,
+      "rows": 70367,
       "columns": [
         "published_at",
         "category",
@@ -205,7 +205,7 @@
       "status": "ok"
     },
     "market_tracking.csv": {
-      "rows": 103,
+      "rows": 104,
       "columns": [
         "trade_date",
         "market_score",
