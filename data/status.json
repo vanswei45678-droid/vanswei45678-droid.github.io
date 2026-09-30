@@ -3,11 +3,11 @@
   "datasets": {
     "macro": {
       "status": "success",
-      "rows": 170,
-      "started_at": "2026-09-30T00:38:44+08:00",
-      "finished_at": "2026-09-30T00:39:03+08:00",
-      "latest_date": "202608",
-      "total_cached_rows": 170,
+      "rows": 171,
+      "started_at": "2026-09-30T16:31:53+08:00",
+      "finished_at": "2026-09-30T16:32:13+08:00",
+      "latest_date": "202609",
+      "total_cached_rows": 171,
       "source_details": {
         "components": {
           "money_supply": {
@@ -27,7 +27,7 @@
           },
           "pmi": {
             "status": "success",
-            "rows": 170,
+            "rows": 171,
             "source": "东方财富 / AKShare"
           },
           "cpi": {
@@ -40,19 +40,19 @@
           "人民银行社融存量部分年份失败: 2022: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2022ntjsj/shrzgm/index.html') | 2023: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2023ntjsj/shrzgm/index.html') | 2024: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2024ntjsj/shrzgm/index.html') | 2025: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2025ntjsj/shrzgm/index.html')"
         ]
       },
-      "cached_rows": 170
+      "cached_rows": 171
     },
     "liquidity": {
       "status": "success",
-      "rows": 4991,
-      "started_at": "2026-09-30T00:39:03+08:00",
-      "finished_at": "2026-09-30T00:39:20+08:00",
-      "latest_date": "20260929",
-      "total_cached_rows": 5027,
+      "rows": 4992,
+      "started_at": "2026-09-30T16:32:13+08:00",
+      "finished_at": "2026-09-30T16:32:30+08:00",
+      "latest_date": "20260930",
+      "total_cached_rows": 5028,
       "source_details": {
         "shibor_on": {
           "status": "success",
-          "rows": 4991,
+          "rows": 4992,
           "source": "中国货币网 / AKShare"
         },
         "dr": {
@@ -62,7 +62,7 @@
         }
       },
       "note": "DR来自中国货币网，严格不以FDR替代。",
-      "cached_rows": 5027
+      "cached_rows": 5028
     },
     "market": {
       "status": "success",
@@ -397,11 +397,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20260930",
-      "rows": 69408,
-      "cached_rows": 69408,
-      "covered_stocks": 5524,
+      "rows": 69538,
+      "cached_rows": 69538,
+      "covered_stocks": 5527,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600687.SH: KeyError('code')；600672.SH: KeyError('code')；600670.SH: KeyError('code')"
+      "error": "600680.SH: KeyError('code')；600646.SH: KeyError('code')；600677.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-09-30T12:02:12+08:00",
+  "updated_at": "2026-09-30T16:50:13+08:00",
   "overall_status": "success",
-  "last_update_mode": "global"
+  "last_update_mode": "macro"
 }

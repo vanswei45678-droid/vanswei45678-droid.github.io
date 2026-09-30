@@ -7,7 +7,7 @@
   ],
   "data": {
     "macro.csv": {
-      "rows": 170,
+      "rows": 171,
       "columns": [
         "month",
         "m1_trillion",
@@ -31,7 +31,7 @@
       "status": "ok"
     },
     "liquidity.csv": {
-      "rows": 5027,
+      "rows": 5028,
       "columns": [
         "trade_date",
         "dr001_pct",
@@ -187,7 +187,7 @@
       "status": "ok"
     },
     "market_messages.csv": {
-      "rows": 69408,
+      "rows": 69538,
       "columns": [
         "published_at",
         "category",
