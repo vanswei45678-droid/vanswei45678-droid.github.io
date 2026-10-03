@@ -59,7 +59,7 @@
       "status": "ok"
     },
     "global_macro.csv": {
-      "rows": 30066,
+      "rows": 30068,
       "columns": [
         "trade_date",
         "series",
@@ -187,7 +187,7 @@
       "status": "ok"
     },
     "market_messages.csv": {
-      "rows": 64587,
+      "rows": 64095,
       "columns": [
         "published_at",
         "category",
