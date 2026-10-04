@@ -397,11 +397,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20261004",
-      "rows": 61895,
-      "cached_rows": 61895,
-      "covered_stocks": 5465,
+      "rows": 60601,
+      "cached_rows": 60601,
+      "covered_stocks": 5461,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600991.SH: KeyError('code')；600978.SH: KeyError('code')；600898.SH: KeyError('code')"
+      "error": "600806.SH: KeyError('code')；600804.SH: KeyError('code')；600856.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-10-04T09:14:51+08:00",
+  "updated_at": "2026-10-04T12:22:41+08:00",
   "overall_status": "success",
   "last_update_mode": "global"
 }
