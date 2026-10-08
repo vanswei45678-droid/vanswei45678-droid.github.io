@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08 17:12:32+08:00",
+  "updated_at": "2026-10-09 00:14:14+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "每日随公开数据刷新",
@@ -353,27 +353,27 @@
     "风险控制"
   ],
   "tracking": {
-    "trade_date": "20260930",
+    "trade_date": "20261008",
     "summary": {
-      "market_score": 49.5,
-      "market_score_before_gate": 49.5,
-      "risk_score": 65.8,
-      "risk_level": "红色",
-      "market_phase": "防御期 / 红色预警",
+      "market_score": 49.1,
+      "market_score_before_gate": 49.1,
+      "risk_score": 70.8,
+      "risk_level": "深红",
+      "market_phase": "防御期 / 深红防御优先",
       "base_position_pct": 30.0,
       "base_position_range": "20%-40%",
-      "risk_discount": 0.6,
-      "risk_discount_range": "50%-70%",
-      "suggested_position_pct": 19.0,
-      "suggested_position_range": "10%-28%",
+      "risk_discount": 0.4,
+      "risk_discount_range": "30%-50%",
+      "suggested_position_pct": 13.0,
+      "suggested_position_range": "6%-20%",
       "single_stock_limit": "10%",
       "industry_limit": "25%",
       "theme_limit": "15%",
-      "risk_action": "系统性降仓",
+      "risk_action": "防御优先",
       "liquidity_gate": "",
       "concentration_note": "防御或风险期，单股上限10%，单行业上限25%，单主题上限15%。",
-      "style_signal": "均衡轮动",
-      "style_reason": "成长/科技20日动量均值 -6.88%；宽基20日动量均值 -4.48%；风格差 -2.39%",
+      "style_signal": "大盘价值占优",
+      "style_reason": "成长/科技20日动量均值 -8.46%；宽基20日动量均值 -4.26%；风格差 -4.21%",
       "formula": "实际仓位 = 大盘建议仓位 × 风险折扣"
     },
     "modules": [
@@ -439,14 +439,14 @@
       {
         "name": "盈利周期",
         "weight": 15,
-        "score": 41.7,
-        "raw_score": 2.1,
-        "weighted_score": 6.3,
+        "score": 40.0,
+        "raw_score": 2.0,
+        "weighted_score": 6.0,
         "status": "中性偏弱",
         "basis": [
           "制造业PMI 50.10",
           "社融存量同比 暂无",
-          "主要A股指数20日动量均值 -5.93%"
+          "主要A股指数20日动量均值 -6.70%"
         ],
         "blueprint": [
           "全A盈利增速 30%",
@@ -459,15 +459,15 @@
       {
         "name": "估值水平",
         "weight": 15,
-        "score": 37.0,
-        "raw_score": 1.8,
-        "weighted_score": 5.4,
+        "score": 38.5,
+        "raw_score": 1.9,
+        "weighted_score": 5.7,
         "status": "偏弱",
         "basis": [
-          "指数PE历史分位均值 63%",
+          "指数PE历史分位均值 61%",
           "上证综指 PE历史分位 64%",
           "上证50 PE历史分位 69%",
-          "沪深300 PE历史分位 57%"
+          "沪深300 PE历史分位 56%"
         ],
         "blueprint": [
           "宽基指数估值 30%",
@@ -479,14 +479,14 @@
       {
         "name": "市场情绪",
         "weight": 10,
-        "score": 48.6,
-        "raw_score": 2.4,
-        "weighted_score": 4.8,
-        "status": "中性偏弱",
+        "score": 34.9,
+        "raw_score": 1.7,
+        "weighted_score": 3.4,
+        "status": "偏弱",
         "basis": [
-          "上涨家数占比 44.89%",
-          "A股成交额/总市值 1.30%",
-          "交易拥挤度 42.03%"
+          "上涨家数占比 31.27%",
+          "A股成交额/总市值 1.54%",
+          "交易拥挤度 42.79%"
         ],
         "blueprint": [
           "成交活跃度 25%",
@@ -499,14 +499,14 @@
       {
         "name": "风格结构",
         "weight": 10,
-        "score": 62.0,
-        "raw_score": 3.1,
-        "weighted_score": 6.2,
+        "score": 71.0,
+        "raw_score": 3.6,
+        "weighted_score": 7.2,
         "status": "中性偏强",
         "basis": [
-          "成长/科技20日动量均值 -6.88%",
-          "宽基20日动量均值 -4.48%",
-          "风格差 -2.39%"
+          "成长/科技20日动量均值 -8.46%",
+          "宽基20日动量均值 -4.26%",
+          "风格差 -4.21%"
         ],
         "blueprint": [
           "大小盘风格 25%",
@@ -520,70 +520,70 @@
       {
         "name": "市场广度恶化",
         "weight": 20,
-        "risk": 16.7,
-        "raw_risk": 83.5,
+        "risk": 19.1,
+        "raw_risk": 95.3,
         "level": "高",
         "basis": [
-          "上涨家数占比 44.89%",
-          "近5期上涨家数变化 -1870只"
+          "上涨家数占比 31.27%",
+          "近5期上涨家数变化 -651只"
         ]
       },
       {
         "name": "量价质量恶化",
         "weight": 20,
-        "risk": 17.7,
-        "raw_risk": 88.7,
+        "risk": 18.3,
+        "raw_risk": 91.6,
         "level": "高",
         "basis": [
-          "主要指数20日动量均值 -5.93%",
-          "主要指数相对20日均线均值 -3.48%",
-          "成交额近5期变化 -0.59万亿元"
+          "主要指数20日动量均值 -6.70%",
+          "主要指数相对20日均线均值 -5.53%",
+          "成交额近5期变化 -0.45万亿元"
         ]
       },
       {
         "name": "主线健康度下降",
         "weight": 20,
-        "risk": 11.6,
-        "raw_risk": 57.9,
+        "risk": 13.0,
+        "raw_risk": 64.9,
         "level": "偏高",
         "basis": [
-          "创业板20日动量 -7.61%",
-          "科创50 20日动量 -7.13%",
-          "交易拥挤度 42.03%"
+          "创业板20日动量 -8.32%",
+          "科创50 20日动量 -9.97%",
+          "交易拥挤度 42.79%"
         ]
       },
       {
         "name": "杠杆与资金拥挤",
         "weight": 15,
-        "risk": 5.6,
-        "raw_risk": 37.4,
+        "risk": 6.7,
+        "raw_risk": 44.7,
         "level": "中",
         "basis": [
-          "两融/总市值 2.33%，历史分位 73%",
-          "交易拥挤度历史分位 2%"
+          "两融/总市值 2.35%，历史分位 81%",
+          "交易拥挤度历史分位 9%"
         ]
       },
       {
         "name": "跨资产压力",
         "weight": 10,
-        "risk": 6.4,
-        "raw_risk": 63.7,
+        "risk": 6.0,
+        "raw_risk": 60.4,
         "level": "偏高",
         "basis": [
-          "美国10年期国债 5.29%",
-          "纳斯达克20日动量 2.92%",
+          "美国10年期国债 5.27%",
+          "纳斯达克20日动量 4.98%",
           "美元净流动性 5.63万亿美元"
         ]
       },
       {
         "name": "估值盈利背离",
         "weight": 10,
-        "risk": 5.4,
-        "raw_risk": 54.0,
+        "risk": 5.3,
+        "raw_risk": 53.2,
         "level": "偏高",
         "basis": [
-          "指数PE历史分位均值 63%",
-          "盈利周期原始分 2.1/5"
+          "指数PE历史分位均值 61%",
+          "盈利周期原始分 2.0/5"
         ]
       },
       {
@@ -599,13 +599,13 @@
       }
     ],
     "signals": {
-      "up_ratio_pct": 44.89,
-      "total_amount_trillion": 1.437,
-      "broad_turnover_pct": 1.299,
-      "crowding_pct": 42.03,
-      "margin_to_market_cap_pct": 2.331,
-      "index_momentum_20d_pct": -5.93,
-      "dgs10_pct": 5.29
+      "up_ratio_pct": 31.27,
+      "total_amount_trillion": 1.681,
+      "broad_turnover_pct": 1.542,
+      "crowding_pct": 42.79,
+      "margin_to_market_cap_pct": 2.349,
+      "index_momentum_20d_pct": -6.7,
+      "dgs10_pct": 5.27
     }
   },
   "method_note": "大盘机会评分按七大模块0-5原始分折算为100分；风险领先预警分越高越需要降仓。该模型用于仓位管理与风控，不直接预测指数点位，不构成投资建议。"
