@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 171,
-      "started_at": "2026-10-10T01:11:27+08:00",
-      "finished_at": "2026-10-10T01:11:43+08:00",
+      "started_at": "2026-10-10T16:28:43+08:00",
+      "finished_at": "2026-10-10T16:29:05+08:00",
       "latest_date": "202609",
       "total_cached_rows": 171,
       "source_details": {
@@ -44,15 +44,15 @@
     },
     "liquidity": {
       "status": "success",
-      "rows": 4994,
-      "started_at": "2026-10-10T01:11:43+08:00",
-      "finished_at": "2026-10-10T01:12:05+08:00",
-      "latest_date": "20261009",
-      "total_cached_rows": 5030,
+      "rows": 4995,
+      "started_at": "2026-10-10T16:29:05+08:00",
+      "finished_at": "2026-10-10T16:29:19+08:00",
+      "latest_date": "20261010",
+      "total_cached_rows": 5031,
       "source_details": {
         "shibor_on": {
           "status": "success",
-          "rows": 4994,
+          "rows": 4995,
           "source": "中国货币网 / AKShare"
         },
         "dr": {
@@ -62,7 +62,7 @@
         }
       },
       "note": "DR来自中国货币网，严格不以FDR替代。",
-      "cached_rows": 5030
+      "cached_rows": 5031
     },
     "market": {
       "status": "success",
@@ -397,11 +397,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20261010",
-      "rows": 58811,
-      "cached_rows": 58811,
-      "covered_stocks": 5433,
+      "rows": 58977,
+      "cached_rows": 58977,
+      "covered_stocks": 5435,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600772.SH: KeyError('code')；600891.SH: KeyError('code')；600786.SH: KeyError('code')"
+      "error": "600670.SH: KeyError('code')；600747.SH: KeyError('code')；600659.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-10-10T12:25:00+08:00",
+  "updated_at": "2026-10-10T16:46:21+08:00",
   "overall_status": "success",
-  "last_update_mode": "global"
+  "last_update_mode": "macro"
 }
