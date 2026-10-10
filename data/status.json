@@ -67,8 +67,8 @@
     "market": {
       "status": "success",
       "rows": 33569,
-      "started_at": "2026-10-09T23:33:27+08:00",
-      "finished_at": "2026-10-09T23:33:34+08:00",
+      "started_at": "2026-10-10T09:49:33+08:00",
+      "finished_at": "2026-10-10T09:49:43+08:00",
       "latest_date": "20261009",
       "total_cached_rows": 33580,
       "symbols": {
@@ -178,15 +178,15 @@
     "global_macro": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-10-09T10:18:19+08:00",
-      "finished_at": "2026-10-09T10:29:51+08:00",
-      "latest_date": "20261007",
-      "total_cached_rows": 30076,
+      "started_at": "2026-10-10T09:49:43+08:00",
+      "finished_at": "2026-10-10T10:01:15+08:00",
+      "latest_date": "20261008",
+      "total_cached_rows": 30078,
       "source_details": {
         "DGS2": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20261007",
+          "latest_date": "20261008",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
@@ -196,7 +196,7 @@
         "DGS10": {
           "status": "success",
           "rows": 1,
-          "latest_date": "20261007",
+          "latest_date": "20261008",
           "source": "美联储H.15当前发布页",
           "fallback_errors": [
             "FRED CSV: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=45)\"))",
@@ -209,13 +209,13 @@
         }
       },
       "latest_by_series": {
-        "DGS2": "20261007",
-        "DGS10": "20261007",
+        "DGS2": "20261008",
+        "DGS10": "20261008",
         "NET_USD_LIQUIDITY_SOMA": "20260722",
         "NET_USD_LIQUIDITY_TOTAL_ASSETS": "20260722"
       },
       "note": "DGS10独立抓取；美元净流动性使用FRED的SOMA/总资产、TGA、RRP公开序列计算。",
-      "cached_rows": 30076
+      "cached_rows": 30078
     },
     "valuation": {
       "status": "success",
@@ -321,8 +321,8 @@
     "deviation": {
       "status": "success",
       "rows": 2145,
-      "started_at": "2026-10-09T23:35:36+08:00",
-      "finished_at": "2026-10-09T23:35:36+08:00",
+      "started_at": "2026-10-10T10:01:15+08:00",
+      "finished_at": "2026-10-10T10:01:15+08:00",
       "latest_date": "20261009",
       "total_cached_rows": 2145,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -397,11 +397,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20261010",
-      "rows": 58367,
-      "cached_rows": 58367,
-      "covered_stocks": 5428,
+      "rows": 58945,
+      "cached_rows": 58945,
+      "covered_stocks": 5435,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "603133.SH: KeyError('code')；603003.SH: KeyError('code')；601558.SH: KeyError('code')"
+      "error": "600672.SH: KeyError('code')；600670.SH: KeyError('code')；600680.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-10-10T01:28:56+08:00",
+  "updated_at": "2026-10-10T10:14:34+08:00",
   "overall_status": "success",
-  "last_update_mode": "evening"
+  "last_update_mode": "global"
 }
