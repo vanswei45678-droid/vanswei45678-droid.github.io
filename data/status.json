@@ -67,8 +67,8 @@
     "market": {
       "status": "success",
       "rows": 33569,
-      "started_at": "2026-10-10T09:49:33+08:00",
-      "finished_at": "2026-10-10T09:49:43+08:00",
+      "started_at": "2026-10-11T09:04:31+08:00",
+      "finished_at": "2026-10-11T09:04:42+08:00",
       "latest_date": "20261009",
       "total_cached_rows": 33580,
       "symbols": {
@@ -178,8 +178,8 @@
     "global_macro": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-10-10T09:49:43+08:00",
-      "finished_at": "2026-10-10T10:01:15+08:00",
+      "started_at": "2026-10-11T09:04:42+08:00",
+      "finished_at": "2026-10-11T09:16:14+08:00",
       "latest_date": "20261008",
       "total_cached_rows": 30078,
       "source_details": {
@@ -321,8 +321,8 @@
     "deviation": {
       "status": "success",
       "rows": 2145,
-      "started_at": "2026-10-10T10:01:15+08:00",
-      "finished_at": "2026-10-10T10:01:15+08:00",
+      "started_at": "2026-10-11T09:16:14+08:00",
+      "finished_at": "2026-10-11T09:16:14+08:00",
       "latest_date": "20261009",
       "total_cached_rows": 2145,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -397,11 +397,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20261011",
-      "rows": 58239,
-      "cached_rows": 58239,
-      "covered_stocks": 5423,
+      "rows": 56339,
+      "cached_rows": 56339,
+      "covered_stocks": 5401,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600670.SH: KeyError('code')；600669.SH: KeyError('code')；600659.SH: KeyError('code')"
+      "error": "600991.SH: KeyError('code')；600978.SH: KeyError('code')；600898.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-10-11T00:18:20+08:00",
+  "updated_at": "2026-10-11T09:31:12+08:00",
   "overall_status": "success",
-  "last_update_mode": "evening"
+  "last_update_mode": "global"
 }
