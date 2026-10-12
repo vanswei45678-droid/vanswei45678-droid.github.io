@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12 12:19:18+08:00",
+  "updated_at": "2026-10-12 17:27:32+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -108,9 +108,37 @@
   ],
   "items": [
     {
+      "id": "auto-yicai-20755c5a2fee2895",
+      "category": "重大新闻",
+      "title": "连板股追踪丨A股今日共48只个股涨停 这只传媒股10连板 创新药板块华北制药3连板。一图速览今日连板股>> 1757 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103389947.html",
+      "published_at": "2026-10-12",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-0b76df3fa1a93be0",
+      "category": "重大新闻",
+      "title": "收盘｜沪指跌0.43% 银行板块涨幅居前 全市场超4300只个股下跌。 5136 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103389892.html",
+      "published_at": "2026-10-12",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
       "id": "auto-yicai-6acb72b6ac42fb52",
       "category": "重大新闻",
-      "title": "A股四大指数集体低开，市场逾2900股下跌 盘面上，传媒、零售板块活跃，能源金属、电池、油气板块下挫。 6 3369 2小时前",
+      "title": "A股四大指数集体低开，市场逾2900股下跌 盘面上，传媒、零售板块活跃，能源金属、电池、油气板块下挫。 6 6252 7小时前",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103389267.html",
@@ -128,6 +156,34 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103389093.html",
+      "published_at": "2026-10-12",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-deea7b4175a49362",
+      "category": "重大新闻",
+      "title": "IPO周报：思朗科技被抽中现场检查，收入依赖单一产品，尚未盈利 10月5日～10月11日当周，沪深北交易所有5家公司的上市申请被终止审核。 IPO周报 7 71",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103388923.html",
+      "published_at": "2026-10-12",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-6acb72b6ac42fb52",
+      "category": "重大新闻",
+      "title": "A股四大指数集体低开，市场逾2900股下跌 盘面上，传媒、零售板块活跃，能源金属、电池、油气板块下挫。 6 3369 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103389267.html",
       "published_at": "2026-10-12",
       "symbols": [
         "A股"
@@ -1730,62 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-a40b7cabd95d2c6d",
-      "category": "重大新闻",
-      "title": "晓数点丨券商10月金股出炉，涉及医药、信息技术等领域 药明康德最受机构青睐，共入围了8家券商的推荐名单。 37748 10-01 17:22",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103383683.html",
-      "published_at": "2026-10-07",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-8bf7a3cf63ac3309",
-      "category": "重大新闻",
-      "title": "独家｜在港机构加码清理内地非法交易，多家收紧部分观望 “在境外机构清理内地客户非法存量业务后，未来通过合法渠道开展境外投资的人将会越来越多。” 46924 10",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103383593.html",
-      "published_at": "2026-10-07",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-4cb7be931e6c002d",
-      "category": "重大新闻",
-      "title": "恒生科技指数连跌一年，累计跌幅近四成｜市场观察 内地假期使得港股缺乏南向资金支撑。 7 40321 10-02 15:08",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103383874.html",
-      "published_at": "2026-10-06",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-8bf7a3cf63ac3309",
-      "category": "重大新闻",
-      "title": "独家｜在港机构加码清理内地非法交易，多家收紧部分观望 “在境外机构清理内地客户非法存量业务后，未来通过合法渠道开展境外投资的人将会越来越多。” 46583 10",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103383593.html",
-      "published_at": "2026-10-06",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-12 12:19:18+08:00",
+  "last_checked_at": "2026-10-12 17:27:32+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 54510,
-    "covered_stocks": 5387,
-    "notice_rows": 26703,
-    "stock_news_rows": 27807,
+    "rows": 54736,
+    "covered_stocks": 5383,
+    "notice_rows": 26762,
+    "stock_news_rows": 27974,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
