@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13 13:29:58+08:00",
+  "updated_at": "2026-10-13 17:39:39+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -107,6 +107,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-0eb9061c24f0b104",
+      "category": "重大新闻",
+      "title": "一年下挫近四成，恒生科技指数逼近“924”起点｜市场观察 指数要重新崛起，需要看政策发力以及人工智能发展突破。 2718 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103391717.html",
+      "published_at": "2026-10-13",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-f0be8e416e00995a",
+      "category": "重大新闻",
+      "title": "连板股追踪丨A股今日共70只个股涨停 传媒板块多股连板 文化传媒板块慈文传媒、新经典、龙版传媒均收获3连板。一图速览今日连板股>> 2005 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103391640.html",
+      "published_at": "2026-10-13",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-78776e9b2ec575f3",
+      "category": "重大新闻",
+      "title": "收盘｜沪指涨0.1% 冰雪经济板块大涨 全市场超2900只个股上涨。 6314 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103391623.html",
+      "published_at": "2026-10-13",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-f52895fa42b95885",
+      "category": "重大新闻",
+      "title": "YiwealthSMI｜贴近用户生活，让金融内容更具吸引力 本期为银行社交媒体指数（2026年8月）。 10 2563 6小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103390976.html",
+      "published_at": "2026-10-13",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-74e8e9d45139f8ec",
+      "category": "重大新闻",
+      "title": "YiwealthSMI｜从市场事件到生活场景，券商社媒运营有哪些新思路？ 本期为券商社交媒体指数（2026年8月）。 9 2563 6小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103390991.html",
+      "published_at": "2026-10-13",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-f52895fa42b95885",
       "category": "重大新闻",
@@ -1716,76 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-20117272d44fefa1",
-      "category": "重大新闻",
-      "title": "恒生科技指数成份股将扩容至50只，投资者体验能否改善？ 互联网巨头权重将会降低。 3245 昨天 20:53",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103385141.html",
-      "published_at": "2026-10-08",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-0029003f2016ab3c",
-      "category": "重大新闻",
-      "title": "连续地量，A股节后行情怎么走 9月29日、30日全市场成交额接连刷新年内新低，上证指数跌破3900点，创业板指与科创50刚刚经历各自历史上最差的一个季度 755",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103385138.html",
-      "published_at": "2026-10-08",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-5c09ea4649552051",
-      "category": "重大新闻",
-      "title": "年内逾60家企业IPO折戟，创业板“钉子户”博华科技退场 年内北交所终止审核的数量最多，占比达到58%。 2935 昨天 20:37",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103385131.html",
-      "published_at": "2026-10-08",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-0469d8d909dc7610",
-      "category": "重大新闻",
-      "title": "央行托底与加息压制并存，黄金价格等待趋势信号 中国央行已连续第23个月增持黄金，国内假期期间，国际金价险守4100美元关口 8019 昨天 18:43",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103385095.html",
-      "published_at": "2026-10-08",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-33dca7013fd6e81d",
-      "category": "重大新闻",
-      "title": "晚间公告｜10月7日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 25999 昨天 18:28",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103385094.html",
-      "published_at": "2026-10-08",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-13 13:29:58+08:00",
+  "last_checked_at": "2026-10-13 17:39:39+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 55321,
-    "covered_stocks": 5398,
-    "notice_rows": 26612,
-    "stock_news_rows": 28709,
+    "rows": 55988,
+    "covered_stocks": 5403,
+    "notice_rows": 26716,
+    "stock_news_rows": 29272,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
