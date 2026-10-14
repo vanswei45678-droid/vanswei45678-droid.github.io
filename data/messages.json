@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14 02:39:55+08:00",
+  "updated_at": "2026-10-14 09:44:20+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -108,12 +108,68 @@
   ],
   "items": [
     {
+      "id": "auto-yicai-623814cbf35b85b6",
+      "category": "重大新闻",
+      "title": "A股四大指数集体低开，光通信、传媒等板块调整 盘面上，冰雪旅游、水产板块涨幅居前。 5分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103392566.html",
+      "published_at": "2026-10-14",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-21bad0dea1a4c65e",
+      "category": "重大新闻",
+      "title": "盘前必读丨美以领导人被曝商讨重启对伊军事行动；宝鼎科技前三季度净利预增最高超6倍 机构认为，市场或仍维持底部震荡格局。 21039 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103392404.html",
+      "published_at": "2026-10-14",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
       "id": "auto-yicai-9fea67485a4e004a",
       "category": "重大新闻",
       "title": "港股IPO新动向！香港证监会重拳出击3个IPO操纵案，修改上市规则强化监管 这3家港股上市公司分别为茶百道（02555.HK）、拨康视云（02592.HK）、天",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103392259.html",
+      "published_at": "2026-10-14",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-6ff15ad4cc157923",
+      "category": "重大新闻",
+      "title": "追高科技后低位砍仓，谁是A股近期主力卖盘 “根据我们对资金动向的观察，险资被动赎回是本轮核心卖盘。” 22217 昨天 21:39",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103392207.html",
+      "published_at": "2026-10-14",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-4eacfc3d1c7e6144",
+      "category": "重大新闻",
+      "title": "单季4700亿元杠杆资金出逃，两融规模创新低 千亿级的杠杆资金从哪些板块出逃？近一个半月，电子、通信、有色金属是融资资金净流出额最高的三大行业。 6996 昨天",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103392109.html",
       "published_at": "2026-10-14",
       "symbols": [
         "A股"
@@ -1730,62 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-20117272d44fefa1",
-      "category": "重大新闻",
-      "title": "恒生科技指数成份股将扩容至50只，投资者体验能否改善？ 互联网巨头权重将会降低。 9662 昨天 20:53",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103385141.html",
-      "published_at": "2026-10-08",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-f19fbdcf6ea2bf0a",
-      "category": "重大新闻",
-      "title": "A股四大指数开盘表现分化，动物疫苗、石化等板块走强 盘面上，光模块、贵金属、房地产板块调整。 6066 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103385467.html",
-      "published_at": "2026-10-08",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-34494380709b2700",
-      "category": "重大新闻",
-      "title": "盘前必读丨美股下挫道指跌超300点；恒生科技指数将迎重大调整 机构认为，节后A股或震荡回升，风格偏向中小盘与成长。 5 30246 4小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103385282.html",
-      "published_at": "2026-10-08",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-20117272d44fefa1",
-      "category": "重大新闻",
-      "title": "恒生科技指数成份股将扩容至50只，投资者体验能否改善？ 互联网巨头权重将会降低。 8360 昨天 20:53",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103385141.html",
-      "published_at": "2026-10-08",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-14 02:39:55+08:00",
+  "last_checked_at": "2026-10-14 09:44:20+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 58544,
+    "rows": 59043,
     "covered_stocks": 5561,
-    "notice_rows": 27781,
-    "stock_news_rows": 30763,
+    "notice_rows": 27789,
+    "stock_news_rows": 31254,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
