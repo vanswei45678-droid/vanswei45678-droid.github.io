@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18 11:06:28+08:00",
+  "updated_at": "2026-10-18 15:31:42+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -110,7 +110,7 @@
     {
       "id": "auto-yicai-8e482d08ae3cf319",
       "category": "重大新闻",
-      "title": "下周关注丨9月经济数据将公布，这些投资机会最靠谱 10月LPR将公布；2026金融街论坛年会开幕在即…… 2749 2小时前",
+      "title": "下周关注丨9月经济数据将公布，这些投资机会最靠谱 10月LPR将公布；2026金融街论坛年会开幕在即…… 5911 6小时前",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103397808.html",
@@ -128,6 +128,62 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103397594.html",
+      "published_at": "2026-10-18",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-d021c5a7d595ee90",
+      "category": "重大新闻",
+      "title": "晚间公告｜10月16日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 6 56007 10-16 18:42",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103397050.html",
+      "published_at": "2026-10-18",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-b5d92c18557e098f",
+      "category": "重大新闻",
+      "title": "龙虎榜丨机构今日买入这17股，抛售药明康德5.95亿元 共39只个股出现了机构的身影。 9 12390 10-16 18:06",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103396996.html",
+      "published_at": "2026-10-18",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-2747d076226770b2",
+      "category": "重大新闻",
+      "title": "持仓观望 6407 10-16 17:20",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103396940.html",
+      "published_at": "2026-10-18",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-8e482d08ae3cf319",
+      "category": "重大新闻",
+      "title": "下周关注丨9月经济数据将公布，这些投资机会最靠谱 10月LPR将公布；2026金融街论坛年会开幕在即…… 2749 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103397808.html",
       "published_at": "2026-10-18",
       "symbols": [
         "A股"
@@ -1730,62 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-6ff15ad4cc157923",
-      "category": "重大新闻",
-      "title": "追高科技后低位砍仓，谁是A股近期主力卖盘 “根据我们对资金动向的观察，险资和‘固收+’产品被动赎回是本轮核心卖盘。” 8949 昨天 21:39",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103392207.html",
-      "published_at": "2026-10-14",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-4eacfc3d1c7e6144",
-      "category": "重大新闻",
-      "title": "单季4700亿元杠杆资金出逃，两融规模创新低 千亿级的杠杆资金从哪些板块出逃？近一个半月，电子、通信、有色金属是融资资金净流出额最高的三大行业。 2904 昨天",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103392109.html",
-      "published_at": "2026-10-14",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-cbbd4c295d72e2c7",
-      "category": "重大新闻",
-      "title": "科技股深V反攻、沪指再探3741点，双底能否撑起反弹行情？ 中际旭创年内涨幅跑输中国石油。 2501 昨天 20:40",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103392108.html",
-      "published_at": "2026-10-14",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-0eb9061c24f0b104",
-      "category": "重大新闻",
-      "title": "一年下挫近四成，恒生科技指数逼近“924”起点｜市场观察 指数要重新崛起，需要看政策发力以及人工智能发展突破。 2718 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103391717.html",
-      "published_at": "2026-10-13",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-18 11:06:28+08:00",
+  "last_checked_at": "2026-10-18 15:31:42+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 56165,
+    "rows": 56289,
     "covered_stocks": 5561,
-    "notice_rows": 25709,
-    "stock_news_rows": 30456,
+    "notice_rows": 25711,
+    "stock_news_rows": 30578,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
