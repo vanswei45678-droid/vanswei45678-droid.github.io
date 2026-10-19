@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19 16:04:29+08:00",
+  "updated_at": "2026-10-20 00:33:58+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -107,6 +107,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-2268ce0c3da00b86",
+      "category": "重大新闻",
+      "title": "东兴、信达“最后成绩单”交卷：营收、净利双双下滑，自营收入环比大降 权益市场的持续震荡调整，或许使得当前倚重自营业务和科创跟投收益的券商三季度业绩承压。 262",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103399323.html",
+      "published_at": "2026-10-20",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-b1ea512bead562dd",
+      "category": "重大新闻",
+      "title": "明确支持、鼓励实施先行赔付，证监会发布指导意见 依法、快捷、高效开展先行赔付，更好维护中小投资者合法权益。 3431 昨天 19:26",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103399378.html",
+      "published_at": "2026-10-20",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-af408e3a385a0025",
+      "category": "重大新闻",
+      "title": "证监会新规直指违规减持乱象，减持比例超5%、金额超5亿将被重罚 完善违规减持处罚规则，更加精准有效打击违规减持行为。 8701 昨天 19:25",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103399374.html",
+      "published_at": "2026-10-20",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-821bccf1f57e9ad8",
+      "category": "重大新闻",
+      "title": "北交所深改方向明确！吴清：稳步推出北证50ETF、新股市值配售 “北交所设立五年来，一批专精特新企业集聚成势。” 16110 昨天 18:49",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103399319.html",
+      "published_at": "2026-10-20",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-f60c52ead68ad302",
+      "category": "重大新闻",
+      "title": "晚间公告｜10月19日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 45157 昨天 18:42",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103399298.html",
+      "published_at": "2026-10-20",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-bc335e438fbfbaf8",
       "category": "重大新闻",
@@ -1716,76 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-84cc1386787a59b0",
-      "category": "重大新闻",
-      "title": "传媒板块近5日逆势领跑，AI变现存疑、多股涨停背后业绩承压 业内提示称，需要关注AI商业化落地不及预期、IP商业化不及预期、行业竞争加剧等风险。 2005 1小",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103393867.html",
-      "published_at": "2026-10-14",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-7cbb3351a97e191f",
-      "category": "重大新闻",
-      "title": "5天5家拟上市企业撤单，创业板“钉子户”在列，IPO终止为何密集出现？ 2家拟IPO企业国庆假期撤单。 1571 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103393641.html",
-      "published_at": "2026-10-14",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-6b246be845b5a7c0",
-      "category": "重大新闻",
-      "title": "创业板指近35%回撤背后：拥挤交易退潮，ETF却揽金676亿 从36%到-10.5%：创业板三个月就高台回落，资金在指数端另寻锚点 3214 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103393659.html",
-      "published_at": "2026-10-14",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-1d571a150ca0e962",
-      "category": "重大新闻",
-      "title": "晚间公告｜10月14日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 16141 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103393604.html",
-      "published_at": "2026-10-14",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-9c085af1a4d7a23f",
-      "category": "重大新闻",
-      "title": "收盘｜上证指数跌0.88% 光刻机板块走低 全市场超4400只个股下跌。 2098 36分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103393287.html",
-      "published_at": "2026-10-14",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-19 16:04:29+08:00",
+  "last_checked_at": "2026-10-20 00:33:58+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 54545,
+    "rows": 55701,
     "covered_stocks": 5561,
-    "notice_rows": 24466,
-    "stock_news_rows": 30079,
+    "notice_rows": 24610,
+    "stock_news_rows": 31091,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
