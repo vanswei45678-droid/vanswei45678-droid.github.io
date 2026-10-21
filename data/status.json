@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 171,
-      "started_at": "2026-10-20T23:22:11+08:00",
-      "finished_at": "2026-10-20T23:22:35+08:00",
+      "started_at": "2026-10-21T15:36:28+08:00",
+      "finished_at": "2026-10-21T15:36:54+08:00",
       "latest_date": "202609",
       "total_cached_rows": 171,
       "source_details": {
@@ -44,15 +44,15 @@
     },
     "liquidity": {
       "status": "success",
-      "rows": 5002,
-      "started_at": "2026-10-20T23:22:35+08:00",
-      "finished_at": "2026-10-20T23:22:59+08:00",
-      "latest_date": "20261020",
-      "total_cached_rows": 5038,
+      "rows": 5003,
+      "started_at": "2026-10-21T15:36:54+08:00",
+      "finished_at": "2026-10-21T15:37:10+08:00",
+      "latest_date": "20261021",
+      "total_cached_rows": 5039,
       "source_details": {
         "shibor_on": {
           "status": "success",
-          "rows": 5002,
+          "rows": 5003,
           "source": "中国货币网 / AKShare"
         },
         "dr": {
@@ -62,7 +62,7 @@
         }
       },
       "note": "DR来自中国货币网，严格不以FDR替代。",
-      "cached_rows": 5038
+      "cached_rows": 5039
     },
     "market": {
       "status": "success",
@@ -397,11 +397,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20261021",
-      "rows": 58027,
-      "cached_rows": 58027,
+      "rows": 58413,
+      "cached_rows": 58413,
       "covered_stocks": 5561,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "601028.SH: KeyError('code')；600991.SH: KeyError('code')；600978.SH: KeyError('code')"
+      "error": "600669.SH: KeyError('code')；600656.SH: KeyError('code')；600788.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -412,7 +412,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-10-21T11:22:08+08:00",
+  "updated_at": "2026-10-21T15:54:52+08:00",
   "overall_status": "success",
-  "last_update_mode": "global"
+  "last_update_mode": "macro"
 }
