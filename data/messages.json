@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23 22:21:32+08:00",
+  "updated_at": "2026-10-23 23:47:27+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -110,7 +110,7 @@
     {
       "id": "auto-yicai-bea4c81967cc0a56",
       "category": "重大新闻",
-      "title": "考验4000美元关口，黄金多空拉锯战持续 沪金期货跌至年内最低 3462 1小时前",
+      "title": "考验4000美元关口，黄金多空拉锯战持续 沪金期货跌至年内最低 5818 3小时前",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103407026.html",
@@ -128,6 +128,62 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103407007.html",
+      "published_at": "2026-10-23",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-5b81c6b0b11d3ba5",
+      "category": "重大新闻",
+      "title": "外资券商队伍再“迎新”，花旗证券获准设立 外资券商加速抢滩中国市场。 2656 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103406979.html",
+      "published_at": "2026-10-23",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-e3dbca29d22a57ff",
+      "category": "重大新闻",
+      "title": "晚间公告｜10月23日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 5 35640 4小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103406847.html",
+      "published_at": "2026-10-23",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-816f7731fb73c34a",
+      "category": "重大新闻",
+      "title": "母基金监管新规出炉，明确分散投资、豁免一层投资层级 母基金投资于其他私募基金份额的金额，不低于其资产净值的80%。 9 3431 5小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103406762.html",
+      "published_at": "2026-10-23",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-bea4c81967cc0a56",
+      "category": "重大新闻",
+      "title": "考验4000美元关口，黄金多空拉锯战持续 沪金期货跌至年内最低 3462 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103407026.html",
       "published_at": "2026-10-23",
       "symbols": [
         "A股"
@@ -1730,62 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-8a42465d95070dfb",
-      "category": "重大新闻",
-      "title": "A股公司再掀护盘行动，单周超30亿回购增持 长鑫科技、“易中天”等龙头股密集出手回购。 4051 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103397985.html",
-      "published_at": "2026-10-18",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-5a589dda09da6425",
-      "category": "重大新闻",
-      "title": "晚间公告｜10月18日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 6159 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103397955.html",
-      "published_at": "2026-10-18",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-148d06feb14a0572",
-      "category": "重大新闻",
-      "title": "机构论后市丨A股短期可能见底，关注科技成长短期超跌后的修复机会 A股后市怎么走？看看机构怎么说。 2842 4小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103397939.html",
-      "published_at": "2026-10-18",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-8e482d08ae3cf319",
-      "category": "重大新闻",
-      "title": "下周关注丨9月经济数据将公布，这些投资机会最靠谱 10月LPR将公布；2026金融街论坛年会开幕在即…… 5911 6小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103397808.html",
-      "published_at": "2026-10-18",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-23 22:21:32+08:00",
+  "last_checked_at": "2026-10-23 23:47:27+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 44154,
+    "rows": 59963,
     "covered_stocks": 5561,
-    "notice_rows": 10883,
-    "stock_news_rows": 33271,
+    "notice_rows": 26758,
+    "stock_news_rows": 33205,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
