@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26 11:16:38+08:00",
+  "updated_at": "2026-10-26 16:02:51+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -107,6 +107,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-a59a947b6726a345",
+      "category": "重大新闻",
+      "title": "收盘｜沪指涨0.19% 游戏、油气股涨幅居前 沪深两市成交额1.61万亿，较上一个交易日缩量3475亿。 2408 37分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103409304.html",
+      "published_at": "2026-10-26",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-da5a327ca19b08eb",
+      "category": "重大新闻",
+      "title": "连板股追踪丨A股今日共59只个股涨停 机器人概念多股连板 零售板块上海九百收获4连板。一图速览今日连板股>> 920 40分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103409317.html",
+      "published_at": "2026-10-26",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-6b1e95315058e1b0",
+      "category": "重大新闻",
+      "title": "东方雨虹三季报的三个积极信号：营收稳固、现金流转正、全球化布局深入 3710 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103409025.html",
+      "published_at": "2026-10-26",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-700cac77df44200a",
+      "category": "重大新闻",
+      "title": "A股四大指数集体低开，贵金属、影视等板块跌幅居前 市场逾4300股下跌。 9879 6小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103408666.html",
+      "published_at": "2026-10-26",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-d93aa6419bbbae5e",
+      "category": "重大新闻",
+      "title": "盘前必读丨A股指数重要调整今起实施；德明利Q3净利同比增长2903% 机构认为，短期内市场或迎来“风险释放后的修复窗口”。 36167 7小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103408530.html",
+      "published_at": "2026-10-26",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-700cac77df44200a",
       "category": "重大新闻",
@@ -1716,76 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-987146ba39079f46",
-      "category": "重大新闻",
-      "title": "A股四大指数集体低开，农业、教育板块表现活跃 盘面上，传媒、电路板、冰雪旅游、光通信板块调整。 9 3927 6小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103400006.html",
-      "published_at": "2026-10-20",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-a553fe30f776b6d2",
-      "category": "重大新闻",
-      "title": "盘前必读丨美股存储、半导体股大反攻；境内首批18只主动ETF获批 机构认为，指数跌至去年三季度水平，回调空间接近完成。 27115 7小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103399843.html",
-      "published_at": "2026-10-20",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-2268ce0c3da00b86",
-      "category": "重大新闻",
-      "title": "东兴、信达“最后成绩单”交卷：营收、净利双双下滑，自营收入环比大降 权益市场的持续震荡调整，或许使得当前倚重自营业务和科创跟投收益的券商三季度业绩承压。 100",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103399323.html",
-      "published_at": "2026-10-20",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-b1ea512bead562dd",
-      "category": "重大新闻",
-      "title": "明确支持、鼓励实施先行赔付，证监会发布指导意见 依法、快捷、高效开展先行赔付，更好维护中小投资者合法权益。 5973 昨天 19:26",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103399378.html",
-      "published_at": "2026-10-20",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-af408e3a385a0025",
-      "category": "重大新闻",
-      "title": "证监会新规直指违规减持乱象，减持比例超5%、金额超5亿将被重罚 完善违规减持处罚规则，更加精准有效打击违规减持行为。 13072 昨天 19:25",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103399374.html",
-      "published_at": "2026-10-20",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-26 11:16:38+08:00",
+  "last_checked_at": "2026-10-26 16:02:51+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 56894,
+    "rows": 57271,
     "covered_stocks": 5561,
-    "notice_rows": 25144,
-    "stock_news_rows": 31750,
+    "notice_rows": 25154,
+    "stock_news_rows": 32117,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
