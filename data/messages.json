@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27 11:46:24+08:00",
+  "updated_at": "2026-10-27 16:05:36+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -108,6 +108,76 @@
   ],
   "items": [
     {
+      "id": "auto-yicai-b24224ada36d758f",
+      "category": "重大新闻",
+      "title": "连板股追踪丨A股今日共44只个股涨停 上海九百收获5连板 一图速览今日连板股>> 548 28分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103411230.html",
+      "published_at": "2026-10-27",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-6a79a5793e5ac5d0",
+      "category": "重大新闻",
+      "title": "收盘丨上证指数跌1.33% 银行股走强 沪深两市成交额1.46万亿，较上一个交易日缩量1478亿。 3679 50分钟前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103411190.html",
+      "published_at": "2026-10-27",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-1c6c1ae32939fdb8",
+      "category": "重大新闻",
+      "title": "A股四大指数集体高开，半导体、CPO等板块走强 市场逾2700股上涨。 5012 6小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103410521.html",
+      "published_at": "2026-10-27",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-4412aa28a122cf64",
+      "category": "重大新闻",
+      "title": "盘前必读丨美股存储、光通信板块爆发；药明康德再度上调今年收入预期 机构认为，市场处于磨底中段的反复期，仍需考虑防守。 29564 7小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103410422.html",
+      "published_at": "2026-10-27",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-c97149919db16d69",
+      "category": "重大新闻",
+      "title": "长鑫科技纳入在即，科创综指实施单股15%权重上限 截至10月26日收盘，长鑫科技总市值约为2.9万亿元，科创综指成分股总市值为10.75万亿元，若无权重约束，纳",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103409920.html",
+      "published_at": "2026-10-27",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
       "id": "auto-yicai-1c6c1ae32939fdb8",
       "category": "重大新闻",
       "title": "A股四大指数集体高开，半导体、CPO等板块走强 市场逾2700股上涨。 3679 2小时前",
@@ -128,20 +198,6 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103410422.html",
-      "published_at": "2026-10-27",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-c97149919db16d69",
-      "category": "重大新闻",
-      "title": "长鑫科技纳入在即，科创综指实施单股15%权重上限 截至10月26日收盘，长鑫科技总市值约为2.9万亿元，科创综指成分股总市值为10.75万亿元，若无权重约束，纳",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103409920.html",
       "published_at": "2026-10-27",
       "symbols": [
         "A股"
@@ -1730,62 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-103b4ac295d10a45",
-      "category": "重大新闻",
-      "title": "第一大权重股拖累，创业板指盘中一度失守2700点 10933 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103402097.html",
-      "published_at": "2026-10-21",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-4fd9c9f4a2766f48",
-      "category": "重大新闻",
-      "title": "推动四大举措，北交所改革方向明确 加大公募基金供给力度，稳步推出北证50ETF。 9352 4小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103401951.html",
-      "published_at": "2026-10-21",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-4fd9c9f4a2766f48",
-      "category": "重大新闻",
-      "title": "推动四大举措，北交所改革方向明确 加大公募基金供给力度，稳步推出北证50ETF。 9分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103401951.html",
-      "published_at": "2026-10-21",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-0f9b25979243246a",
-      "category": "重大新闻",
-      "title": "A股四大指数集体高开，光模块、存储板块走强 盘面上，AI硬件侧复苏，光模块、存储板块走强。 3245 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103401678.html",
-      "published_at": "2026-10-21",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-27 11:46:24+08:00",
+  "last_checked_at": "2026-10-27 16:05:36+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 62287,
+    "rows": 62417,
     "covered_stocks": 5561,
-    "notice_rows": 28729,
-    "stock_news_rows": 33558,
+    "notice_rows": 28748,
+    "stock_news_rows": 33669,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
