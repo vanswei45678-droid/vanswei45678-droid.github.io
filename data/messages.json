@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28 12:02:11+08:00",
+  "updated_at": "2026-10-28 16:48:51+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -107,6 +107,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-0b2abbe044a7c5f4",
+      "category": "重大新闻",
+      "title": "未再现身中际旭创，“超级牛散”章建平最新调仓曝光 继续持有PCB、算力硬件产业链中偏上游材料的两只股票 1974 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103413285.html",
+      "published_at": "2026-10-28",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-9a1cc4ca99df8192",
+      "category": "重大新闻",
+      "title": "宇树科技带领“双创”拉升，A股能否再现板块轮动？｜市场观察 推动行业间轮动仍需增量配置型资金。 1261 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103413246.html",
+      "published_at": "2026-10-28",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-8e0a603aa7cf6f34",
+      "category": "重大新闻",
+      "title": "连板股追踪丨A股今日共74只个股涨停 这只机器人概念股5连板 机器人板块襄阳轴承收获5连板、东贝集团2连板。一图速览今日连板股>> 1385 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103413223.html",
+      "published_at": "2026-10-28",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-fcbdda61b8cef767",
+      "category": "重大新闻",
+      "title": "收盘｜沪指涨0.91% 存储芯片概念表现强势 全市场超4100只个股上涨。 4609 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103413214.html",
+      "published_at": "2026-10-28",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-829ca46dfc2df5d5",
+      "category": "重大新闻",
+      "title": "A股四大指数集体高开，光刻机、存储芯片等板块表现活跃 市场逾3600股上涨。 4020 7小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103412410.html",
+      "published_at": "2026-10-28",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-829ca46dfc2df5d5",
       "category": "重大新闻",
@@ -1716,76 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-ea2cdf35a262747f",
-      "category": "重大新闻",
-      "title": "单周最大回撤超30%，部分私募产品年内收益告负 继7月中旬的回撤后，私募业绩再次遭遇重挫。 4299 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103404824.html",
-      "published_at": "2026-10-22",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-b1dd677a9b81a400",
-      "category": "重大新闻",
-      "title": "ETF宽基放量、新品将至、自购跟进，市场调整正待企稳信号 九连跌的创业板与放量的ETF：资金在交换什么筹码？ 1974 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103404821.html",
-      "published_at": "2026-10-22",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-4e8569a1deb89fb6",
-      "category": "重大新闻",
-      "title": "近七成港股次新股破发，34只“A+H”股平均破发35% MiniMax上市后首破发行价 港股次新股集体遭遇重定价 6066 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103404754.html",
-      "published_at": "2026-10-22",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-074fcb50533c3a30",
-      "category": "重大新闻",
-      "title": "10月沪市40家公司新增回购增持计划 大额回购频现 累计已回购和增持金额约326亿元，以真金白银向市场传递对公司长期投资价值的认可。 3059 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103404753.html",
-      "published_at": "2026-10-22",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-ef989623e4ff3883",
-      "category": "重大新闻",
-      "title": "沪市已有94家公司披露三季报，超九成实现盈利 头部公司以研发创新驱动增长、提升产业链竞争力的积极成效进一步显现。 1850 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103404751.html",
-      "published_at": "2026-10-22",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-28 12:02:11+08:00",
+  "last_checked_at": "2026-10-28 16:48:51+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 67848,
+    "rows": 68454,
     "covered_stocks": 5561,
-    "notice_rows": 32919,
-    "stock_news_rows": 34929,
+    "notice_rows": 32886,
+    "stock_news_rows": 35569,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
