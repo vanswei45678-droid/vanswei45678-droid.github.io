@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28 23:52:02+08:00",
+  "updated_at": "2026-10-29 01:08:13+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -107,6 +107,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-d57baf61cce3971d",
+      "category": "重大新闻",
+      "title": "两融余额回撤6200亿，杠杆资金结构性换仓 从3.03万亿到2.41万亿，融资余额已回吐年内全部增量。 5477 昨天 21:20",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103413911.html",
+      "published_at": "2026-10-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-1e3fc7feba9aa424",
+      "category": "重大新闻",
+      "title": "公募调仓：电子行业被减配，药明康德跃升第三大重仓股 剔除股价变化的影响后，三季度电子行业被主动权益基金减配约为2.77个百分点 3865 昨天 20:55",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103413689.html",
+      "published_at": "2026-10-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-da07300bdfd7f480",
+      "category": "重大新闻",
+      "title": "公募三季报：盈亏反转剧烈，超六成主动权益降仓 一季之内冷暖反转，公募重新权衡攻守 3431 昨天 20:54",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103413860.html",
+      "published_at": "2026-10-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-c63c48b0e9594de1",
+      "category": "重大新闻",
+      "title": "晚间公告｜10月28日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 47265 昨天 18:48",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103413657.html",
+      "published_at": "2026-10-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-6efa7c6d7cc306a5",
+      "category": "重大新闻",
+      "title": "谨慎观望? 3245 昨天 18:29",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103413613.html",
+      "published_at": "2026-10-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-d57baf61cce3971d",
       "category": "重大新闻",
@@ -1716,76 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-e86966d3f8f7c9b9",
-      "category": "重大新闻",
-      "title": "盘前必读丨美股存储、芯片股集体大跌；五大公募基金出手自购 机构认为，市场缩量磨底，等待量能确认。 21690 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103405274.html",
-      "published_at": "2026-10-23",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-ea2cdf35a262747f",
-      "category": "重大新闻",
-      "title": "单周最大回撤超30%，部分私募产品年内收益告负 继7月中旬的回撤后，私募业绩再次遭遇重挫。 7 14281 昨天 20:58",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103404824.html",
-      "published_at": "2026-10-23",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-b1dd677a9b81a400",
-      "category": "重大新闻",
-      "title": "ETF宽基放量、新品将至、自购跟进，市场调整正待企稳信号 九连跌的创业板与放量的ETF：资金在交换什么筹码？ 9 6934 昨天 20:58",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103404821.html",
-      "published_at": "2026-10-23",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-4e8569a1deb89fb6",
-      "category": "重大新闻",
-      "title": "近七成港股次新股破发，34只“A+H”股平均破发35% MiniMax上市后首破发行价 港股次新股集体遭遇重定价 18683 昨天 20:38",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103404754.html",
-      "published_at": "2026-10-23",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-074fcb50533c3a30",
-      "category": "重大新闻",
-      "title": "10月沪市40家公司新增回购增持计划 大额回购频现 累计已回购和增持金额约326亿元，以真金白银向市场传递对公司长期投资价值的认可。 6221 昨天 20:27",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103404753.html",
-      "published_at": "2026-10-23",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-28 23:52:02+08:00",
+  "last_checked_at": "2026-10-29 01:08:13+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 65342,
+    "rows": 72415,
     "covered_stocks": 5561,
-    "notice_rows": 29074,
-    "stock_news_rows": 36268,
+    "notice_rows": 36891,
+    "stock_news_rows": 35524,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
