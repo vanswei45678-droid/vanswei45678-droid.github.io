@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29 10:22:22+08:00",
+  "updated_at": "2026-10-29 12:31:49+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -107,6 +107,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-a5568ea7e5061156",
+      "category": "重大新闻",
+      "title": "以岭药业：盈利质量稳步改善，创新蓄力夯实长期增长根基 以岭药业2026年三季报表现并不激进，但现金流的持续增厚和经营质量的改善，依然透露出公司的健康底色。 15",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103414496.html",
+      "published_at": "2026-10-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-9d38309595dd0168",
+      "category": "重大新闻",
+      "title": "A股四大指数集体低开，培育钻石、港口航运板块表现活跃 盘面上，元件、CPO、PEEK材料、人形机器人概念跌幅居前。 4547 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103414327.html",
+      "published_at": "2026-10-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-0309ec7514fe2f93",
+      "category": "重大新闻",
+      "title": "盘前必读丨美联储宣布维持利率不变；宇树科技上市后首份业绩出炉 机构认为，行情仍偏预期驱动，板块带动效应尚未全面扩散。 31796 4小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103414157.html",
+      "published_at": "2026-10-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-d57baf61cce3971d",
+      "category": "重大新闻",
+      "title": "两融余额回撤6200亿，杠杆资金结构性换仓 从3.03万亿到2.41万亿，融资余额已回吐年内全部增量。 23209 昨天 21:20",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103413911.html",
+      "published_at": "2026-10-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-1e3fc7feba9aa424",
+      "category": "重大新闻",
+      "title": "公募调仓：电子行业被减配，药明康德跃升第三大重仓股 剔除股价变化的影响后，三季度电子行业被主动权益基金减配约为2.77个百分点 9786 昨天 20:55",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103413689.html",
+      "published_at": "2026-10-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-9d38309595dd0168",
       "category": "重大新闻",
@@ -1716,76 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-85076615cb3ed57d",
-      "category": "重大新闻",
-      "title": "单日发出超300亿“现金红包”！A股再迎分红热潮 北交所公司也在积极分红。 11分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103406491.html",
-      "published_at": "2026-10-23",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-297630d7018a4c93",
-      "category": "重大新闻",
-      "title": "连板股追踪丨A股今日共84只个股涨停 这只机器人股6连板 机器人板块兆威机电、多伦科技等2连板。一图速览今日连板股>> 12分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103406506.html",
-      "published_at": "2026-10-23",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-6dd8db5d70270809",
-      "category": "重大新闻",
-      "title": "收盘｜沪指涨0.89% 人形机器人板块涨幅居前 全市场超4500只个股上涨。 2284 33分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103406452.html",
-      "published_at": "2026-10-23",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-ce83ed38e53f8e4a",
-      "category": "重大新闻",
-      "title": "多只科技牛股午间发声，双创指数午后强势反攻 周五，A股市场科技股板块在早盘探底后下午再现盘中反转走势 11925 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103406289.html",
-      "published_at": "2026-10-23",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-057100d6fb2b1ed5",
-      "category": "重大新闻",
-      "title": "A股四大指数集体低开，贵金属、半导体等板块跌幅居前 市场逾4900股下跌。 6 7151 6小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103405492.html",
-      "published_at": "2026-10-23",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-29 10:22:22+08:00",
+  "last_checked_at": "2026-10-29 12:31:49+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 71629,
+    "rows": 72996,
     "covered_stocks": 5561,
-    "notice_rows": 35725,
-    "stock_news_rows": 35904,
+    "notice_rows": 36904,
+    "stock_news_rows": 36092,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
