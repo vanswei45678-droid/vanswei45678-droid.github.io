@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29 12:31:49+08:00",
+  "updated_at": "2026-10-29 16:55:09+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -107,6 +107,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-6e6cad7dc77e6213",
+      "category": "重大新闻",
+      "title": "上交所科创芯片ETF沪港互挂产品获批，11月6日登陆港交所 截至2026年10月28日，科创板ETF上市数量达134只，总规模超3500亿元。 641 37分钟",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103415310.html",
+      "published_at": "2026-10-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-49b618c813c414d8",
+      "category": "重大新闻",
+      "title": "连板股追踪丨A股今日共39只个股涨停 这只人形机器人概念股4连板 AI漫剧概念股文投控股3连板。一图速览今日连板股>> 1788 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103415182.html",
+      "published_at": "2026-10-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-5899d55bdde9e539",
+      "category": "重大新闻",
+      "title": "收盘｜创业板指跌4.45% 银行股表现强势 沪深两市成交额1.56万亿，较上一个交易日缩量720亿。 5601 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103415151.html",
+      "published_at": "2026-10-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-a5568ea7e5061156",
+      "category": "重大新闻",
+      "title": "以岭药业：盈利质量稳步改善，创新蓄力夯实长期增长根基 以岭药业2026年三季报表现并不激进，但现金流的持续增厚和经营质量的改善，依然透露出公司的健康底色。 22",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103414496.html",
+      "published_at": "2026-10-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-9d38309595dd0168",
+      "category": "重大新闻",
+      "title": "A股四大指数集体低开，培育钻石、港口航运板块表现活跃 盘面上，元件、CPO、PEEK材料、人形机器人概念跌幅居前。 5477 7小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103414327.html",
+      "published_at": "2026-10-29",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-a5568ea7e5061156",
       "category": "重大新闻",
@@ -1716,76 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-816f7731fb73c34a",
-      "category": "重大新闻",
-      "title": "母基金监管新规出炉，明确分散投资、豁免一层投资层级 母基金投资于其他私募基金份额的金额，不低于其资产净值的80%。 9 3431 5小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103406762.html",
-      "published_at": "2026-10-23",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-bea4c81967cc0a56",
-      "category": "重大新闻",
-      "title": "考验4000美元关口，黄金多空拉锯战持续 沪金期货跌至年内最低 3462 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103407026.html",
-      "published_at": "2026-10-23",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-5b81c6b0b11d3ba5",
-      "category": "重大新闻",
-      "title": "外资券商队伍再“迎新”，花旗证券获准设立 外资券商加速抢滩中国市场。 1757 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103406979.html",
-      "published_at": "2026-10-23",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-e3dbca29d22a57ff",
-      "category": "重大新闻",
-      "title": "晚间公告｜10月23日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 5 27053 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103406847.html",
-      "published_at": "2026-10-23",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-816f7731fb73c34a",
-      "category": "重大新闻",
-      "title": "母基金监管新规出炉，明确分散投资、豁免一层投资层级 母基金投资于其他私募基金份额的金额，不低于其资产净值的80%。 9 2997 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103406762.html",
-      "published_at": "2026-10-23",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-10-29 12:31:49+08:00",
+  "last_checked_at": "2026-10-29 16:55:09+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 72996,
+    "rows": 73671,
     "covered_stocks": 5561,
-    "notice_rows": 36904,
-    "stock_news_rows": 36092,
+    "notice_rows": 36972,
+    "stock_news_rows": 36704,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
