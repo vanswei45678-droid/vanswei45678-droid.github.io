@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05 02:39:56+08:00",
+  "updated_at": "2026-11-05 11:03:39+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -108,6 +108,34 @@
   ],
   "items": [
     {
+      "id": "auto-yicai-7f156739b23de94e",
+      "category": "重大新闻",
+      "title": "滚动更新丨A股四大指数全线翻红，文化传媒、有色金属等板块齐升 盘面上，油气、光通信板块调整。 3834 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103426670.html",
+      "published_at": "2026-11-05",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-7fd6b6fe3f96d875",
+      "category": "重大新闻",
+      "title": "盘前必读丨美股收涨国际油价大幅下挫；亨通光电抛出护盘“组合拳” 机构认为，指数短期已站上10日线，后续若量能维持，反弹目标可看至20日线。 30463 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103426517.html",
+      "published_at": "2026-11-05",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
       "id": "auto-yicai-4d2e1e360460c269",
       "category": "重大新闻",
       "title": "国联期货吸并民生期货，国联民生“一总部+八子公司”架构收官 这标志着国联民生\"一总部+多专业子公司\"版图成形，走完了\"法律合并—股权归集—业务切分—架构定型\"的",
@@ -128,6 +156,20 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103426273.html",
+      "published_at": "2026-11-05",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-e687789fc7f77ba4",
+      "category": "重大新闻",
+      "title": "“专业基民”也扛不住震荡！94亿浮亏下换了哪些持仓 当普通投资者纠结加仓还是观望的时候，有一群“专门买基金的专业玩家”已经悄悄调整了自己的资产篮子。 10654",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103426221.html",
       "published_at": "2026-11-05",
       "symbols": [
         "A股"
@@ -1744,48 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-2b7b8dfdce4516e1",
-      "category": "重大新闻",
-      "title": "美年健康2026年前三季度净利润同比增长85.90% 加速“AI+健管”布局 1323 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103419061.html",
-      "published_at": "2026-10-30",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-9efaf9210b673a2f",
-      "category": "重大新闻",
-      "title": "看涨率下跌 1509 4小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103418759.html",
-      "published_at": "2026-10-30",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-31b3a50150aa2609",
-      "category": "重大新闻",
-      "title": "连板股追踪丨A股今日共49只个股涨停 这只商业航天股3连板 商业航天板块上海沪工3连板。一图速览今日连板股>> 1168 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103418313.html",
-      "published_at": "2026-10-30",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-05 02:39:56+08:00",
+  "last_checked_at": "2026-11-05 11:03:39+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 85497,
+    "rows": 85641,
     "covered_stocks": 5597,
-    "notice_rows": 45386,
-    "stock_news_rows": 40111,
+    "notice_rows": 45396,
+    "stock_news_rows": 40245,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
