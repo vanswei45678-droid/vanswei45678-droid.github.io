@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06 02:34:08+08:00",
+  "updated_at": "2026-11-06 03:09:28+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -110,6 +110,76 @@
     {
       "id": "auto-yicai-e63b0bc00e2a3fb5",
       "category": "重大新闻",
+      "title": "上交所召开并购重组专题座谈会 汇聚市场合力助推上市公司提质增效 助力上市公司更好运用并购重组工具，实现提质增效。 3152 昨天 20:57",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103428152.html",
+      "published_at": "2026-11-06",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-7f4d64d943abaae0",
+      "category": "重大新闻",
+      "title": "下半年A股新开户逐月降温，前10个月总量仍超去年全年 10月A股新开户数创年内新低。 5198 昨天 20:38",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103428113.html",
+      "published_at": "2026-11-06",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-fa664b1d02cdd1c9",
+      "category": "重大新闻",
+      "title": "大额赎回频现、逾400亿撤出ETF，债基这轮“赎回关”过了吗？ 债基再遇“赎回关”，机构反馈:赎回存在但未成潮，配置窗口渐显 5105 昨天 20:38",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103428104.html",
+      "published_at": "2026-11-06",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-59bdd7774b8d2e70",
+      "category": "重大新闻",
+      "title": "维护股债汇平稳运行，中央汇金类“平准基金”功能再明确 从2025年4月中央汇金首次明确自身发挥类“平准基金”作用，到今天央行行长再次强调，释放了什么关键信号？ ",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103428091.html",
+      "published_at": "2026-11-06",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-9a5d528423107dd1",
+      "category": "重大新闻",
+      "title": "资金博弈光伏周期底部，三季度主产业链亏损300亿 22家主产业链公司净亏313.95亿元，19家亏损，无一家龙头整体盈利。 2594 昨天 19:41",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103427952.html",
+      "published_at": "2026-11-06",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-e63b0bc00e2a3fb5",
+      "category": "重大新闻",
       "title": "上交所召开并购重组专题座谈会 汇聚市场合力助推上市公司提质增效 助力上市公司更好运用并购重组工具，实现提质增效。 3090 昨天 20:57",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
@@ -142,34 +212,6 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103428104.html",
-      "published_at": "2026-11-06",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-59bdd7774b8d2e70",
-      "category": "重大新闻",
-      "title": "维护股债汇平稳运行，中央汇金类“平准基金”功能再明确 从2025年4月中央汇金首次明确自身发挥类“平准基金”作用，到今天央行行长再次强调，释放了什么关键信号？ ",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103428091.html",
-      "published_at": "2026-11-06",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-9a5d528423107dd1",
-      "category": "重大新闻",
-      "title": "资金博弈光伏周期底部，三季度主产业链亏损300亿 22家主产业链公司净亏313.95亿元，19家亏损，无一家龙头整体盈利。 2594 昨天 19:41",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103427952.html",
       "published_at": "2026-11-06",
       "symbols": [
         "A股"
@@ -1744,48 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-00f49bcb48e66eef",
-      "category": "重大新闻",
-      "title": "A股三季报风云丨2026年第三季度谁“发红包”最壕？ 一图速览>> 827 40分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103419608.html",
-      "published_at": "2026-10-31",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-a0a0ecdbc4378cda",
-      "category": "重大新闻",
-      "title": "晓数点｜11月财经日历请查收！ 一图速览>> 1788 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103419587.html",
-      "published_at": "2026-10-31",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-70ded0b81dcc6376",
-      "category": "重大新闻",
-      "title": "A股三季报风云丨2026年前三季度谁最吸金？ 一图速览>> 7926 昨天 23:35",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103419200.html",
-      "published_at": "2026-10-31",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,7 +1835,7 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-06 02:34:08+08:00",
+  "last_checked_at": "2026-11-06 03:09:28+08:00",
   "market_feed": {
     "days": 31,
     "rows": 87136,
