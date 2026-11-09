@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09 10:17:26+08:00",
+  "updated_at": "2026-11-09 12:42:54+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -110,6 +110,76 @@
     {
       "id": "auto-yicai-39262982b2ecac7c",
       "category": "重大新闻",
+      "title": "A股四大指数集体高开，市场逾4800股上涨 盘面上，太空算力、物理AI、玻纤板块走强。油气、银行、白酒板块调整。 6283 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103431709.html",
+      "published_at": "2026-11-09",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-dca36e49d2772ce7",
+      "category": "重大新闻",
+      "title": "盘前必读丨事关股市！国常会最新部署；华新建材拟超百亿元跨境并购 机构认为，震荡蓄势、结构性轮动预计仍是短期基调。 31641 4小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103431562.html",
+      "published_at": "2026-11-09",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-88138afe10fbc65a",
+      "category": "重大新闻",
+      "title": "A股公司密集实施回购，超10亿回购资金集中入场 回购接力赛还在继续。 22682 昨天 21:32",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103431404.html",
+      "published_at": "2026-11-09",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-3a4769f6857b5d85",
+      "category": "重大新闻",
+      "title": "双重付费时代要翻篇？T类份额把投顾收入拉回“服务费” 同样买基金，凭啥投顾账户要多付一份钱？T类份额说：不用了。 25627 昨天 19:49",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103431365.html",
+      "published_at": "2026-11-09",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-9e6ad2385545aaf8",
+      "category": "重大新闻",
+      "title": "港股AI产业链新股密集“破发”，中际旭创基石投资者浮亏超百亿 从光模块到PCB，港股AI硬件次新股批量破发，中际旭创单家账面浮亏逾百亿，基石投资人与产业资本双双",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103431322.html",
+      "published_at": "2026-11-09",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-39262982b2ecac7c",
+      "category": "重大新闻",
       "title": "A股四大指数集体高开，市场逾4800股上涨 盘面上，太空算力、物理AI、玻纤板块走强。油气、银行、白酒板块调整。 2191 41分钟前",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
@@ -156,20 +226,6 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103431365.html",
-      "published_at": "2026-11-09",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-9e6ad2385545aaf8",
-      "category": "重大新闻",
-      "title": "港股AI产业链新股密集“破发”，中际旭创基石投资者浮亏超百亿 从光模块到PCB，港股AI硬件次新股批量破发，中际旭创单家账面浮亏逾百亿，基石投资人与产业资本双双",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103431322.html",
       "published_at": "2026-11-09",
       "symbols": [
         "A股"
@@ -1730,62 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-4c52f2a31ce99423",
-      "category": "重大新闻",
-      "title": "多家券商中标，央行第三批互换便利操作落地 包括国泰海通、招商证券、国金证券、国联民生、东吴证券等。 5 4299 昨天 20:15",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103423932.html",
-      "published_at": "2026-11-04",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-1926f416eaa0f838",
-      "category": "重大新闻",
-      "title": "连板股追踪丨A股今日共52只个股涨停 多只AI影视股收获2连板 AI影视板块大晟文化2连板。一图速览今日连板股>> 517 29分钟前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103423732.html",
-      "published_at": "2026-11-03",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-615e6655e3d6e2cd",
-      "category": "重大新闻",
-      "title": "收盘｜沪指跌0.82% CPO概念板块领跌 保险、电信、石化、白酒、运输、家电、大基建央企等红利板块普涨。 4485 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103423461.html",
-      "published_at": "2026-11-03",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-492172d6e52f228a",
-      "category": "重大新闻",
-      "title": "一图速览｜稳市场稳预期多项措施“组合拳” 一图速览。 3245 4小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103423208.html",
-      "published_at": "2026-11-03",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-09 10:17:26+08:00",
+  "last_checked_at": "2026-11-09 12:42:54+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 84154,
+    "rows": 85343,
     "covered_stocks": 5596,
-    "notice_rows": 44310,
-    "stock_news_rows": 39844,
+    "notice_rows": 45415,
+    "stock_news_rows": 39928,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
