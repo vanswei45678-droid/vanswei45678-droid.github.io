@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11 12:54:05+08:00",
+  "updated_at": "2026-11-11 17:40:34+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -107,6 +107,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-8cb1b526f507b6e9",
+      "category": "重大新闻",
+      "title": "连板股追踪丨A股今日共85只个股涨停 机器人概念多股连板 机器人概念股光洋股份、锋龙股份3连板。一图速览今日连板股>> 2098 1小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103436376.html",
+      "published_at": "2026-11-11",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-67445727314708b1",
+      "category": "重大新闻",
+      "title": "收盘｜沪指涨0.46% 算力硬件概念爆发 全市场超3500只个股上涨。 6500 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103436240.html",
+      "published_at": "2026-11-11",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-e1250b8c689ae088",
+      "category": "重大新闻",
+      "title": "A股四大股指集体低开，光模块、农业板块表现活跃 早盘，CPO概念震荡反弹，人形机器人概念震荡拉升。 7 7244 7小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103435496.html",
+      "published_at": "2026-11-11",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-679cf5d6776e5260",
+      "category": "重大新闻",
+      "title": "盘前必读丨我国算力总规模位居世界第二；Anthropic启动IPO路演 机构认为，下一阶段A股市场或将继续以结构性行情为主。 6 28293 9小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103435287.html",
+      "published_at": "2026-11-11",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-adc81ed7ba203b42",
+      "category": "重大新闻",
+      "title": "前三季度亏损逾6000万元、经营现金流转负，艾罗能源缘何拟派现5亿 截至11月10日收盘，艾罗能源股价较年内高点已下跌超七成。 8 5167 昨天 20:53",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103434969.html",
+      "published_at": "2026-11-11",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-e1250b8c689ae088",
       "category": "重大新闻",
@@ -1716,76 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-7f4d64d943abaae0",
-      "category": "重大新闻",
-      "title": "下半年A股新开户逐月降温，前10个月总量仍超去年全年 10月A股新开户数创年内新低。 15738 昨天 20:38",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103428113.html",
-      "published_at": "2026-11-06",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-fa664b1d02cdd1c9",
-      "category": "重大新闻",
-      "title": "大额赎回频现、逾400亿撤出ETF，债基这轮“赎回关”过了吗？ 债基再遇“赎回关”，机构反馈:赎回存在但未成潮，配置窗口渐显 13196 昨天 20:38",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103428104.html",
-      "published_at": "2026-11-06",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-fca230a3c7545137",
-      "category": "重大新闻",
-      "title": "滚动更新丨科创50指数大幅回升，此前一度跌超5% 盘面上，AI硬件侧领跌，中际旭创跌超12%。 6469 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103428658.html",
-      "published_at": "2026-11-06",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-a9f0f304215099cc",
-      "category": "重大新闻",
-      "title": "盘前必读丨纳指暴跌进入回调区间；百济神州上调全年收入预测 机构认为，超跌反弹看赔率，控制仓位等主线。 6 32819 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103428487.html",
-      "published_at": "2026-11-06",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-e63b0bc00e2a3fb5",
-      "category": "重大新闻",
-      "title": "上交所召开并购重组专题座谈会 汇聚市场合力助推上市公司提质增效 助力上市公司更好运用并购重组工具，实现提质增效。 5818 昨天 20:57",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103428152.html",
-      "published_at": "2026-11-06",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-11 12:54:05+08:00",
+  "last_checked_at": "2026-11-11 17:40:34+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 87868,
+    "rows": 87927,
     "covered_stocks": 5598,
-    "notice_rows": 46998,
-    "stock_news_rows": 40870,
+    "notice_rows": 47002,
+    "stock_news_rows": 40925,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
