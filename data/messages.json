@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12 11:41:02+08:00",
+  "updated_at": "2026-11-12 13:57:27+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -107,6 +107,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-62987159fe252f54",
+      "category": "重大新闻",
+      "title": "A股四大指数开盘表现分化，存储、GPU板块走强 市场逾2300股下跌。 6 6438 4小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103437447.html",
+      "published_at": "2026-11-12",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-06ee778371a3323e",
+      "category": "重大新闻",
+      "title": "美国中期选举如何影响A股？外资称中国AI发展将受益 “中期选举结果可能引发中国市场更具选择性的轮动。” 7 10065 5小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103437295.html",
+      "published_at": "2026-11-12",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-b351741b5ae94e51",
+      "category": "重大新闻",
+      "title": "盘前必读丨信息量巨大！央行发布重要报告；中国船舶子公司签下超170亿元大单 机构认为，指数二次探底蓄力，不改反弹未完预期。 5 36570 5小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103437273.html",
+      "published_at": "2026-11-12",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-28cae59fee415853",
+      "category": "重大新闻",
+      "title": "福莱新材正股转债齐创历史新高，机器人业务占比不足1% 正股18天9板。 4702 昨天 22:08",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103436716.html",
+      "published_at": "2026-11-12",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-f02beb9646ae2ff4",
+      "category": "重大新闻",
+      "title": "全球大类资产波动加剧，外资看好中国资产配置机遇 中国股票、债券与海外资产相关性偏低，所处经济周期、增长动力均存在差异，分散配置效果突出。 13444 昨天 21",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103437033.html",
+      "published_at": "2026-11-12",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-62987159fe252f54",
       "category": "重大新闻",
@@ -1716,76 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-9e7994045b6279af",
-      "category": "重大新闻",
-      "title": "量跌 3493 昨天 17:18",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103429731.html",
-      "published_at": "2026-11-07",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-ef508e00a7e4928e",
-      "category": "重大新闻",
-      "title": "晚间公告丨11月6日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 36229 昨天 18:12",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103429837.html",
-      "published_at": "2026-11-07",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-016aa6c595d260fa",
-      "category": "重大新闻",
-      "title": "龙虎榜丨机构今日买入这13股，卖出皇台酒业9791万元 共36只个股出现了机构的身影。 10747 昨天 17:57",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103429816.html",
-      "published_at": "2026-11-07",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-20c8db89a0500c73",
-      "category": "重大新闻",
-      "title": "油脂油料衍生品再添新品种，证监会同意葵花籽油期货和期权注册 葵花籽油期货和期权获批注册，油脂油料产业链风险管理工具箱将进一步丰富。 7585 昨天 17:49",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103429695.html",
-      "published_at": "2026-11-07",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-9e7994045b6279af",
-      "category": "重大新闻",
-      "title": "量跌 3307 昨天 17:18",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103429731.html",
-      "published_at": "2026-11-07",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-12 11:41:02+08:00",
+  "last_checked_at": "2026-11-12 13:57:27+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 88463,
-    "covered_stocks": 5598,
-    "notice_rows": 47633,
-    "stock_news_rows": 40830,
+    "rows": 81707,
+    "covered_stocks": 5587,
+    "notice_rows": 40830,
+    "stock_news_rows": 40877,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
