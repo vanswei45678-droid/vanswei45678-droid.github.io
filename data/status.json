@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 171,
-      "started_at": "2026-11-13T02:35:25+08:00",
-      "finished_at": "2026-11-13T02:35:43+08:00",
+      "started_at": "2026-11-13T17:29:58+08:00",
+      "finished_at": "2026-11-13T17:31:18+08:00",
       "latest_date": "202609",
       "total_cached_rows": 171,
       "source_details": {
@@ -43,26 +43,14 @@
       "cached_rows": 171
     },
     "liquidity": {
-      "status": "success",
-      "rows": 5019,
-      "started_at": "2026-11-13T02:35:43+08:00",
-      "finished_at": "2026-11-13T02:36:01+08:00",
+      "status": "failed",
+      "rows": 0,
+      "started_at": "2026-11-13T17:31:18+08:00",
+      "finished_at": "2026-11-13T17:32:02+08:00",
+      "error": "DataFetchError('DR与Shibor数据源均失败')",
+      "cached_rows": 5055,
       "latest_date": "20261112",
-      "total_cached_rows": 5055,
-      "source_details": {
-        "shibor_on": {
-          "status": "success",
-          "rows": 5019,
-          "source": "中国货币网 / AKShare"
-        },
-        "dr": {
-          "status": "failed",
-          "error": "DataFetchError('中国货币网未解析到DR001/DR007；严格不以FDR替代。')",
-          "note": "严格不使用FDR替代DR"
-        }
-      },
-      "note": "DR来自中国货币网，严格不以FDR替代。",
-      "cached_rows": 5055
+      "serving_cached_data": true
     },
     "market": {
       "status": "success",
@@ -390,11 +378,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20261113",
-      "rows": 86967,
-      "cached_rows": 86967,
+      "rows": 88727,
+      "cached_rows": 88727,
       "covered_stocks": 5599,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600672.SH: KeyError('code')；600670.SH: KeyError('code')；600701.SH: KeyError('code')"
+      "error": "600747.SH: KeyError('code')；600672.SH: KeyError('code')；600772.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -405,7 +393,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-11-13T13:17:43+08:00",
-  "overall_status": "success",
-  "last_update_mode": "global"
+  "updated_at": "2026-11-13T17:53:53+08:00",
+  "overall_status": "partial",
+  "last_update_mode": "macro"
 }
