@@ -4,21 +4,19 @@
     "macro": {
       "status": "success",
       "rows": 171,
-      "started_at": "2026-11-13T17:29:58+08:00",
-      "finished_at": "2026-11-13T17:31:18+08:00",
+      "started_at": "2026-11-14T02:02:43+08:00",
+      "finished_at": "2026-11-14T02:02:59+08:00",
       "latest_date": "202609",
       "total_cached_rows": 171,
       "source_details": {
         "components": {
           "money_supply": {
-            "status": "success",
-            "rows": 171,
-            "source": "东方财富 / AKShare"
+            "status": "failed",
+            "error": "所有货币供应量源均失败"
           },
           "social_financing": {
-            "status": "success",
-            "rows": 103,
-            "source": "商务数据中心 / AKShare"
+            "status": "failed",
+            "error": "公开社融源失败"
           },
           "social_financing_stock": {
             "status": "success",
@@ -37,20 +35,35 @@
           }
         },
         "messages": [
+          "货币供应量: AttributeError(\"module 'akshare' has no attribute 'macro_china_money_supply'\")",
+          "M2同比备用源: AttributeError(\"module 'akshare' has no attribute 'macro_china_m2_yearly'\")",
+          "社会融资规模: AttributeError(\"module 'akshare' has no attribute 'macro_china_shrzgm'\")",
           "人民银行社融存量部分年份失败: 2022: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2022ntjsj/shrzgm/index.html') | 2023: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2023ntjsj/shrzgm/index.html') | 2024: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2024ntjsj/shrzgm/index.html') | 2025: HTTPError('404 Client Error: Not Found for url: https://www.pbc.gov.cn/diaochatongjisi/116219/116319/2025ntjsj/shrzgm/index.html')"
         ]
       },
       "cached_rows": 171
     },
     "liquidity": {
-      "status": "failed",
-      "rows": 0,
-      "started_at": "2026-11-13T17:31:18+08:00",
-      "finished_at": "2026-11-13T17:32:02+08:00",
-      "error": "DataFetchError('DR与Shibor数据源均失败')",
-      "cached_rows": 5055,
-      "latest_date": "20261112",
-      "serving_cached_data": true
+      "status": "success",
+      "rows": 5020,
+      "started_at": "2026-11-14T02:02:59+08:00",
+      "finished_at": "2026-11-14T02:03:18+08:00",
+      "latest_date": "20261113",
+      "total_cached_rows": 5056,
+      "source_details": {
+        "shibor_on": {
+          "status": "success",
+          "rows": 5020,
+          "source": "中国货币网 / AKShare"
+        },
+        "dr": {
+          "status": "failed",
+          "error": "DataFetchError('中国货币网未解析到DR001/DR007；严格不以FDR替代。')",
+          "note": "严格不使用FDR替代DR"
+        }
+      },
+      "note": "DR来自中国货币网，严格不以FDR替代。",
+      "cached_rows": 5056
     },
     "market": {
       "status": "success",
@@ -351,8 +364,8 @@
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-11-13T02:36:01+08:00",
-      "finished_at": "2026-11-13T02:36:06+08:00",
+      "started_at": "2026-11-14T02:03:18+08:00",
+      "finished_at": "2026-11-14T02:03:21+08:00",
       "latest_date": "20261105",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
@@ -378,11 +391,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20261114",
-      "rows": 85244,
-      "cached_rows": 85244,
-      "covered_stocks": 5590,
+      "rows": 88742,
+      "cached_rows": 88742,
+      "covered_stocks": 5597,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600687.SH: KeyError('code')；600677.SH: KeyError('code')；600705.SH: KeyError('code')"
+      "error": "600687.SH: KeyError('code')；600680.SH: KeyError('code')；600677.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -393,7 +406,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-11-14T01:11:46+08:00",
+  "updated_at": "2026-11-14T02:22:23+08:00",
   "overall_status": "success",
-  "last_update_mode": "close"
+  "last_update_mode": "evening"
 }
