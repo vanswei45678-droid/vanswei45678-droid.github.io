@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 171,
-      "started_at": "2026-11-14T02:02:43+08:00",
-      "finished_at": "2026-11-14T02:02:59+08:00",
+      "started_at": "2026-11-14T02:29:53+08:00",
+      "finished_at": "2026-11-14T02:30:06+08:00",
       "latest_date": "202609",
       "total_cached_rows": 171,
       "source_details": {
@@ -46,8 +46,8 @@
     "liquidity": {
       "status": "success",
       "rows": 5020,
-      "started_at": "2026-11-14T02:02:59+08:00",
-      "finished_at": "2026-11-14T02:03:18+08:00",
+      "started_at": "2026-11-14T02:30:06+08:00",
+      "finished_at": "2026-11-14T02:30:24+08:00",
       "latest_date": "20261113",
       "total_cached_rows": 5056,
       "source_details": {
@@ -68,8 +68,8 @@
     "market": {
       "status": "success",
       "rows": 34065,
-      "started_at": "2026-11-14T00:44:36+08:00",
-      "finished_at": "2026-11-14T00:44:43+08:00",
+      "started_at": "2026-11-14T02:30:24+08:00",
+      "finished_at": "2026-11-14T02:30:33+08:00",
       "latest_date": "20261113",
       "total_cached_rows": 34083,
       "symbols": {
@@ -179,8 +179,8 @@
     "global_macro": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-11-13T10:43:06+08:00",
-      "finished_at": "2026-11-13T10:54:38+08:00",
+      "started_at": "2026-11-14T02:30:33+08:00",
+      "finished_at": "2026-11-14T02:42:05+08:00",
       "latest_date": "20261110",
       "total_cached_rows": 30122,
       "source_details": {
@@ -221,8 +221,8 @@
     "valuation": {
       "status": "success",
       "rows": 23628,
-      "started_at": "2026-11-14T00:44:43+08:00",
-      "finished_at": "2026-11-14T00:45:05+08:00",
+      "started_at": "2026-11-14T02:42:05+08:00",
+      "finished_at": "2026-11-14T02:42:25+08:00",
       "latest_date": "20261111",
       "total_cached_rows": 23628,
       "indices": {
@@ -322,8 +322,8 @@
     "deviation": {
       "status": "success",
       "rows": 2175,
-      "started_at": "2026-11-14T00:45:05+08:00",
-      "finished_at": "2026-11-14T00:45:05+08:00",
+      "started_at": "2026-11-14T02:42:25+08:00",
+      "finished_at": "2026-11-14T02:42:25+08:00",
       "latest_date": "20261113",
       "total_cached_rows": 2175,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -364,8 +364,8 @@
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-11-14T02:03:18+08:00",
-      "finished_at": "2026-11-14T02:03:21+08:00",
+      "started_at": "2026-11-14T02:42:25+08:00",
+      "finished_at": "2026-11-14T02:42:33+08:00",
       "latest_date": "20261105",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
@@ -374,8 +374,8 @@
     "sentiment": {
       "status": "partial",
       "rows": 0,
-      "started_at": "2026-11-14T00:45:05+08:00",
-      "finished_at": "2026-11-14T00:45:05+08:00",
+      "started_at": "2026-11-14T02:42:25+08:00",
+      "finished_at": "2026-11-14T02:42:25+08:00",
       "latest_date": "20261110",
       "total_cached_rows": 61,
       "skipped": true,
@@ -406,7 +406,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-11-14T02:22:23+08:00",
+  "updated_at": "2026-11-14T03:01:20+08:00",
   "overall_status": "success",
-  "last_update_mode": "evening"
+  "last_update_mode": "all"
 }
