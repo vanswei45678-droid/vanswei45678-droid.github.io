@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13 11:21:47+08:00",
+  "updated_at": "2026-11-13 13:17:32+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -107,6 +107,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-8a1f4bbed9304452",
+      "category": "重大新闻",
+      "title": "北交所“万里行”｜一财走进龙辰科技：BOPP薄膜何以撑起“单项冠军” 北交所万里行，行至湖北黄冈。一家主营BOPP薄膜材料的企业，如何成为“单项冠军”？敬请跟随",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103439531.html",
+      "published_at": "2026-11-13",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-79d4c8d057924b6c",
+      "category": "重大新闻",
+      "title": "锚定单项冠军样本研究，第一财经上线“2026北交所 新三板万里行”年度调研专题 观察中国专精特新企业向上生长的实践图景。 2594 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103439468.html",
+      "published_at": "2026-11-13",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-32363d2b3246de69",
+      "category": "重大新闻",
+      "title": "A股四大指数集体高开，半导体、通信设备等板块走强 市场逾2700股上涨。 6345 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103439205.html",
+      "published_at": "2026-11-13",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-a3faa08ba923efcb",
+      "category": "重大新闻",
+      "title": "盘前必读丨美股收跌英伟达跌超4%；天赐材料拟不超50亿元扩产电解液 机构认为，市场修复不会一蹴而就，控制仓位，关注自主可控产业链。 22248 5小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103439091.html",
+      "published_at": "2026-11-13",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-cb9ba20a87bcf9b3",
+      "category": "重大新闻",
+      "title": "A股回报端反超融资端，外资重新定价中国资产 长期配置价值凸显，产业实力成关键考量。 8639 昨天 21:51",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103438819.html",
+      "published_at": "2026-11-13",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-79d4c8d057924b6c",
       "category": "重大新闻",
@@ -1716,76 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-3a4769f6857b5d85",
-      "category": "重大新闻",
-      "title": "双重付费时代要翻篇？T类份额把投顾收入拉回“服务费” 同样买基金，凭啥投顾账户要多付一份钱？T类份额说：不用了。 22620 昨天 19:49",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103431365.html",
-      "published_at": "2026-11-09",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-88138afe10fbc65a",
-      "category": "重大新闻",
-      "title": "A股公司密集实施回购，超10亿回购资金集中入场 回购接力赛还在继续。 5725 昨天 21:32",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103431404.html",
-      "published_at": "2026-11-09",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-3a4769f6857b5d85",
-      "category": "重大新闻",
-      "title": "双重付费时代要翻篇？T类份额把投顾收入拉回“服务费” 同样买基金，凭啥投顾账户要多付一份钱？T类份额说：不用了。 10158 昨天 19:49",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103431365.html",
-      "published_at": "2026-11-09",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-fa1994462d945ed9",
-      "category": "重大新闻",
-      "title": "机构论后市丨A股在指数层面将迎来量价温和回升的反弹 A股后市怎么走？看看机构怎么说。 3152 昨天 18:20",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103431318.html",
-      "published_at": "2026-11-09",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-4645d36bd199696f",
-      "category": "重大新闻",
-      "title": "晚间公告丨11月8日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 25255 昨天 17:45",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103431310.html",
-      "published_at": "2026-11-09",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-13 11:21:47+08:00",
+  "last_checked_at": "2026-11-13 13:17:32+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 88309,
+    "rows": 86967,
     "covered_stocks": 5599,
-    "notice_rows": 47752,
-    "stock_news_rows": 40557,
+    "notice_rows": 46380,
+    "stock_news_rows": 40587,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
