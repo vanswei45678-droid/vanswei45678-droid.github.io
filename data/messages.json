@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15 10:29:57+08:00",
+  "updated_at": "2026-11-15 13:07:55+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -108,9 +108,23 @@
   ],
   "items": [
     {
+      "id": "auto-yicai-4bea501b91982878",
+      "category": "重大新闻",
+      "title": "下周关注丨10月经济数据将公布，这些投资机会最靠谱 国家统计局将公布10月国民经济数据，APEC第三十三次领导人非正式会议将举行。 1850 2小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103440933.html",
+      "published_at": "2026-11-15",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
       "id": "auto-yicai-735fc3f9f2f76956",
       "category": "重大新闻",
-      "title": "A股总市值超100万亿，吴清提出资本市场六个“进一步深化” 进一步深化市场稳定长效机制研究。 22961 昨天 18:46",
+      "title": "A股总市值超100万亿，吴清提出资本市场六个“进一步深化” 进一步深化市场稳定长效机制研究。 25131 昨天 18:46",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103440789.html",
@@ -128,6 +142,48 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103440706.html",
+      "published_at": "2026-11-15",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-483a4a4ed671c129",
+      "category": "重大新闻",
+      "title": "晚间公告丨11月13日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 39391 11-13 18:38",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103440223.html",
+      "published_at": "2026-11-15",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-8380254530bc6835",
+      "category": "重大新闻",
+      "title": "仓位上升 9073 11-13 18:04",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103440187.html",
+      "published_at": "2026-11-15",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-735fc3f9f2f76956",
+      "category": "重大新闻",
+      "title": "A股总市值超100万亿，吴清提出资本市场六个“进一步深化” 进一步深化市场稳定长效机制研究。 22961 昨天 18:46",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103440789.html",
       "published_at": "2026-11-15",
       "symbols": [
         "A股"
@@ -1730,62 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-e91c1dbc131f7197",
-      "category": "重大新闻",
-      "title": "连板股追踪丨A股今日共95只个股涨停 这只光伏股3连板 机器人板块光洋股份2连板。一图速览今日连板股>> 1757 1小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103434492.html",
-      "published_at": "2026-11-10",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-f1fd07b776b659c1",
-      "category": "重大新闻",
-      "title": "收盘｜四大股指集体收涨 AI短剧、物理AI领涨概念指数 全市场超4200只个股上涨，95只个股涨停。 7120 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103434268.html",
-      "published_at": "2026-11-10",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-98887fa91b8b924b",
-      "category": "重大新闻",
-      "title": "通威集团拟14.4亿入局天邦食品重整，光伏龙头缘何押注猪周期？ 猪价十年低位迎产业资本抄底，通威集团有望拿下第二家上市公司 公司观察 5 4113 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103433945.html",
-      "published_at": "2026-11-10",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-ac179ed8a0f608fc",
-      "category": "重大新闻",
-      "title": "A股四大指数集体高开，油气、海运等板块调整 市场逾4800股上涨。 6 8298 8小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103433463.html",
-      "published_at": "2026-11-10",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-15 10:29:57+08:00",
+  "last_checked_at": "2026-11-15 13:07:55+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 87186,
-    "covered_stocks": 5597,
-    "notice_rows": 47161,
-    "stock_news_rows": 40025,
+    "rows": 82246,
+    "covered_stocks": 5589,
+    "notice_rows": 42218,
+    "stock_news_rows": 40028,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
