@@ -55,11 +55,11 @@
     },
     "market": {
       "status": "success",
-      "rows": 24090,
-      "started_at": "2026-11-15T09:59:55+08:00",
-      "finished_at": "2026-11-15T10:00:17+08:00",
-      "latest_date": "20261113",
-      "total_cached_rows": 34083,
+      "rows": 24093,
+      "started_at": "2026-11-16T10:16:02+08:00",
+      "finished_at": "2026-11-16T10:16:24+08:00",
+      "latest_date": "20261116",
+      "total_cached_rows": 34086,
       "symbols": {
         "000001.SH": {
           "status": "failed",
@@ -102,7 +102,7 @@
         },
         "DX-Y.NYB": {
           "status": "success",
-          "rows": 1729,
+          "rows": 1730,
           "source": "Yahoo Finance / yfinance"
         },
         "AAPL": {
@@ -147,22 +147,22 @@
         },
         "005930.KS": {
           "status": "success",
-          "rows": 1682,
+          "rows": 1683,
           "source": "Yahoo Finance / yfinance"
         },
         "000660.KS": {
           "status": "success",
-          "rows": 1682,
+          "rows": 1683,
           "source": "Yahoo Finance / yfinance"
         }
       },
-      "cached_rows": 34083
+      "cached_rows": 34086
     },
     "global_macro": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-11-15T10:00:17+08:00",
-      "finished_at": "2026-11-15T10:11:50+08:00",
+      "started_at": "2026-11-16T10:16:24+08:00",
+      "finished_at": "2026-11-16T10:27:55+08:00",
       "latest_date": "20261112",
       "total_cached_rows": 30124,
       "source_details": {
@@ -304,8 +304,8 @@
     "deviation": {
       "status": "success",
       "rows": 2175,
-      "started_at": "2026-11-15T10:11:50+08:00",
-      "finished_at": "2026-11-15T10:11:50+08:00",
+      "started_at": "2026-11-16T10:27:55+08:00",
+      "finished_at": "2026-11-16T10:27:55+08:00",
       "latest_date": "20261113",
       "total_cached_rows": 2175,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -373,11 +373,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20261116",
-      "rows": 81760,
-      "cached_rows": 81760,
-      "covered_stocks": 5587,
+      "rows": 85349,
+      "cached_rows": 85349,
+      "covered_stocks": 5597,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600680.SH: KeyError('code')；600695.SH: KeyError('code')；600677.SH: KeyError('code')"
+      "error": "600680.SH: KeyError('code')；600677.SH: KeyError('code')；600705.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -388,7 +388,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-11-16T01:45:59+08:00",
-  "overall_status": "partial",
-  "last_update_mode": "evening"
+  "updated_at": "2026-11-16T10:53:06+08:00",
+  "overall_status": "success",
+  "last_update_mode": "global"
 }
