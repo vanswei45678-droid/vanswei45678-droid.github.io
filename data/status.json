@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 171,
-      "started_at": "2026-11-18T03:22:31+08:00",
-      "finished_at": "2026-11-18T03:22:43+08:00",
+      "started_at": "2026-11-18T03:46:46+08:00",
+      "finished_at": "2026-11-18T03:46:59+08:00",
       "latest_date": "202609",
       "total_cached_rows": 171,
       "source_details": {
@@ -46,8 +46,8 @@
     "liquidity": {
       "status": "failed",
       "rows": 0,
-      "started_at": "2026-11-18T03:22:43+08:00",
-      "finished_at": "2026-11-18T03:22:44+08:00",
+      "started_at": "2026-11-18T03:46:59+08:00",
+      "finished_at": "2026-11-18T03:47:01+08:00",
       "error": "DataFetchError('DR与Shibor数据源均失败')",
       "cached_rows": 5056,
       "latest_date": "20261113",
@@ -56,8 +56,8 @@
     "market": {
       "status": "success",
       "rows": 24116,
-      "started_at": "2026-11-18T01:52:38+08:00",
-      "finished_at": "2026-11-18T01:53:02+08:00",
+      "started_at": "2026-11-18T03:47:01+08:00",
+      "finished_at": "2026-11-18T03:47:23+08:00",
       "latest_date": "20261117",
       "total_cached_rows": 34112,
       "symbols": {
@@ -161,8 +161,8 @@
     "global_macro": {
       "status": "success",
       "rows": 2,
-      "started_at": "2026-11-17T12:37:59+08:00",
-      "finished_at": "2026-11-17T12:49:31+08:00",
+      "started_at": "2026-11-18T03:47:23+08:00",
+      "finished_at": "2026-11-18T03:58:55+08:00",
       "latest_date": "20261113",
       "total_cached_rows": 30126,
       "source_details": {
@@ -203,8 +203,8 @@
     "valuation": {
       "status": "success",
       "rows": 762,
-      "started_at": "2026-11-18T01:53:02+08:00",
-      "finished_at": "2026-11-18T01:53:24+08:00",
+      "started_at": "2026-11-18T03:58:55+08:00",
+      "finished_at": "2026-11-18T03:59:18+08:00",
       "latest_date": "20261117",
       "total_cached_rows": 23634,
       "indices": {
@@ -302,8 +302,8 @@
     "deviation": {
       "status": "success",
       "rows": 2175,
-      "started_at": "2026-11-18T01:53:24+08:00",
-      "finished_at": "2026-11-18T01:53:24+08:00",
+      "started_at": "2026-11-18T03:59:18+08:00",
+      "finished_at": "2026-11-18T03:59:18+08:00",
       "latest_date": "20261113",
       "total_cached_rows": 2175,
       "method": "(指数收盘/20或30周期均线-1)×100%；周期包括周K和月K",
@@ -344,8 +344,8 @@
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-11-18T03:22:44+08:00",
-      "finished_at": "2026-11-18T03:22:48+08:00",
+      "started_at": "2026-11-18T03:59:18+08:00",
+      "finished_at": "2026-11-18T03:59:20+08:00",
       "latest_date": "20261110",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
@@ -354,8 +354,8 @@
     "sentiment": {
       "status": "partial",
       "rows": 0,
-      "started_at": "2026-11-18T01:53:24+08:00",
-      "finished_at": "2026-11-18T01:53:24+08:00",
+      "started_at": "2026-11-18T03:59:18+08:00",
+      "finished_at": "2026-11-18T03:59:18+08:00",
       "latest_date": "20261117",
       "total_cached_rows": 61,
       "skipped": true,
@@ -376,11 +376,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20261118",
-      "rows": 88421,
-      "cached_rows": 88421,
+      "rows": 88420,
+      "cached_rows": 88420,
       "covered_stocks": 5599,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600680.SH: KeyError('code')；600687.SH: KeyError('code')；600677.SH: KeyError('code')"
+      "error": "600687.SH: KeyError('code')；600680.SH: KeyError('code')；600677.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -391,7 +391,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-11-18T03:37:10+08:00",
+  "updated_at": "2026-11-18T04:18:23+08:00",
   "overall_status": "partial",
-  "last_update_mode": "evening"
+  "last_update_mode": "all"
 }
