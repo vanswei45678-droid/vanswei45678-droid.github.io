@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18 12:22:39+08:00",
+  "updated_at": "2026-11-18 14:21:04+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -114,6 +114,62 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103444770.html",
+      "published_at": "2026-11-18",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-6091c69ba5023a19",
+      "category": "重大新闻",
+      "title": "A股四大指数集体高开，市场逾3300股上涨 盘面上，覆铜板、6G、服务器、存储器板块走强。传媒、黄金板块调整。 4113 4小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103444548.html",
+      "published_at": "2026-11-18",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-a3e131f8b551fe14",
+      "category": "重大新闻",
+      "title": "盘前必读丨美股全线下挫道指跌近850点；荣盛发展、*ST华幸拉响退市警报 机构认为，降温避险期，投资者可以稳底仓，觅成长。 30463 6小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103444382.html",
+      "published_at": "2026-11-18",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-7d6ca05d32457f16",
+      "category": "重大新闻",
+      "title": "A股低价股增至107只，面值退市预警拉响 低价股数量连续数月抬升，变化轨迹与指数回调、量能收缩基本同步。 19923 昨天 21:20",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103444184.html",
+      "published_at": "2026-11-18",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-587e3b3ef39b8b0d",
+      "category": "重大新闻",
+      "title": "电网建设需求释放 海外市场拓展提速 沪市电力设备企业经营发展亮点纷呈 一批产业链龙头企业经营业绩稳步增长，部分公司盈利增速进一步提升。 7399 昨天 21:0",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103444147.html",
       "published_at": "2026-11-18",
       "symbols": [
         "A股"
@@ -1730,62 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-73d1676ce113f74b",
-      "category": "重大新闻",
-      "title": "科技股频频冲高回落，谁在借反弹离场？ 科技股修复行情仍待验证 14312 昨天 20:47",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103438573.html",
-      "published_at": "2026-11-13",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-abeba3351d744bb1",
-      "category": "重大新闻",
-      "title": "美股回调溢价难降，跨境ETF“门票”究竟值多少 高溢价“十点半魔咒”难破，一切只为 “买得到”！ 2439 昨天 20:45",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103438695.html",
-      "published_at": "2026-11-13",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-50f8590f1e602b85",
-      "category": "重大新闻",
-      "title": "A股明年怎么走？多家龙头券商最新研判 “全球流动性环境的宽松，对于市场转牛尤为关键。” 7120 昨天 20:10",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103438650.html",
-      "published_at": "2026-11-13",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-e623e4032617f8bd",
-      "category": "重大新闻",
-      "title": "5.5亿元借款屡次展期，*ST香雪被广州农商行申请重整 7368 昨天 18:58",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103438497.html",
-      "published_at": "2026-11-13",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-18 12:22:39+08:00",
+  "last_checked_at": "2026-11-18 14:21:04+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 88576,
-    "covered_stocks": 5599,
-    "notice_rows": 48044,
-    "stock_news_rows": 40532,
+    "rows": 83976,
+    "covered_stocks": 5565,
+    "notice_rows": 43413,
+    "stock_news_rows": 40563,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
