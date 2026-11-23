@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24 04:46:10+08:00",
+  "updated_at": "2026-11-24 06:26:49+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -110,7 +110,7 @@
     {
       "id": "auto-yicai-7ac6e6db4a1962b8",
       "category": "重大新闻",
-      "title": "首批主动ETF首日成交超80亿，投资者重选择、管理人拼能力 主动ETF是创新产品，投资者在投资时需要注意哪些关键信息？ 8825 昨天 22:07",
+      "title": "首批主动ETF首日成交超80亿，投资者重选择、管理人拼能力 主动ETF是创新产品，投资者在投资时需要注意哪些关键信息？ 9631 昨天 22:07",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103451014.html",
@@ -128,6 +128,62 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103450907.html",
+      "published_at": "2026-11-24",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-9e8de6d6e23859c1",
+      "category": "重大新闻",
+      "title": "主动ETF助力长钱入市，稳市组合拳催化A股修复 政策是此轮反弹最核心催化，但并非唯一驱动因素。 8360 昨天 21:13",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103450937.html",
+      "published_at": "2026-11-24",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-0c7d69a6c7853817",
+      "category": "重大新闻",
+      "title": "“老登”之争一年后，中际旭创终究没跑赢贵州茅台 四只AI千元股全部跌回茅台之下，风格的钟摆永远在摆动 9228 昨天 20:25",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103450862.html",
+      "published_at": "2026-11-24",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-f349ca1e1c648bc7",
+      "category": "重大新闻",
+      "title": "机构研判：三项稳市举措“减震”，AI投资从“讲故事”步入“算账”阶段 “交易政策是减震器，不是上涨的发动机。”他表示，后续市场真正企稳，还需要盈利修复、居民风险",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103450765.html",
+      "published_at": "2026-11-24",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-7ac6e6db4a1962b8",
+      "category": "重大新闻",
+      "title": "首批主动ETF首日成交超80亿，投资者重选择、管理人拼能力 主动ETF是创新产品，投资者在投资时需要注意哪些关键信息？ 8825 昨天 22:07",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103451014.html",
       "published_at": "2026-11-24",
       "symbols": [
         "A股"
@@ -156,20 +212,6 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103450862.html",
-      "published_at": "2026-11-24",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-f349ca1e1c648bc7",
-      "category": "重大新闻",
-      "title": "机构研判：三项稳市举措“减震”，AI投资从“讲故事”步入“算账”阶段 “交易政策是减震器，不是上涨的发动机。”他表示，后续市场真正企稳，还需要盈利修复、居民风险",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103450765.html",
       "published_at": "2026-11-24",
       "symbols": [
         "A股"
@@ -1744,48 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-aef10bfc95f96939",
-      "category": "重大新闻",
-      "title": "供需格局变迁重写产业逻辑，战略金属迎来蜕变时刻 在供给端强约束与需求端场景换轨的双重影响下，将资源禀赋转化为可持续的价值创造能力，成为战略金属产业当下发展的核心",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103445257.html",
-      "published_at": "2026-11-18",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-3ecf03dfbf2b80fa",
-      "category": "重大新闻",
-      "title": "收盘｜四大股指集体收涨 家电、海运板块全天强势 沪深两市成交额1.37万亿，刷新年内新低，较上一个交易日缩量880亿。 7957 3小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103445150.html",
-      "published_at": "2026-11-18",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-085ae34768526081",
-      "category": "重大新闻",
-      "title": "北交所“万里行”｜一财走进宏远股份：堆高技术壁垒，持续发力海外市场 一家主营电磁线的传统产业领域企业，如何成为“单项冠军”？敬请跟随第一财经走进宏远股份，对话董",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103444770.html",
-      "published_at": "2026-11-18",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-24 04:46:10+08:00",
+  "last_checked_at": "2026-11-24 06:26:49+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 85423,
+    "rows": 85422,
     "covered_stocks": 5584,
     "notice_rows": 46292,
-    "stock_news_rows": 39131,
+    "stock_news_rows": 39130,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
