@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26 04:52:54+08:00",
+  "updated_at": "2026-11-26 12:50:04+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -108,9 +108,37 @@
   ],
   "items": [
     {
+      "id": "auto-yicai-f5b51d97a8b0866c",
+      "category": "重大新闻",
+      "title": "A股四大指数集体高开，珠免集团、山鹰国际复牌一字涨停 市场逾4400股上涨。 8 3214 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103454772.html",
+      "published_at": "2026-11-26",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-9b4c3071efccb7e8",
+      "category": "重大新闻",
+      "title": "盘前必读丨美股上演“过山车”；保利发展拟发不超200亿公司债券 机构认为，指数C浪末端磨底，耐心等转势信号。 5 26402 4小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103454581.html",
+      "published_at": "2026-11-26",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
       "id": "auto-yicai-6389ebee90df95eb",
       "category": "重大新闻",
-      "title": "从2元跌到2毛，网红私募产品暗藏风险多 如果投资决策高度集中于一人，基金经理想加仓、加杠杆或调整止损安排时，谁能提出异议、谁有权否决，就成了需要追问的问题。 1",
+      "title": "从2元跌到2毛，网红私募产品暗藏风险多 如果投资决策高度集中于一人，基金经理想加仓、加杠杆或调整止损安排时，谁能提出异议、谁有权否决，就成了需要追问的问题。 3",
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103454269.html",
@@ -128,6 +156,34 @@
       "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
       "source": "第一财经",
       "source_url": "https://www.yicai.com/news/103454352.html",
+      "published_at": "2026-11-26",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-3daa907e735f62ca",
+      "category": "重大新闻",
+      "title": "四天8家A股公司“戴帽”！有的“摘帽”仅4个月再被ST 多家公司被叠加实施风险警示。 12948 昨天 21:19",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103454326.html",
+      "published_at": "2026-11-26",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-6389ebee90df95eb",
+      "category": "重大新闻",
+      "title": "从2元跌到2毛，网红私募产品暗藏风险多 如果投资决策高度集中于一人，基金经理想加仓、加杠杆或调整止损安排时，谁能提出异议、谁有权否决，就成了需要追问的问题。 1",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103454269.html",
       "published_at": "2026-11-26",
       "symbols": [
         "A股"
@@ -1730,62 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-9da13fb88b05234c",
-      "category": "重大新闻",
-      "title": "连板股追踪丨A股今日共30只个股涨停 真视通收获4连板 一图速览今日连板股>> 1664 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103448246.html",
-      "published_at": "2026-11-20",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-3f797712d1a09317",
-      "category": "重大新闻",
-      "title": "多家头部公募发声：外部扰动逐步消化，A股有望迎估值修复窗口 “短期的波动并未改变市场的内在韧性。” 24325 2小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103448125.html",
-      "published_at": "2026-11-20",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-b1baa4cba9716e12",
-      "category": "重大新闻",
-      "title": "北交所“万里行”｜一财走进锦华新材：深耕酮肟近二十载，迈向集成电路新赛道 一家深耕酮肟新材料产品的企业，如何从传统精细化工领域向集成电路关键材料转型？敬请跟随第",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103447677.html",
-      "published_at": "2026-11-20",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-2dae750156e1e68c",
-      "category": "重大新闻",
-      "title": "A股四大指数集体低开，光通信、黄金等板块明显调整 市场逾5300股下跌。 6903 4小时前",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103447489.html",
-      "published_at": "2026-11-20",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-26 04:52:54+08:00",
+  "last_checked_at": "2026-11-26 12:50:04+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 87403,
-    "covered_stocks": 5581,
-    "notice_rows": 47963,
-    "stock_news_rows": 39440,
+    "rows": 67695,
+    "covered_stocks": 5563,
+    "notice_rows": 28110,
+    "stock_news_rows": 39585,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
