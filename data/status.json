@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 171,
-      "started_at": "2026-11-27T18:50:14+08:00",
-      "finished_at": "2026-11-27T18:50:34+08:00",
+      "started_at": "2026-11-28T03:39:43+08:00",
+      "finished_at": "2026-11-28T03:39:57+08:00",
       "latest_date": "202609",
       "total_cached_rows": 171,
       "source_details": {
@@ -46,8 +46,8 @@
     "liquidity": {
       "status": "failed",
       "rows": 0,
-      "started_at": "2026-11-27T18:50:34+08:00",
-      "finished_at": "2026-11-27T18:50:35+08:00",
+      "started_at": "2026-11-28T03:39:57+08:00",
+      "finished_at": "2026-11-28T03:40:01+08:00",
       "error": "DataFetchError('DR与Shibor数据源均失败')",
       "cached_rows": 5056,
       "latest_date": "20261113",
@@ -344,9 +344,9 @@
     "fund_subscription": {
       "status": "success",
       "rows": 300,
-      "started_at": "2026-11-27T04:18:59+08:00",
-      "finished_at": "2026-11-27T04:19:02+08:00",
-      "latest_date": "20261119",
+      "started_at": "2026-11-28T03:40:01+08:00",
+      "finished_at": "2026-11-28T03:40:03+08:00",
+      "latest_date": "20261124",
       "total_cached_rows": 300,
       "note": "公开字段为募集份额（亿份）；按基金常见初始面值1元/份近似展示募集规模（亿元），并非基金存续期每日净申购额。",
       "cached_rows": 300
@@ -376,9 +376,9 @@
     "messages": {
       "status": "partial",
       "latest_date": "20261128",
-      "rows": 81148,
-      "cached_rows": 81148,
-      "covered_stocks": 5563,
+      "rows": 81161,
+      "cached_rows": 81161,
+      "covered_stocks": 5564,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
       "error": "600695.SH: KeyError('code')；600687.SH: KeyError('code')；600680.SH: KeyError('code')"
     },
@@ -391,7 +391,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-11-28T02:46:43+08:00",
+  "updated_at": "2026-11-28T03:53:00+08:00",
   "overall_status": "partial",
-  "last_update_mode": "close"
+  "last_update_mode": "evening"
 }
