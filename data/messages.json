@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27 04:32:32+08:00",
+  "updated_at": "2026-11-27 12:53:58+08:00",
   "timezone": "Asia/Shanghai",
   "schedule": [
     "08:00",
@@ -107,6 +107,76 @@
     }
   ],
   "items": [
+    {
+      "id": "auto-yicai-a37ae0380622e1e9",
+      "category": "重大新闻",
+      "title": "北交所“万里行”｜一财对话杰理科技：坚持技术自研，发力端侧AI 国产芯片产业正在迈向高质量发展期，杰理科技如何在行业竞争中实现突围？敬请跟随第一财经“1科创”调",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103456787.html",
+      "published_at": "2026-11-27",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-c513e815caae04db",
+      "category": "重大新闻",
+      "title": "新三板“万里行”｜一财走进鼎材科技：构建材料专利优势，AI赋能研发生产 一家主营OLED有机发光材料及光刻胶材料的科技企业，如何专精特新“小巨人”？敬请跟随第一",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103456622.html",
+      "published_at": "2026-11-27",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-829148e668913e4d",
+      "category": "重大新闻",
+      "title": "A股四大指数集体高开，半导体、传媒等板块走强 盘面上，半导体、传媒、油气板块走强。农业、煤炭板块调整。 8 8329 3小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103456382.html",
+      "published_at": "2026-11-27",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-281ffc746e5c6691",
+      "category": "重大新闻",
+      "title": "盘前必读丨事关算力发展，广东重磅部署；四大行加大股票回购增持贷款投放力度 机构认为，修复不会一蹴而就，控制仓位等待主线。 9 27363 4小时前",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103456248.html",
+      "published_at": "2026-11-27",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
+    {
+      "id": "auto-yicai-804f4f24f608b752",
+      "category": "重大新闻",
+      "title": "融资保证金比例下调倒计时，券商陆续启动调整 近期，监管部门发布一揽子稳市举措，调整融资保证金比例是举措之一。 13227 昨天 21:01",
+      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
+      "source": "第一财经",
+      "source_url": "https://www.yicai.com/news/103455917.html",
+      "published_at": "2026-11-27",
+      "symbols": [
+        "A股"
+      ],
+      "importance": "normal",
+      "status": "自动抓取"
+    },
     {
       "id": "auto-yicai-804f4f24f608b752",
       "category": "重大新闻",
@@ -1716,76 +1786,6 @@
       ],
       "importance": "normal",
       "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-e774a17b37758f8f",
-      "category": "重大新闻",
-      "title": "小微盘股指数集体走出“七连跌” ETF资金流向为何分化 小微盘为何突遇“逆风”？ 7 13506 昨天 22:11",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103448798.html",
-      "published_at": "2026-11-21",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-c65a894619b39433",
-      "category": "重大新闻",
-      "title": "晚间公告丨11月20日这些公告有看头 以下是第一财经对一些重要公告的汇总，供投资者参考。 10 44382 昨天 18:35",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103448449.html",
-      "published_at": "2026-11-21",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-86e4e5787ababc56",
-      "category": "重大新闻",
-      "title": "龙虎榜丨机构今日买入这15股，抛售洪都航空2.24亿元 共31只个股出现了机构的身影。 7 11584 昨天 18:15",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103448425.html",
-      "published_at": "2026-11-21",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-dd4f133985f55451",
-      "category": "重大新闻",
-      "title": "放量 4702 昨天 17:45",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103448379.html",
-      "published_at": "2026-11-21",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
-    },
-    {
-      "id": "auto-yicai-e774a17b37758f8f",
-      "category": "重大新闻",
-      "title": "小微盘股指数集体走出“七连跌” ETF资金流向为何分化 小微盘为何突遇“逆风”？ 12142 昨天 22:11",
-      "summary": "第一财经A股频道公开网页更新，需结合正文进一步提取涉及股票代码、板块和影响方向。",
-      "source": "第一财经",
-      "source_url": "https://www.yicai.com/news/103448798.html",
-      "published_at": "2026-11-21",
-      "symbols": [
-        "A股"
-      ],
-      "importance": "normal",
-      "status": "自动抓取"
     }
   ],
   "report_templates": [
@@ -1835,13 +1835,13 @@
       "example": "优先记录可公开访问或授权转载内容"
     }
   ],
-  "last_checked_at": "2026-11-27 04:32:32+08:00",
+  "last_checked_at": "2026-11-27 12:53:58+08:00",
   "market_feed": {
     "days": 31,
-    "rows": 85067,
+    "rows": 85265,
     "covered_stocks": 5564,
-    "notice_rows": 46040,
-    "stock_news_rows": 39027,
+    "notice_rows": 46081,
+    "stock_news_rows": 39184,
     "source": "东方财富公告大全、东方财富个股新闻"
   }
 }
