@@ -4,8 +4,8 @@
     "macro": {
       "status": "success",
       "rows": 171,
-      "started_at": "2026-11-28T03:39:43+08:00",
-      "finished_at": "2026-11-28T03:39:57+08:00",
+      "started_at": "2026-11-28T18:21:49+08:00",
+      "finished_at": "2026-11-28T18:22:09+08:00",
       "latest_date": "202609",
       "total_cached_rows": 171,
       "source_details": {
@@ -46,8 +46,8 @@
     "liquidity": {
       "status": "failed",
       "rows": 0,
-      "started_at": "2026-11-28T03:39:57+08:00",
-      "finished_at": "2026-11-28T03:40:01+08:00",
+      "started_at": "2026-11-28T18:22:09+08:00",
+      "finished_at": "2026-11-28T18:22:10+08:00",
       "error": "DataFetchError('DR与Shibor数据源均失败')",
       "cached_rows": 5056,
       "latest_date": "20261113",
@@ -376,11 +376,11 @@
     "messages": {
       "status": "partial",
       "latest_date": "20261128",
-      "rows": 75505,
-      "cached_rows": 75505,
+      "rows": 81182,
+      "cached_rows": 81182,
       "covered_stocks": 5564,
       "source": "东方财富公告大全 + 东方财富个股新闻 + 财经媒体公开网页",
-      "error": "600677.SH: KeyError('code')；600680.SH: KeyError('code')；600672.SH: KeyError('code')"
+      "error": "600680.SH: KeyError('code')；600672.SH: KeyError('code')；600677.SH: KeyError('code')"
     },
     "market_tracking": {
       "status": "success",
@@ -391,7 +391,7 @@
       "note": "每日随网站数据更新自动重算；政策环境当前为代理指标，后续可接政策事件库。"
     }
   },
-  "updated_at": "2026-11-28T14:26:24+08:00",
-  "overall_status": "success",
-  "last_update_mode": "global"
+  "updated_at": "2026-11-28T18:40:44+08:00",
+  "overall_status": "partial",
+  "last_update_mode": "macro"
 }
